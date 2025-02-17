@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "groveextras",
+	"version": "${version}",
+	"name": "Grove Extras",
+	"description": "Utility mod made for The Grove Cobblemon Server",
+	"authors": [
+		"FwoofyBoi, BawngWawter, CrayolaEater27, ShadesOfCedar"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FwoofyBoi/Fabric-1.21.1-GroveExtras"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/groveextras/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.fwoofyboi.groveextras.GroveExtras"
+		],
+		"fabric-datagen": [
+			"net.fwoofyboi.groveextras.GroveExtrasDataGenerator"
+		],
+		"client": [
+			"net.fwoofyboi.groveextras.GroveExtrasClient"
+		]
+	},
+	"mixins": [
+		"groveextras.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
