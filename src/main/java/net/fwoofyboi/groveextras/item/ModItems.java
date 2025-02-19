@@ -24,9 +24,6 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(KEY_VOTE);
-            fabricItemGroupEntries.add(KEY_ELITE);
-            fabricItemGroupEntries.add(KEY_MASTER);
-            fabricItemGroupEntries.add(KEY_COSMETIC);
         });
     }
 }

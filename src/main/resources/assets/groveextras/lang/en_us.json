@@ -2,5 +2,7 @@
   "item.groveextras.key_vote": "Vote Key",
   "item.groveextras.key_elite": "Elite Key",
   "item.groveextras.key_master": "Master Key",
-  "item.groveextras.key_cosmetic": "Cosmetic Key"
+  "item.groveextras.key_cosmetic": "Cosmetic Key",
+
+  "itemgroup.groveextras.crate_keys": "Crate Keys"
 }
