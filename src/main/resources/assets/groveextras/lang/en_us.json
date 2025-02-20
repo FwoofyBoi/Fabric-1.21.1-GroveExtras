@@ -4,5 +4,26 @@
   "item.groveextras.key_master": "Master Key",
   "item.groveextras.key_cosmetic": "Cosmetic Key",
 
-  "itemgroup.groveextras.crate_keys": "Crate Keys"
+  "item.groveextras.topaz": "Topaz",
+  "item.groveextras.cut_diamond": "Cut Diamond",
+  "item.groveextras.sapphire": "Sapphire",
+  "item.groveextras.ruby": "Ruby",
+  "item.groveextras.pearl": "Pearl",
+  "item.groveextras.crystallized_amber": "Crystallized Amber",
+  "item.groveextras.cut_amethyst": "Cut Amethyst",
+  "item.groveextras.nugget": "Nugget",
+  "item.groveextras.big_pearl": "Big Pearl",
+  "item.groveextras.big_nugget": "Big Nugget",
+  "item.groveextras.comet_shard": "Comet Shard",
+  "item.groveextras.star_piece": "Star Piece",
+  "item.groveextras.star_dust": "Star Dust",
+  "item.groveextras.wither_skull_fragment": "Wither Skull Fragment",
+  "item.groveextras.red_shard": "Red Shard",
+  "item.groveextras.blue_shard": "Blue Shard",
+  "item.groveextras.green_shard": "Green Shard",
+  "item.groveextras.yellow_shard": "Yellow Shard",
+  "item.groveextras.pretty_feather": "Pretty Feather",
+
+  "itemgroup.groveextras.crate_keys": "Crate Keys",
+  "itemgroup.groveextras.treasure_items": "Treasure Items"
 }
