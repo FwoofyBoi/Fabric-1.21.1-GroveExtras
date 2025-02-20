@@ -54,6 +54,13 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.groveextras.dev_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.DEV_A0_SURFACE);
+                        entries.add(ModBlocks.DEV_A0_RUINS);
+                        entries.add(ModBlocks.DEV_A0_LUSH);
+                        entries.add(ModBlocks.DEV_A0_VOLCANIC);
+                        entries.add(ModBlocks.DEV_A0_DRIPSTONE);
+                        entries.add(ModBlocks.DEV_A0_CRYSTAL);
+                        entries.add(ModBlocks.DEV_A0_DARK);
+                        entries.add(ModBlocks.DEV_ULTRA_SPACE);
                     }).build());
 
     public static void registerItemGroups() {

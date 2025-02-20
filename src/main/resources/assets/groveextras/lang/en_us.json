@@ -25,6 +25,13 @@
   "item.groveextras.pretty_feather": "Pretty Feather",
 
   "block.groveextras.dev_a0_surface": "A0 Surface Block DEV",
+  "block.groveextras.dev_a0_ruins": "A0 Ruins Block DEV",
+  "block.groveextras.dev_a0_lush": "A0 Lush Block DEV",
+  "block.groveextras.dev_a0_volcanic": "A0 Volcanic Block DEV",
+  "block.groveextras.dev_a0_dripstone": "A0 Dripstone Block DEV",
+  "block.groveextras.dev_a0_crystal": "A0 Crystal Block DEV",
+  "block.groveextras.dev_a0_dark": "A0 Deep Dark Block DEV",
+  "block.groveextras.dev_ultra_space": "Ultra Space Block DEV",
 
   "itemgroup.groveextras.crate_keys": "Crate Keys",
   "itemgroup.groveextras.treasure_items": "Treasure Items",
