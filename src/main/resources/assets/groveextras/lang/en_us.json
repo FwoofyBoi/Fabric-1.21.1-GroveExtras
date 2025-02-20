@@ -24,6 +24,9 @@
   "item.groveextras.yellow_shard": "Yellow Shard",
   "item.groveextras.pretty_feather": "Pretty Feather",
 
+  "block.groveextras.dev_a0_surface": "A0 Surface Block DEV",
+
   "itemgroup.groveextras.crate_keys": "Crate Keys",
-  "itemgroup.groveextras.treasure_items": "Treasure Items"
+  "itemgroup.groveextras.treasure_items": "Treasure Items",
+  "itemgroup.groveextras.dev_blocks": "Dev Blocks"
 }

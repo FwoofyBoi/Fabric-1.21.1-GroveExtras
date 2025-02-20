@@ -2,6 +2,7 @@ package net.fwoofyboi.groveextras.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fwoofyboi.groveextras.GroveExtras;
+import net.fwoofyboi.groveextras.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -45,6 +46,14 @@ public class ModItemGroups {
                         entries.add(ModItems.GREEN_SHARD);
                         entries.add(ModItems.YELLOW_SHARD);
                         entries.add(ModItems.PRETTY_FEATHER);
+                    }).build());
+
+    public static final ItemGroup DEV_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "dev_blocks"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.DEV_A0_SURFACE))
+                    .displayName(Text.translatable("itemgroup.groveextras.dev_blocks"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.DEV_A0_SURFACE);
                     }).build());
 
     public static void registerItemGroups() {

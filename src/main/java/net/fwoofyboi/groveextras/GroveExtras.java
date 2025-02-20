@@ -2,6 +2,7 @@ package net.fwoofyboi.groveextras;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fwoofyboi.groveextras.block.ModBlocks;
 import net.fwoofyboi.groveextras.item.ModItemGroups;
 import net.fwoofyboi.groveextras.item.ModItems;
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class GroveExtras implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
