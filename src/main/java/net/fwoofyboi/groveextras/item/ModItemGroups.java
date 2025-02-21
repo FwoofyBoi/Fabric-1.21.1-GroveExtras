@@ -46,6 +46,7 @@ public class ModItemGroups {
                         entries.add(ModItems.GREEN_SHARD);
                         entries.add(ModItems.YELLOW_SHARD);
                         entries.add(ModItems.PRETTY_FEATHER);
+
                         entries.add(ModBlocks.TOPAZ_BLOCK);
                         entries.add(ModBlocks.SAPPHIRE_BLOCK);
                         entries.add(ModBlocks.RUBY_BLOCK);
@@ -54,6 +55,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CUT_AMETHYST_BLOCK);
                         entries.add(ModBlocks.STAR_PIECE_BLOCK);
                         entries.add(ModBlocks.COMET_SHARD_BLOCK);
+
                         entries.add(ModItems.CRYSTAL_SHARD_BLUE);
                         entries.add(ModItems.CRYSTAL_SHARD_CYAN);
                         entries.add(ModItems.CRYSTAL_SHARD_GREEN);
@@ -88,6 +90,54 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEV_A0_CRYSTAL);
                         entries.add(ModBlocks.DEV_A0_DARK);
                         entries.add(ModBlocks.DEV_ULTRA_SPACE);
+                    }).build());
+
+    public static final ItemGroup MINES_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "mines_blocks"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.MINES_FOSSILLISED_SAND))
+                    .displayName(Text.translatable("itemgroup.groveextras.mines_blocks"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.MINES_FOSSILLISED_SAND);
+
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_BLUE);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_CYAN);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_GREEN);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_LIME);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_MAGENTA);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_ORANGE);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_PINK);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_RED);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_WHITE);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_YELLOW);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_AUBURN);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_CORNFLOWER);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_GRAY);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_INDIGO);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_MAROON);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_MOCHA);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_ORCHID);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_SLATE);
+                        entries.add(ModBlocks.BUDDING_CRYSTAL_RAINBOW);
+
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_BLUE);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_CYAN);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_GREEN);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_LIME);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_MAGENTA);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_ORANGE);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_PINK);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_RED);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_WHITE);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_YELLOW);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_AUBURN);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_CORNFLOWER);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_GRAY);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_INDIGO);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_MAROON);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_MOCHA);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_ORCHID);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_SLATE);
+                        entries.add(ModBlocks.CRYSTAL_BLOCK_RAINBOW);
                     }).build());
 
     public static void registerItemGroups() {

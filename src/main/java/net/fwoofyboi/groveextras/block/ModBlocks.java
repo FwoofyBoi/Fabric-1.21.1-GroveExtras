@@ -46,6 +46,90 @@ public class ModBlocks {
     public static final Block COMET_SHARD_BLOCK = registerBlock("comet_shard_block",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block MINES_FOSSILLISED_SAND = registerBlock("mines_fossilised_sand",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.SAND)));
+
+    public static final Block BUDDING_CRYSTAL_BLUE = registerBlock("budding_crystal_blue",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_CYAN = registerBlock("budding_crystal_cyan",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_GREEN = registerBlock("budding_crystal_green",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_LIME = registerBlock("budding_crystal_lime",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_MAGENTA = registerBlock("budding_crystal_magenta",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_ORANGE = registerBlock("budding_crystal_orange",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_PINK = registerBlock("budding_crystal_pink",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_RED = registerBlock("budding_crystal_red",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_WHITE = registerBlock("budding_crystal_white",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_YELLOW = registerBlock("budding_crystal_yellow",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_AUBURN = registerBlock("budding_crystal_auburn",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_CORNFLOWER = registerBlock("budding_crystal_cornflower",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_GRAY = registerBlock("budding_crystal_gray",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_INDIGO = registerBlock("budding_crystal_indigo",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_MAROON = registerBlock("budding_crystal_maroon",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_MOCHA = registerBlock("budding_crystal_mocha",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_ORCHID = registerBlock("budding_crystal_orchid",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_SLATE = registerBlock("budding_crystal_slate",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block BUDDING_CRYSTAL_RAINBOW = registerBlock("budding_crystal_rainbow",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block CRYSTAL_BLOCK_BLUE = registerBlock("crystal_block_blue",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_CYAN = registerBlock("crystal_block_cyan",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_GREEN = registerBlock("crystal_block_green",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_LIME = registerBlock("crystal_block_lime",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_MAGENTA = registerBlock("crystal_block_magenta",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_ORANGE = registerBlock("crystal_block_orange",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_PINK = registerBlock("crystal_block_pink",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_RED = registerBlock("crystal_block_red",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_WHITE = registerBlock("crystal_block_white",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_YELLOW = registerBlock("crystal_block_yellow",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_AUBURN = registerBlock("crystal_block_auburn",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_CORNFLOWER = registerBlock("crystal_block_cornflower",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_GRAY = registerBlock("crystal_block_gray",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_INDIGO = registerBlock("crystal_block_indigo",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_MAROON = registerBlock("crystal_block_maroon",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_MOCHA = registerBlock("crystal_block_mocha",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_ORCHID = registerBlock("crystal_block_orchid",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_SLATE = registerBlock("crystal_block_slate",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BLOCK_RAINBOW = registerBlock("crystal_block_rainbow",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(GroveExtras.MOD_ID, name), block);
