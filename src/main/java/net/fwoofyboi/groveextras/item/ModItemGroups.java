@@ -54,6 +54,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CUT_AMETHYST_BLOCK);
                         entries.add(ModBlocks.STAR_PIECE_BLOCK);
                         entries.add(ModBlocks.COMET_SHARD_BLOCK);
+                        entries.add(ModItems.CRYSTAL_SHARD_BLUE);
+                        entries.add(ModItems.CRYSTAL_SHARD_CYAN);
+                        entries.add(ModItems.CRYSTAL_SHARD_GREEN);
+                        entries.add(ModItems.CRYSTAL_SHARD_LIME);
+                        entries.add(ModItems.CRYSTAL_SHARD_MAGENTA);
+                        entries.add(ModItems.CRYSTAL_SHARD_ORANGE);
+                        entries.add(ModItems.CRYSTAL_SHARD_PINK);
+                        entries.add(ModItems.CRYSTAL_SHARD_RED);
+                        entries.add(ModItems.CRYSTAL_SHARD_WHITE);
+                        entries.add(ModItems.CRYSTAL_SHARD_YELLOW);
+                        entries.add(ModItems.CRYSTAL_SHARD_AUBURN);
+                        entries.add(ModItems.CRYSTAL_SHARD_CORNFLOWER);
+                        entries.add(ModItems.CRYSTAL_SHARD_GRAY);
+                        entries.add(ModItems.CRYSTAL_SHARD_INDIGO);
+                        entries.add(ModItems.CRYSTAL_SHARD_MAROON);
+                        entries.add(ModItems.CRYSTAL_SHARD_MOCHA);
+                        entries.add(ModItems.CRYSTAL_SHARD_ORCHID);
+                        entries.add(ModItems.CRYSTAL_SHARD_SLATE);
+                        entries.add(ModItems.CRYSTAL_SHARD_RAINBOW);
                     }).build());
 
     public static final ItemGroup DEV_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

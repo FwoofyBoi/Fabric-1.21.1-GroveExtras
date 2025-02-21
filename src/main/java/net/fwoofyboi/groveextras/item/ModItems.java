@@ -34,6 +34,26 @@ public class ModItems {
     public static final Item YELLOW_SHARD = registerItem("yellow_shard", new Item(new Item.Settings()));
     public static final Item PRETTY_FEATHER = registerItem("pretty_feather", new Item(new Item.Settings()));
 
+    public static final Item CRYSTAL_SHARD_BLUE = registerItem("crystal_shard_blue", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_CYAN = registerItem("crystal_shard_cyan", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_GREEN = registerItem("crystal_shard_green", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_LIME = registerItem("crystal_shard_lime", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_MAGENTA = registerItem("crystal_shard_magenta", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_ORANGE = registerItem("crystal_shard_orange", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_PINK = registerItem("crystal_shard_pink", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_RED = registerItem("crystal_shard_red", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_WHITE = registerItem("crystal_shard_white", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_YELLOW = registerItem("crystal_shard_yellow", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_AUBURN = registerItem("crystal_shard_auburn", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_CORNFLOWER = registerItem("crystal_shard_cornflower", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_GRAY = registerItem("crystal_shard_gray", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_INDIGO = registerItem("crystal_shard_indigo", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_MAROON = registerItem("crystal_shard_maroon", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_MOCHA = registerItem("crystal_shard_mocha", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_ORCHID = registerItem("crystal_shard_orchid", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_SLATE = registerItem("crystal_shard_slate", new Item(new Item.Settings()));
+    public static final Item CRYSTAL_SHARD_RAINBOW = registerItem("crystal_shard_rainbow", new Item(new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(GroveExtras.MOD_ID, name), item);
     }
