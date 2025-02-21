@@ -46,8 +46,10 @@ public class ModBlocks {
     public static final Block COMET_SHARD_BLOCK = registerBlock("comet_shard_block",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
-    public static final Block MINES_FOSSILLISED_SAND = registerBlock("mines_fossilised_sand",
+    public static final Block MINES_FOSSILISED_SAND = registerBlock("mines_fossilised_sand",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.SAND)));
+    public static final Block MINES_FOSSILISED_STONE = registerBlock("mines_fossilised_stone",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block BUDDING_CRYSTAL_BLUE = registerBlock("budding_crystal_blue",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
@@ -126,6 +128,19 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
     public static final Block CRYSTAL_BLOCK_RAINBOW = registerBlock("crystal_block_rainbow",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block GRAVEL_AQUARIUM = registerBlock("gravel_aquarium",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.GRAVEL)));
+    public static final Block GRANITE_BRICKS = registerBlock("granite_bricks",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block ANDESITE_BRICKS = registerBlock("andesite_bricks",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block DIORITE_BRICKS = registerBlock("diorite_bricks",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block CALCITE_BRICKS = registerBlock("calcite_bricks",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+    public static final Block CALCITE_POLISHED = registerBlock("calcite_polished",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
 
 

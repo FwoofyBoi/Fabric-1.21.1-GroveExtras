@@ -62,7 +62,15 @@
   "block.groveextras.star_piece_block": "Star Piece Block",
   "block.groveextras.comet_shard_block": "Comet Shard Block",
 
+  "block.groveextras.gravel_aquarium": "Aquarium Gravel",
+  "block.groveextras.granite_bricks": "Granite Bricks",
+  "block.groveextras.andesite_bricks": "Andesite Bricks",
+  "block.groveextras.diorite_bricks": "Diorite Bricks",
+  "block.groveextras.calcite_bricks": "Calcite Bricks",
+  "block.groveextras.calcite_polished": "Polished Calcite",
+
   "block.groveextras.mines_fossilised_sand": "Fossilised Sand",
+  "block.groveextras.mines_fossilised_stone": "Fossilised Stone",
 
   "block.groveextras.budding_crystal_blue": "Budding Blue Crystal",
   "block.groveextras.budding_crystal_cyan": "Budding Cyan Crystal",
@@ -107,5 +115,6 @@
   "itemgroup.groveextras.crate_keys": "Crate Keys",
   "itemgroup.groveextras.treasure_items": "Treasure Items",
   "itemgroup.groveextras.dev_blocks": "Dev Blocks",
-  "itemgroup.groveextras.mines_blocks": "Mines Blocks"
+  "itemgroup.groveextras.mines_blocks": "Mines Blocks",
+  "itemgroup.groveextras.grove_blocks": "Grove Blocks"
 }

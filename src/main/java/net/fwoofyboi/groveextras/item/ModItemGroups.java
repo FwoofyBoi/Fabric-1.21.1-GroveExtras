@@ -94,10 +94,11 @@ public class ModItemGroups {
 
     public static final ItemGroup MINES_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(GroveExtras.MOD_ID, "mines_blocks"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.MINES_FOSSILLISED_SAND))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.MINES_FOSSILISED_SAND))
                     .displayName(Text.translatable("itemgroup.groveextras.mines_blocks"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.MINES_FOSSILLISED_SAND);
+                        entries.add(ModBlocks.MINES_FOSSILISED_SAND);
+                        entries.add(ModBlocks.MINES_FOSSILISED_STONE);
 
                         entries.add(ModBlocks.BUDDING_CRYSTAL_BLUE);
                         entries.add(ModBlocks.BUDDING_CRYSTAL_CYAN);
@@ -138,6 +139,19 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRYSTAL_BLOCK_ORCHID);
                         entries.add(ModBlocks.CRYSTAL_BLOCK_SLATE);
                         entries.add(ModBlocks.CRYSTAL_BLOCK_RAINBOW);
+                    }).build());
+
+    public static final ItemGroup GROVE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "grove_blocks"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.GRAVEL_AQUARIUM))
+                    .displayName(Text.translatable("itemgroup.groveextras.grove_blocks"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.GRAVEL_AQUARIUM);
+                        entries.add(ModBlocks.GRANITE_BRICKS);
+                        entries.add(ModBlocks.ANDESITE_BRICKS);
+                        entries.add(ModBlocks.DIORITE_BRICKS);
+                        entries.add(ModBlocks.CALCITE_BRICKS);
+                        entries.add(ModBlocks.CALCITE_POLISHED);
                     }).build());
 
     public static void registerItemGroups() {
