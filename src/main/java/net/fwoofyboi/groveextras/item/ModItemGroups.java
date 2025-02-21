@@ -46,6 +46,14 @@ public class ModItemGroups {
                         entries.add(ModItems.GREEN_SHARD);
                         entries.add(ModItems.YELLOW_SHARD);
                         entries.add(ModItems.PRETTY_FEATHER);
+                        entries.add(ModBlocks.TOPAZ_BLOCK);
+                        entries.add(ModBlocks.SAPPHIRE_BLOCK);
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.CRYSTALLIZED_AMBER_BLOCK);
+                        entries.add(ModBlocks.CUT_DIAMOND_BLOCK);
+                        entries.add(ModBlocks.CUT_AMETHYST_BLOCK);
+                        entries.add(ModBlocks.STAR_PIECE_BLOCK);
+                        entries.add(ModBlocks.COMET_SHARD_BLOCK);
                     }).build());
 
     public static final ItemGroup DEV_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

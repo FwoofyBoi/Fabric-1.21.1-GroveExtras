@@ -29,6 +29,23 @@ public class ModBlocks {
     public static final Block DEV_ULTRA_SPACE = registerBlock("dev_ultra_space",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.ANVIL)));
 
+    public static final Block TOPAZ_BLOCK = registerBlock("topaz_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block RUBY_BLOCK = registerBlock("ruby_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block CRYSTALLIZED_AMBER_BLOCK = registerBlock("crystallized_amber_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block CUT_DIAMOND_BLOCK = registerBlock("cut_diamond_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block CUT_AMETHYST_BLOCK = registerBlock("cut_amethyst_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block STAR_PIECE_BLOCK = registerBlock("star_piece_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block COMET_SHARD_BLOCK = registerBlock("comet_shard_block",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(GroveExtras.MOD_ID, name), block);

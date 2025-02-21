@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "groveextras:block/ruby_block"
+    }
+  }
+}

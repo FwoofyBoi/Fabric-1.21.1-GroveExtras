@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "groveextras:block/comet_shard_block"
+    }
+  }
+}

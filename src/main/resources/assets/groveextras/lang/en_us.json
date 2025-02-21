@@ -33,6 +33,15 @@
   "block.groveextras.dev_a0_dark": "A0 Deep Dark Block DEV",
   "block.groveextras.dev_ultra_space": "Ultra Space Block DEV",
 
+  "block.groveextras.topaz_block": "Topaz Block",
+  "block.groveextras.sapphire_block": "Sapphire Block",
+  "block.groveextras.ruby_block": "Ruby Block",
+  "block.groveextras.crystallized_amber_block": "Crystallized Amber Block",
+  "block.groveextras.cut_diamond_block": "Cut Diamond Block",
+  "block.groveextras.cut_amethyst_block": "Cut Amethyst Block",
+  "block.groveextras.star_piece_block": "Star Piece Block",
+  "block.groveextras.comet_shard_block": "Comet Shard Block",
+
   "itemgroup.groveextras.crate_keys": "Crate Keys",
   "itemgroup.groveextras.treasure_items": "Treasure Items",
   "itemgroup.groveextras.dev_blocks": "Dev Blocks"

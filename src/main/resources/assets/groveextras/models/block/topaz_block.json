@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "groveextras:block/topaz_block_top",
+    "up": "groveextras:block/topaz_block_top",
+    "north": "groveextras:block/topaz_block",
+    "east": "groveextras:block/topaz_block",
+    "south": "groveextras:block/topaz_block",
+    "west": "groveextras:block/topaz_block",
+    "particle": "groveextras:block/topaz_block_top"
+  }
+}
