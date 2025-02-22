@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "groveextras:comet_shard_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "groveextras:comet_shard"
+  }
+}
