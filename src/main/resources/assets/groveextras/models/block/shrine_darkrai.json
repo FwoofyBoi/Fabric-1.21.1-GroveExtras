@@ -7,6 +7,6 @@
     "east": "groveextras:block/shrine_darkrai_side",
     "south": "groveextras:block/shrine_darkrai_side",
     "west": "groveextras:block/shrine_darkrai_side",
-    "particle": "groveextras:block/topaz_block_bottom"
+    "particle": "groveextras:block/shrine_darkrai_bottom"
   }
 }
