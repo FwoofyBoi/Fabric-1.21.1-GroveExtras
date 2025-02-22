@@ -50,6 +50,8 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.SAND)));
     public static final Block MINES_FOSSILISED_STONE = registerBlock("mines_fossilised_stone",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block MINES_FOSSILISED_DEEPSLATE = registerBlock("mines_fossilised_deepslate",
+            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block BUDDING_CRYSTAL_BLUE = registerBlock("budding_crystal_blue",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
@@ -141,6 +143,87 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
     public static final Block CALCITE_POLISHED = registerBlock("calcite_polished",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
+    public static final Block CRYSTAL_BRICKS_BLUE = registerBlock("crystal_bricks_blue",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_CYAN = registerBlock("crystal_bricks_cyan",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_GREEN = registerBlock("crystal_bricks_green",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_LIME = registerBlock("crystal_bricks_lime",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_MAGENTA = registerBlock("crystal_bricks_magenta",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_ORANGE = registerBlock("crystal_bricks_orange",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_PINK = registerBlock("crystal_bricks_pink",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_RED = registerBlock("crystal_bricks_red",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_WHITE = registerBlock("crystal_bricks_white",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_YELLOW = registerBlock("crystal_bricks_yellow",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_AUBURN = registerBlock("crystal_bricks_auburn",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_CORNFLOWER = registerBlock("crystal_bricks_cornflower",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_GRAY = registerBlock("crystal_bricks_gray",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_INDIGO = registerBlock("crystal_bricks_indigo",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_MAROON = registerBlock("crystal_bricks_maroon",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_MOCHA = registerBlock("crystal_bricks_mocha",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_ORCHID = registerBlock("crystal_bricks_orchid",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_SLATE = registerBlock("crystal_bricks_slate",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICKS_RAINBOW = registerBlock("crystal_bricks_rainbow",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block CHISELED_CRYSTAL_BLOCK_BLUE = registerBlock("chiseled_crystal_block_blue",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_CYAN = registerBlock("chiseled_crystal_block_cyan",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_GREEN = registerBlock("chiseled_crystal_block_green",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_LIME = registerBlock("chiseled_crystal_block_lime",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_MAGENTA = registerBlock("chiseled_crystal_block_magenta",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_ORANGE = registerBlock("chiseled_crystal_block_orange",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_PINK = registerBlock("chiseled_crystal_block_pink",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_RED = registerBlock("chiseled_crystal_block_red",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_WHITE = registerBlock("chiseled_crystal_block_white",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_YELLOW = registerBlock("chiseled_crystal_block_yellow",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_AUBURN = registerBlock("chiseled_crystal_block_auburn",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_CORNFLOWER = registerBlock("chiseled_crystal_block_cornflower",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_GRAY = registerBlock("chiseled_crystal_block_gray",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_INDIGO = registerBlock("chiseled_crystal_block_indigo",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_MAROON = registerBlock("chiseled_crystal_block_maroon",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_MOCHA = registerBlock("chiseled_crystal_block_mocha",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_ORCHID = registerBlock("chiseled_crystal_block_orchid",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_SLATE = registerBlock("chiseled_crystal_block_slate",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CHISELED_CRYSTAL_BLOCK_RAINBOW = registerBlock("chiseled_crystal_block_rainbow",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block SHRINE_DARKRAI = registerBlock("shrine_darkrai",
+            new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.HEAVY_CORE)));
 
 
 

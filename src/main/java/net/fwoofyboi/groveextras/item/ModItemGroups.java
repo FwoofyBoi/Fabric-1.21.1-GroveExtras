@@ -99,6 +99,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.MINES_FOSSILISED_SAND);
                         entries.add(ModBlocks.MINES_FOSSILISED_STONE);
+                        entries.add(ModBlocks.MINES_FOSSILISED_DEEPSLATE);
 
                         entries.add(ModBlocks.BUDDING_CRYSTAL_BLUE);
                         entries.add(ModBlocks.BUDDING_CRYSTAL_CYAN);
@@ -152,6 +153,54 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DIORITE_BRICKS);
                         entries.add(ModBlocks.CALCITE_BRICKS);
                         entries.add(ModBlocks.CALCITE_POLISHED);
+
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_BLUE);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_CYAN);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_GREEN);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_LIME);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_MAGENTA);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_ORANGE);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_PINK);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_RED);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_WHITE);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_YELLOW);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_AUBURN);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_CORNFLOWER);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_GRAY);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_INDIGO);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_MAROON);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_MOCHA);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_ORCHID);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_SLATE);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_RAINBOW);
+
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_BLUE);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_CYAN);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_GREEN);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_LIME);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_MAGENTA);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_ORANGE);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_PINK);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_RED);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_WHITE);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_YELLOW);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_AUBURN);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_CORNFLOWER);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_GRAY);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_INDIGO);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_MAROON);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_MOCHA);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_ORCHID);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_SLATE);
+                        entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_RAINBOW);
+                    }).build());
+
+    public static final ItemGroup SHRINES_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "shrines"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.SHRINE_DARKRAI))
+                    .displayName(Text.translatable("itemgroup.groveextras.shrines"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.SHRINE_DARKRAI);
                     }).build());
 
     public static void registerItemGroups() {

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "groveextras:block/shrine_darkrai_bottom",
+    "up": "groveextras:block/shrine_darkrai_top",
+    "north": "groveextras:block/shrine_darkrai_side",
+    "east": "groveextras:block/shrine_darkrai_side",
+    "south": "groveextras:block/shrine_darkrai_side",
+    "west": "groveextras:block/shrine_darkrai_side",
+    "particle": "groveextras:block/topaz_block_bottom"
+  }
+}
