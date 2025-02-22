@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/brush",
+  "textures": {
+    "layer0": "groveextras:item/dev_brush_bawngwawter"
+  }
+}

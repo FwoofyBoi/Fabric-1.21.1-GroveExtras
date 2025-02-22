@@ -24,6 +24,8 @@
   "item.groveextras.yellow_shard": "Yellow Shard",
   "item.groveextras.pretty_feather": "Pretty Feather",
 
+  "item.groveextras.dev_brush_bawngwawter": "Bawng's Brush",
+
   "item.groveextras.crystal_shard_blue": "Blue Crystal Shard",
   "item.groveextras.crystal_shard_cyan": "Cyan Crystal Shard",
   "item.groveextras.crystal_shard_green": "Green Crystal Shard",
@@ -63,7 +65,10 @@
   "block.groveextras.comet_shard_block": "Comet Shard Block",
 
   "block.groveextras.gravel_aquarium": "Aquarium Gravel",
+
   "block.groveextras.granite_bricks": "Granite Bricks",
+  "block.groveextras.granite_brick_stairs": "Granite Brick Stairs",
+
   "block.groveextras.andesite_bricks": "Andesite Bricks",
   "block.groveextras.diorite_bricks": "Diorite Bricks",
   "block.groveextras.calcite_bricks": "Calcite Bricks",
@@ -160,5 +165,6 @@
   "itemgroup.groveextras.dev_blocks": "Dev Blocks",
   "itemgroup.groveextras.mines_blocks": "Mines Blocks",
   "itemgroup.groveextras.grove_blocks": "Grove Blocks",
-  "itemgroup.groveextras.shrines": "Shrines"
+  "itemgroup.groveextras.shrines": "Shrines",
+  "itemgroup.groveextras.dev_tools": "Dev Tools"
 }

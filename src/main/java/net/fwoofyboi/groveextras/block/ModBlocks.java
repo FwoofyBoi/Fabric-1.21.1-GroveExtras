@@ -3,6 +3,7 @@ package net.fwoofyboi.groveextras.block;
 import net.fwoofyboi.groveextras.GroveExtras;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -133,8 +134,13 @@ public class ModBlocks {
 
     public static final Block GRAVEL_AQUARIUM = registerBlock("gravel_aquarium",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.GRAVEL)));
+
     public static final Block GRANITE_BRICKS = registerBlock("granite_bricks",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block GRANITE_BRICK_STAIRS = registerBlock("granite_brick_stairs",
+            new StairsBlock(ModBlocks.GRANITE_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1f).requiresTool()));
+
     public static final Block ANDESITE_BRICKS = registerBlock("andesite_bricks",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
     public static final Block DIORITE_BRICKS = registerBlock("diorite_bricks",

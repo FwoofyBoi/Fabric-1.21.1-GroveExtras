@@ -148,7 +148,10 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.groveextras.grove_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.GRAVEL_AQUARIUM);
+
                         entries.add(ModBlocks.GRANITE_BRICKS);
+                        entries.add(ModBlocks.GRANITE_BRICK_STAIRS);
+
                         entries.add(ModBlocks.ANDESITE_BRICKS);
                         entries.add(ModBlocks.DIORITE_BRICKS);
                         entries.add(ModBlocks.CALCITE_BRICKS);
@@ -201,6 +204,14 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.groveextras.shrines"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.SHRINE_DARKRAI);
+                    }).build());
+
+    public static final ItemGroup DEV_TOOLS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "dev_tools"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.DEV_BRUSH_BAWNGWAWTER))
+                    .displayName(Text.translatable("itemgroup.groveextras.dev_tools"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.DEV_BRUSH_BAWNGWAWTER);
                     }).build());
 
     public static void registerItemGroups() {
