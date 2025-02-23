@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "groveextras:block/calcite_polished_slab"
+    },
+    "type=double": {
+      "model": "groveextras:block/calcite_polished"
+    },
+    "type=top": {
+      "model": "groveextras:block/calcite_polished_slab_top"
+    }
+  }
+}

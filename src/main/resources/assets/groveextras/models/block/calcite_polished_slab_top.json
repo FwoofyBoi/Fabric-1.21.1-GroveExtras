@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "groveextras:block/calcite_polished",
+    "side": "groveextras:block/calcite_polished",
+    "top": "groveextras:block/calcite_polished"
+  }
+}
