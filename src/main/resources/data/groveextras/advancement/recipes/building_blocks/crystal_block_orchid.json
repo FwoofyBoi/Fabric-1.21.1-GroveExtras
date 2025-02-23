@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crystal_shard_orchid": {
+      "conditions": {
+        "items": [
+          {
+            "items": "groveextras:crystal_shard_orchid"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "groveextras:crystal_block_orchid"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_crystal_shard_orchid"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "groveextras:crystal_block_orchid"
+    ]
+  }
+}

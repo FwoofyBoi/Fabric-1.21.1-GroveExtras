@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "h": {
+      "item": "groveextras:crystal_shard_slate"
+    }
+  },
+  "pattern": [
+    "hh",
+    "hh"
+  ],
+  "result": {
+    "count": 1,
+    "id": "groveextras:crystal_block_slate"
+  }
+}

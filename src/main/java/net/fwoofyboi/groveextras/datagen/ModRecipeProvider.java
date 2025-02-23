@@ -20,15 +20,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter recipeExporter) {
-        List<ItemConvertible> CRYSTAL_BLOCK_STONECUTTABLES = List.of(ModBlocks.CRYSTAL_BLOCK_BLUE);
+        List<ItemConvertible> CRYSTAL_BLOCK_STONECUTTABLES = List.of(ModBlocks.CRYSTAL_BLOCK_CYAN);
 
-        offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_BRICKS_BLUE, CRYSTAL_BLOCK_STONECUTTABLES.getFirst(), 1);
+        offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_BRICKS_CYAN, CRYSTAL_BLOCK_STONECUTTABLES.getFirst(), 1);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_BLOCK_BLUE)
-                .pattern("aa")
-                .pattern("aa")
-                .input('a', ModItems.CRYSTAL_SHARD_BLUE)
-                .criterion(hasItem(ModItems.CRYSTAL_SHARD_BLUE), conditionsFromItem(ModItems.CRYSTAL_SHARD_BLUE))
-                .offerTo(recipeExporter);
+        //ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_BLOCK_CYAN)
+                //.pattern("aa")
+                //.pattern("aa")
+                //.input('a', ModItems.CRYSTAL_SHARD_CYAN)
+                //.criterion(hasItem(ModItems.CRYSTAL_SHARD_CYAN), conditionsFromItem(ModItems.CRYSTAL_SHARD_CYAN))
+                //.offerTo(recipeExporter);
     }
 }

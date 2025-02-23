@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crystal_block_gray": {
+      "conditions": {
+        "items": [
+          {
+            "items": "groveextras:crystal_block_gray"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:crystal_bricks_gray_from_crystal_block_gray_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_crystal_block_gray"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:crystal_bricks_gray_from_crystal_block_gray_stonecutting"
+    ]
+  }
+}
