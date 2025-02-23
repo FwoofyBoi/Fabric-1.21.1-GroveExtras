@@ -20,9 +20,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter recipeExporter) {
-        List<ItemConvertible> CRYSTAL_BLOCK_STONECUTTABLES = List.of(ModBlocks.CRYSTAL_BLOCK_CYAN);
+        //List<ItemConvertible> CRYSTAL_BLOCK_STONECUTTABLES = List.of(ModBlocks.CRYSTAL_BLOCK_CYAN);
 
-        offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_BRICKS_CYAN, CRYSTAL_BLOCK_STONECUTTABLES.getFirst(), 1);
+        //offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_BRICKS_CYAN, CRYSTAL_BLOCK_STONECUTTABLES.getFirst(), 1);
 
         //ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRYSTAL_BLOCK_CYAN)
                 //.pattern("aa")

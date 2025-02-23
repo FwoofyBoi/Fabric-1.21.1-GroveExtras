@@ -151,11 +151,28 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.GRANITE_BRICKS);
                         entries.add(ModBlocks.GRANITE_BRICK_STAIRS);
+                        entries.add(ModBlocks.GRANITE_BRICK_SLAB);
+                        entries.add(ModBlocks.GRANITE_BRICK_WALL);
 
                         entries.add(ModBlocks.ANDESITE_BRICKS);
+                        entries.add(ModBlocks.ANDESITE_BRICK_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_BRICK_SLAB);
+                        entries.add(ModBlocks.ANDESITE_BRICK_WALL);
+
                         entries.add(ModBlocks.DIORITE_BRICKS);
+                        entries.add(ModBlocks.DIORITE_BRICK_STAIRS);
+                        entries.add(ModBlocks.DIORITE_BRICK_SLAB);
+                        entries.add(ModBlocks.DIORITE_BRICK_WALL);
+
                         entries.add(ModBlocks.CALCITE_BRICKS);
+                        entries.add(ModBlocks.CALCITE_BRICK_STAIRS);
+                        entries.add(ModBlocks.CALCITE_BRICK_SLAB);
+                        entries.add(ModBlocks.CALCITE_BRICK_WALL);
+
                         entries.add(ModBlocks.CALCITE_POLISHED);
+                        entries.add(ModBlocks.CALCITE_POLISHED_STAIRS);
+                        entries.add(ModBlocks.CALCITE_POLISHED_SLAB);
+                        entries.add(ModBlocks.CALCITE_POLISHED_WALL);
 
                         entries.add(ModBlocks.CRYSTAL_BRICKS_BLUE);
                         entries.add(ModBlocks.CRYSTAL_BRICKS_CYAN);

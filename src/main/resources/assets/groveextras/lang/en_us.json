@@ -68,11 +68,27 @@
 
   "block.groveextras.granite_bricks": "Granite Bricks",
   "block.groveextras.granite_brick_stairs": "Granite Brick Stairs",
+  "block.groveextras.granite_brick_slab": "Granite Brick Slab",
+  "block.groveextras.granite_brick_wall": "Granite Brick Wall",
 
   "block.groveextras.andesite_bricks": "Andesite Bricks",
+  "block.groveextras.andesite_brick_stairs": "Andesite Brick Stairs",
+  "block.groveextras.andesite_brick_slab": "Andesite Brick Slab",
+  "block.groveextras.andesite_brick_wall": "Andesite Brick Wall",
+
   "block.groveextras.diorite_bricks": "Diorite Bricks",
+  "block.groveextras.diorite_brick_stairs": "Diorite Brick Stairs",
+  "block.groveextras.diorite_brick_slab": "Diorite Brick Slab",
+  "block.groveextras.diorite_brick_wall": "Diorite Brick Wall",
+
   "block.groveextras.calcite_bricks": "Calcite Bricks",
+  "block.groveextras.calcite_brick_stairs": "Calcite Brick Stairs",
+  "block.groveextras.calcite_brick_slab": "Calcite Brick Slab",
+  "block.groveextras.calcite_brick_wall": "Calcite Brick Wall",
   "block.groveextras.calcite_polished": "Polished Calcite",
+  "block.groveextras.calcite_polished_stairs": "Polished Calcite Stairs",
+  "block.groveextras.calcite_polished_slab": "Polished Calcite Slab",
+  "block.groveextras.calcite_polished_wall": "Polished Calcite Wall",
 
   "block.groveextras.mines_fossilised_sand": "Fossilised Sand",
   "block.groveextras.mines_fossilised_stone": "Fossilised Stone",

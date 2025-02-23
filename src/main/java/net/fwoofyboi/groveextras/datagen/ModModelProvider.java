@@ -15,11 +15,15 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRYSTAL_BRICKS_BLUE);
+        BlockStateModelGenerator.BlockTexturePool graniteBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.GRANITE_BRICKS);
+
+        graniteBrickPool.stairs(ModBlocks.GRANITE_BRICK_STAIRS);
+        graniteBrickPool.slab(ModBlocks.GRANITE_BRICK_SLAB);
+        graniteBrickPool.wall(ModBlocks.GRANITE_BRICK_WALL);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.BLUE_SHARD, Models.GENERATED);
+        //itemModelGenerator.register(ModItems.BLUE_SHARD, Models.GENERATED);
     }
 }

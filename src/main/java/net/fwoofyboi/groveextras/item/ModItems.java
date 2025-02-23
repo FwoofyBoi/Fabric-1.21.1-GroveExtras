@@ -58,7 +58,6 @@ public class ModItems {
 
     public static final Item DEV_BRUSH_BAWNGWAWTER = registerItem("dev_brush_bawngwawter", new BrushItem(new Item.Settings()));
 
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(GroveExtras.MOD_ID, name), item);
     }

@@ -1,9 +1,7 @@
 package net.fwoofyboi.groveextras.block;
 
 import net.fwoofyboi.groveextras.GroveExtras;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.StairsBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -139,16 +137,51 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
     public static final Block GRANITE_BRICK_STAIRS = registerBlock("granite_brick_stairs",
             new StairsBlock(ModBlocks.GRANITE_BRICKS.getDefaultState(),
-                    AbstractBlock.Settings.create().strength(1f).requiresTool()));
+                    AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block GRANITE_BRICK_SLAB = registerBlock("granite_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block GRANITE_BRICK_WALL = registerBlock("granite_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
 
     public static final Block ANDESITE_BRICKS = registerBlock("andesite_bricks",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block ANDESITE_BRICK_STAIRS = registerBlock("andesite_brick_stairs",
+            new StairsBlock(ModBlocks.ANDESITE_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block ANDESITE_BRICK_SLAB = registerBlock("andesite_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block ANDESITE_BRICK_WALL = registerBlock("andesite_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+
     public static final Block DIORITE_BRICKS = registerBlock("diorite_bricks",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block DIORITE_BRICK_STAIRS = registerBlock("diorite_brick_stairs",
+            new StairsBlock(ModBlocks.DIORITE_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block DIORITE_BRICK_SLAB = registerBlock("diorite_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+    public static final Block DIORITE_BRICK_WALL = registerBlock("diorite_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
+
     public static final Block CALCITE_BRICKS = registerBlock("calcite_bricks",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+    public static final Block CALCITE_BRICK_STAIRS = registerBlock("calcite_brick_stairs",
+            new StairsBlock(ModBlocks.CALCITE_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+    public static final Block CALCITE_BRICK_SLAB = registerBlock("calcite_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+    public static final Block CALCITE_BRICK_WALL = registerBlock("calcite_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+
     public static final Block CALCITE_POLISHED = registerBlock("calcite_polished",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+    public static final Block CALCITE_POLISHED_STAIRS = registerBlock("calcite_polished_stairs",
+            new StairsBlock(ModBlocks.CALCITE_POLISHED.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+    public static final Block CALCITE_POLISHED_SLAB = registerBlock("calcite_polished_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
+    public static final Block CALCITE_POLISHED_WALL = registerBlock("calcite_polished_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE)));
 
     public static final Block CRYSTAL_BRICKS_BLUE = registerBlock("crystal_bricks_blue",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
