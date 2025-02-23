@@ -5,6 +5,7 @@ import net.fwoofyboi.groveextras.GroveExtras;
 import net.minecraft.item.BrushItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -56,6 +57,7 @@ public class ModItems {
     public static final Item CRYSTAL_SHARD_RAINBOW = registerItem("crystal_shard_rainbow", new Item(new Item.Settings()));
 
     public static final Item DEV_BRUSH_BAWNGWAWTER = registerItem("dev_brush_bawngwawter", new BrushItem(new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(GroveExtras.MOD_ID, name), item);
