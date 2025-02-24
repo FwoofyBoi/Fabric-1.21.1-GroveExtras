@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "groveextras:item/blue_soul_dew"
+  }
+}

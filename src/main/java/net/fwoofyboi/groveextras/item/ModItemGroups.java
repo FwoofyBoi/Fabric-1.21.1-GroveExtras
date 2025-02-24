@@ -279,6 +279,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SHRINE_DARKRAI);
                     }).build());
 
+
     public static final ItemGroup DEV_TOOLS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(GroveExtras.MOD_ID, "dev_tools"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.DEV_BRUSH_BAWNGWAWTER))
@@ -286,6 +287,177 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.DEV_BRUSH_BAWNGWAWTER);
                     }).build());
+
+    public static final ItemGroup MEGA_STONES_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "mega_stones"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RAW_DIANCITE))
+                    .displayName(Text.translatable("itemgroup.groveextras.mega_stones"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.RAW_DIANCITE);
+                        entries.add(ModItems.CUT_DIANCITE);
+
+                    }).build());
+
+    public static final ItemGroup EVOLUTION_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "evolution_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SCROLL_OF_DARKNESS))
+                    .displayName(Text.translatable("itemgroup.groveextras.evolution_items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.SCROLL_OF_DARKNESS);
+                        entries.add(ModItems.SCROLL_OF_WATERS);
+                        entries.add(ModItems.SYRUPY_APPLE);
+                        entries.add(ModItems.METAL_ALLOY);
+                        entries.add(ModItems.LEADERS_CREST);
+
+                    }).build());
+
+    public static final ItemGroup KEY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "key_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ICON_KEY_ITEMS))
+                    .displayName(Text.translatable("itemgroup.groveextras.key_items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.ANCIENT_DRIVE);
+                        entries.add(ModItems.AZURE_FLUTE);
+                        entries.add(ModItems.DIAMOND_TIARA);
+                        entries.add(ModItems.GRACIDEA_SEED);
+                        entries.add(ModItems.GS_BALL);
+                        entries.add(ModItems.HELIX_ORB);
+                        entries.add(ModItems.HYPERSPACE_RING);
+                        entries.add(ModItems.JUNGLE_ROOT);
+                        entries.add(ModItems.MUSIC_BOX);
+                        entries.add(ModItems.MYSTERY_BOX);
+                        entries.add(ModItems.MYTHICAL_PECHA_BERRY);
+                        entries.add(ModItems.NIGHTMARE_SHROUD);
+                        entries.add(ModItems.ORIGIN_SASH);
+                        entries.add(ModItems.SEA_CROWN);
+                        entries.add(ModItems.SOUL_HEART);
+                        entries.add(ModItems.VICTORY_MEDAL);
+                        entries.add(ModItems.VOLCANIC_DOLL);
+                        entries.add(ModItems.WISHING_TAG);
+
+                        entries.add(ModItems.DNA_STRAND);
+                        entries.add(ModItems.ULTRA_BEAST_TOKEN);
+
+                        entries.add(ModItems.ADAMANT_ORB);
+                        entries.add(ModItems.BEADS_OF_RUIN);
+                        entries.add(ModItems.BLACK_PRISM);
+                        entries.add(ModItems.BLACK_STONE);
+                        entries.add(ModItems.BLUE_SOUL_DEW);
+                        entries.add(ModItems.BULU_BELL);
+                        entries.add(ModItems.CLONED_SASH);
+                        entries.add(ModItems.COMBAT_FEATHER);
+                        entries.add(ModItems.DEATH_WING);
+                        entries.add(ModItems.DRAGON_STATUE);
+                        entries.add(ModItems.ECLIPSE_FLUTE);
+                        entries.add(ModItems.ELECTRIC_STATUE);
+                        entries.add(ModItems.FINI_FIN);
+                        entries.add(ModItems.FIRE_FANG);
+                        entries.add(ModItems.FIRE_FEATHER);
+                        entries.add(ModItems.FUJINS_LAMP);
+                        entries.add(ModItems.GOLD_STATUE);
+                        entries.add(ModItems.GRAY_STONE);
+                        entries.add(ModItems.GRISEOUS_ORB);
+                        entries.add(ModItems.HEAVY_CONTROL_MASK);
+                        entries.add(ModItems.ICE_FANG);
+                        entries.add(ModItems.ICE_FEATHER);
+                        entries.add(ModItems.ICE_STATUE);
+                        entries.add(ModItems.ICEROOT_CARROT);
+                        entries.add(ModItems.INARIS_LAMP);
+                        entries.add(ModItems.JADE_ORB);
+                        entries.add(ModItems.KOKO_FEATHER);
+                        entries.add(ModItems.LAKE_SPIRIT_AMULET);
+                        entries.add(ModItems.LELE_ANTENNAE);
+                        entries.add(ModItems.LIFE_ANTLER);
+                        entries.add(ModItems.LUNAR_WING);
+                        entries.add(ModItems.LUSTROUS_ORB);
+                        entries.add(ModItems.MAGMA_STONE);
+                        entries.add(ModItems.MASK_OF_BEAUTY);
+                        entries.add(ModItems.MASK_OF_CLEVERNESS);
+                        entries.add(ModItems.MASK_OF_STRENGTH);
+                        entries.add(ModItems.ORDERS_CREST);
+                        entries.add(ModItems.PSYCHIC_FEATHER);
+                        entries.add(ModItems.RADIANT_PETAL);
+                        entries.add(ModItems.RAGE_FEATHER);
+                        entries.add(ModItems.RAIJINS_LAMP);
+                        entries.add(ModItems.RAINBOW_WING);
+                        entries.add(ModItems.RED_SOUL_DEW);
+                        entries.add(ModItems.ROCK_STATUE);
+                        entries.add(ModItems.RUBY_ORB);
+                        entries.add(ModItems.SAPPHIRE_ORB);
+                        entries.add(ModItems.SCARLET_BOOK);
+                        entries.add(ModItems.SHADEROOT_CARROT);
+                        entries.add(ModItems.SILVER_WING);
+                        entries.add(ModItems.STEEL_STATUE);
+                        entries.add(ModItems.STELLAR_CRYSTAL);
+                        entries.add(ModItems.TABLET_OF_RUIN);
+                        entries.add(ModItems.THUNDER_FANG);
+                        entries.add(ModItems.THUNDER_FEATHER);
+                        entries.add(ModItems.UGAJINS_LAMP);
+                        entries.add(ModItems.VESSEL_OF_RUIN);
+                        entries.add(ModItems.VIOLET_BOOK);
+                        entries.add(ModItems.WHITE_BELT);
+                        entries.add(ModItems.WHITE_STONE);
+                        entries.add(ModItems.WISHING_STAR);
+
+                    }).build());
+
+    public static final ItemGroup FORM_SWAP_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "form_swap_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ICON_FORM_SWAP))
+                    .displayName(Text.translatable("itemgroup.groveextras.form_swap_items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.GRACIDEA_FLOWER);
+                        entries.add(ModItems.PLATE_MEADOW);
+                        entries.add(ModItems.PLATE_INSECT);
+                        entries.add(ModItems.PLATE_ZAP);
+                        entries.add(ModItems.PLATE_STONE);
+                        entries.add(ModItems.PLATE_EARTH);
+                        entries.add(ModItems.PLATE_DRACO);
+                        entries.add(ModItems.PLATE_FIST);
+                        entries.add(ModItems.PLATE_PIXIE);
+                        entries.add(ModItems.PLATE_MIND);
+                        entries.add(ModItems.PLATE_TOXIC);
+                        entries.add(ModItems.PLATE_SPOOKY);
+                        entries.add(ModItems.PLATE_DREAD);
+                        entries.add(ModItems.PLATE_ICICLE);
+                        entries.add(ModItems.PLATE_SKY);
+                        entries.add(ModItems.PLATE_SPLASH);
+                        entries.add(ModItems.PLATE_IRON);
+                        entries.add(ModItems.PLATE_FLAME);
+                        entries.add(ModItems.MASK_TEAL);
+                        entries.add(ModItems.MASK_CORNERSTONE);
+                        entries.add(ModItems.MASK_WELLSPRING);
+                        entries.add(ModItems.MASK_HEARTHFLAME);
+                        entries.add(ModItems.VILE_VIAL);
+                        entries.add(ModItems.DNA_SPLICER);
+                        entries.add(ModItems.PECULIAR_OVEN);
+                        entries.add(ModItems.PECULIAR_FAN);
+                        entries.add(ModItems.PECULIAR_WASHING_MACHINE);
+                        entries.add(ModItems.PECULIAR_LAWN_MOWER);
+                        entries.add(ModItems.PECULIAR_FRIDGE);
+                        entries.add(ModItems.METEORITE_SHARP);
+                        entries.add(ModItems.METEORITE_HARD);
+                        entries.add(ModItems.METEORITE_SMOOTH);
+                        entries.add(ModItems.REVEAL_GLASS);
+                        entries.add(ModItems.ICY_REINS_OF_UNITY);
+                        entries.add(ModItems.SHADOW_REINS_OF_UNITY);
+                        entries.add(ModItems.DRIVE_BURN);
+                        entries.add(ModItems.DRIVE_SHOCK);
+                        entries.add(ModItems.DRIVE_CHILL);
+                        entries.add(ModItems.DRIVE_DOUSE);
+                        entries.add(ModItems.RED_ORB);
+                        entries.add(ModItems.BLUE_ORB);
+                        entries.add(ModItems.ADAMANT_CRYSTAL);
+                        entries.add(ModItems.GRISEOUS_CORE);
+                        entries.add(ModItems.LUSTROUS_GLOBE);
+                        entries.add(ModItems.N_SOLARIZER);
+                        entries.add(ModItems.N_LUNARIZER);
+                        entries.add(ModItems.ULTRANECROZIUM_Z);
+                        entries.add(ModItems.PRISON_BOTTLE);
+
+                    }).build());
+
+
 
     public static void registerItemGroups() {
         GroveExtras.LOGGER.info("Registering Item Groups for " + GroveExtras.MOD_ID);
