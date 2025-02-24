@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "groveextras:block/crystal_brick_slab_indigo"
+    },
+    "type=double": {
+      "model": "groveextras:block/crystal_bricks_indigo"
+    },
+    "type=top": {
+      "model": "groveextras:block/crystal_brick_slab_indigo_top"
+    }
+  }
+}

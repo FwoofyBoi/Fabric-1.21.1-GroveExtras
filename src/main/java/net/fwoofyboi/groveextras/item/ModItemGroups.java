@@ -174,45 +174,101 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CALCITE_POLISHED_SLAB);
                         entries.add(ModBlocks.CALCITE_POLISHED_WALL);
 
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_BLUE);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_CYAN);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_GREEN);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_LIME);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_MAGENTA);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_ORANGE);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_PINK);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_RED);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_WHITE);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_YELLOW);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_AUBURN);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_CORNFLOWER);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_GRAY);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_INDIGO);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_MAROON);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_MOCHA);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_ORCHID);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_SLATE);
-                        entries.add(ModBlocks.CRYSTAL_BRICKS_RAINBOW);
-
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_BLUE);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_BLUE);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_BLUE);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_BLUE);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_CYAN);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_CYAN);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_CYAN);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_CYAN);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_GREEN);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_GREEN);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_GREEN);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_GREEN);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_LIME);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_LIME);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_LIME);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_LIME);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_MAGENTA);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_MAGENTA);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_MAGENTA);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_MAGENTA);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_ORANGE);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_ORANGE);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_ORANGE);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_ORANGE);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_PINK);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_PINK);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_PINK);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_PINK);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_RED);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_RED);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_RED);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_RED);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_WHITE);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_WHITE);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_WHITE);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_WHITE);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_YELLOW);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_YELLOW);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_YELLOW);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_YELLOW);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_AUBURN);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_AUBURN);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_AUBURN);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_AUBURN);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_CORNFLOWER);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_CORNFLOWER);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_CORNFLOWER);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_CORNFLOWER);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_GRAY);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_GRAY);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_GRAY);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_GRAY);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_INDIGO);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_INDIGO);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_INDIGO);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_INDIGO);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_MAROON);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_MAROON);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_MAROON);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_MAROON);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_MOCHA);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_MOCHA);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_MOCHA);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_MOCHA);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_ORCHID);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_ORCHID);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_ORCHID);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_ORCHID);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_SLATE);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_SLATE);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_SLATE);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_SLATE);
+
                         entries.add(ModBlocks.CHISELED_CRYSTAL_BLOCK_RAINBOW);
+                        entries.add(ModBlocks.CRYSTAL_BRICKS_RAINBOW);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_STAIRS_RAINBOW);
+                        entries.add(ModBlocks.CRYSTAL_BRICK_SLAB_RAINBOW);
+
                     }).build());
 
     public static final ItemGroup SHRINES_GROUP = Registry.register(Registries.ITEM_GROUP,

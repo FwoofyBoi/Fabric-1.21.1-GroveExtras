@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "groveextras:block/crystal_brick_slab_orchid"
+    },
+    "type=double": {
+      "model": "groveextras:block/crystal_bricks_orchid"
+    },
+    "type=top": {
+      "model": "groveextras:block/crystal_brick_slab_orchid_top"
+    }
+  }
+}

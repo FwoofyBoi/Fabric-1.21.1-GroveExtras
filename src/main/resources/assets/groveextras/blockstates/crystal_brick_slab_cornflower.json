@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "groveextras:block/crystal_brick_slab_cornflower"
+    },
+    "type=double": {
+      "model": "groveextras:block/crystal_bricks_cornflower"
+    },
+    "type=top": {
+      "model": "groveextras:block/crystal_brick_slab_cornflower_top"
+    }
+  }
+}

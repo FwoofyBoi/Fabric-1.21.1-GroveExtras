@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "groveextras:block/crystal_bricks_orange",
+    "side": "groveextras:block/crystal_bricks_orange",
+    "top": "groveextras:block/crystal_bricks_orange"
+  }
+}

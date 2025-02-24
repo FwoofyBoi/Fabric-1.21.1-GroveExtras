@@ -185,42 +185,155 @@ public class ModBlocks {
 
     public static final Block CRYSTAL_BRICKS_BLUE = registerBlock("crystal_bricks_blue",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_BLUE = registerBlock("crystal_brick_stairs_blue",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_BLUE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_BLUE = registerBlock("crystal_brick_slab_blue",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_CYAN = registerBlock("crystal_bricks_cyan",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_CYAN = registerBlock("crystal_brick_stairs_cyan",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_CYAN.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_CYAN = registerBlock("crystal_brick_slab_cyan",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_GREEN = registerBlock("crystal_bricks_green",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_GREEN = registerBlock("crystal_brick_stairs_green",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_GREEN.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_GREEN = registerBlock("crystal_brick_slab_green",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_LIME = registerBlock("crystal_bricks_lime",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_LIME = registerBlock("crystal_brick_stairs_lime",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_LIME.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_LIME = registerBlock("crystal_brick_slab_lime",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_MAGENTA = registerBlock("crystal_bricks_magenta",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_MAGENTA = registerBlock("crystal_brick_stairs_magenta",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_MAGENTA.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_MAGENTA = registerBlock("crystal_brick_slab_magenta",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_ORANGE = registerBlock("crystal_bricks_orange",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_ORANGE = registerBlock("crystal_brick_stairs_orange",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_ORANGE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_ORANGE = registerBlock("crystal_brick_slab_orange",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_PINK = registerBlock("crystal_bricks_pink",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_PINK = registerBlock("crystal_brick_stairs_pink",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_PINK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_PINK = registerBlock("crystal_brick_slab_pink",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_RED = registerBlock("crystal_bricks_red",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_RED = registerBlock("crystal_brick_stairs_red",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_RED.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_RED = registerBlock("crystal_brick_slab_red",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_WHITE = registerBlock("crystal_bricks_white",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_WHITE = registerBlock("crystal_brick_stairs_white",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_WHITE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_WHITE = registerBlock("crystal_brick_slab_white",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_YELLOW = registerBlock("crystal_bricks_yellow",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_YELLOW = registerBlock("crystal_brick_stairs_yellow",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_YELLOW.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_YELLOW = registerBlock("crystal_brick_slab_yellow",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_AUBURN = registerBlock("crystal_bricks_auburn",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_AUBURN = registerBlock("crystal_brick_stairs_auburn",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_AUBURN.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_AUBURN = registerBlock("crystal_brick_slab_auburn",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_CORNFLOWER = registerBlock("crystal_bricks_cornflower",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_CORNFLOWER = registerBlock("crystal_brick_stairs_cornflower",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_CORNFLOWER.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_CORNFLOWER = registerBlock("crystal_brick_slab_cornflower",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_GRAY = registerBlock("crystal_bricks_gray",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_GRAY = registerBlock("crystal_brick_stairs_gray",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_GRAY.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_GRAY = registerBlock("crystal_brick_slab_gray",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_INDIGO = registerBlock("crystal_bricks_indigo",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_INDIGO = registerBlock("crystal_brick_stairs_indigo",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_INDIGO.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_INDIGO = registerBlock("crystal_brick_slab_indigo",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_MAROON = registerBlock("crystal_bricks_maroon",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_MAROON = registerBlock("crystal_brick_stairs_maroon",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_MAROON.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_MAROON = registerBlock("crystal_brick_slab_maroon",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_MOCHA = registerBlock("crystal_bricks_mocha",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_MOCHA = registerBlock("crystal_brick_stairs_mocha",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_MOCHA.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_MOCHA = registerBlock("crystal_brick_slab_mocha",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_ORCHID = registerBlock("crystal_bricks_orchid",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_ORCHID = registerBlock("crystal_brick_stairs_orchid",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_ORCHID.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_ORCHID = registerBlock("crystal_brick_slab_orchid",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_SLATE = registerBlock("crystal_bricks_slate",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_SLATE = registerBlock("crystal_brick_stairs_slate",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_SLATE.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_SLATE = registerBlock("crystal_brick_slab_slate",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block CRYSTAL_BRICKS_RAINBOW = registerBlock("crystal_bricks_rainbow",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_STAIRS_RAINBOW = registerBlock("crystal_brick_stairs_rainbow",
+            new StairsBlock(ModBlocks.CRYSTAL_BRICKS_RAINBOW.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block CRYSTAL_BRICK_SLAB_RAINBOW = registerBlock("crystal_brick_slab_rainbow",
+            new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block CHISELED_CRYSTAL_BLOCK_BLUE = registerBlock("chiseled_crystal_block_blue",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));

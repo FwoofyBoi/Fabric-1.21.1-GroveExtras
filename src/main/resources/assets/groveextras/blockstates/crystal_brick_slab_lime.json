@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "groveextras:block/crystal_brick_slab_lime"
+    },
+    "type=double": {
+      "model": "groveextras:block/crystal_bricks_lime"
+    },
+    "type=top": {
+      "model": "groveextras:block/crystal_brick_slab_lime_top"
+    }
+  }
+}

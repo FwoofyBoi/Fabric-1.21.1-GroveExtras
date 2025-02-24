@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "groveextras:block/crystal_bricks_lime",
+    "side": "groveextras:block/crystal_bricks_lime",
+    "top": "groveextras:block/crystal_bricks_lime"
+  }
+}
