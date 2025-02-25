@@ -330,6 +330,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.groveextras.key_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.ANCIENT_DRIVE);
+                        entries.add(ModItems.APPRENTICES_EPEE);
                         entries.add(ModItems.AZURE_FLUTE);
                         entries.add(ModItems.DIAMOND_TIARA);
                         entries.add(ModItems.GRACIDEA_SEED);
@@ -342,8 +343,10 @@ public class ModItemGroups {
                         entries.add(ModItems.MYTHICAL_PECHA_BERRY);
                         entries.add(ModItems.NIGHTMARE_SHROUD);
                         entries.add(ModItems.ORIGIN_SASH);
+                        entries.add(ModItems.PLASMA_SWORD);
                         entries.add(ModItems.SEA_CROWN);
                         entries.add(ModItems.SOUL_HEART);
+                        entries.add(ModItems.SPECTRAL_CLUB);
                         entries.add(ModItems.VICTORY_MEDAL);
                         entries.add(ModItems.VOLCANIC_DOLL);
                         entries.add(ModItems.WISHING_TAG);
@@ -358,6 +361,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BLUE_SOUL_DEW);
                         entries.add(ModItems.BULU_BELL);
                         entries.add(ModItems.CLONED_SASH);
+                        entries.add(ModItems.COBALT_EPEE);
                         entries.add(ModItems.COMBAT_FEATHER);
                         entries.add(ModItems.DEATH_WING);
                         entries.add(ModItems.DRAGON_STATUE);
@@ -376,9 +380,12 @@ public class ModItemGroups {
                         entries.add(ModItems.ICE_STATUE);
                         entries.add(ModItems.ICEROOT_CARROT);
                         entries.add(ModItems.INARIS_LAMP);
+                        entries.add(ModItems.IVY_CUDGEL);
                         entries.add(ModItems.JADE_ORB);
                         entries.add(ModItems.KOKO_FEATHER);
                         entries.add(ModItems.LAKE_SPIRIT_AMULET);
+                        entries.add(ModItems.LAKE_SPIRIT_SHIELD);
+                        entries.add(ModItems.LAKE_SPIRIT_SWORD);
                         entries.add(ModItems.LELE_ANTENNAE);
                         entries.add(ModItems.LIFE_ANTLER);
                         entries.add(ModItems.LUNAR_WING);
@@ -396,18 +403,23 @@ public class ModItemGroups {
                         entries.add(ModItems.RED_SOUL_DEW);
                         entries.add(ModItems.ROCK_STATUE);
                         entries.add(ModItems.RUBY_ORB);
+                        entries.add(ModItems.RUSTED_SHIELD);
+                        entries.add(ModItems.RUSTED_SWORD);
                         entries.add(ModItems.SAPPHIRE_ORB);
                         entries.add(ModItems.SCARLET_BOOK);
                         entries.add(ModItems.SHADEROOT_CARROT);
                         entries.add(ModItems.SILVER_WING);
                         entries.add(ModItems.STEEL_STATUE);
                         entries.add(ModItems.STELLAR_CRYSTAL);
+                        entries.add(ModItems.SWORD_OF_RUIN);
                         entries.add(ModItems.TABLET_OF_RUIN);
+                        entries.add(ModItems.TERRACOTTA_EPEE);
                         entries.add(ModItems.THUNDER_FANG);
                         entries.add(ModItems.THUNDER_FEATHER);
                         entries.add(ModItems.UGAJINS_LAMP);
                         entries.add(ModItems.VESSEL_OF_RUIN);
                         entries.add(ModItems.VIOLET_BOOK);
+                        entries.add(ModItems.VIRIDIAN_EPEE);
                         entries.add(ModItems.WHITE_BELT);
                         entries.add(ModItems.WHITE_STONE);
                         entries.add(ModItems.WISHING_STAR);
