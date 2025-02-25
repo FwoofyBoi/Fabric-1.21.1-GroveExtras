@@ -3,6 +3,7 @@ package net.fwoofyboi.groveextras.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.fwoofyboi.groveextras.block.ModBlocks;
+import net.fwoofyboi.groveextras.util.ModTags;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 
@@ -22,5 +23,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         //getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 //.add(ModBlocks.CRYSTAL_BRICKS_BLUE);
         //getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.GRANITE_BRICK_WALL);
+
     }
 }

@@ -286,6 +286,19 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.groveextras.dev_tools"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.DEV_BRUSH_BAWNGWAWTER);
+                        entries.add(ModItems.DEV_SHEARS_BAWNGWAWTER);
+                        entries.add(ModItems.DEV_SWORD_BAWNGWAWTER);
+                        entries.add(ModItems.DEV_PICKAXE_BAWNGWAWTER);
+                        entries.add(ModItems.DEV_SHOVEL_BAWNGWAWTER);
+                        entries.add(ModItems.DEV_AXE_BAWNGWAWTER);
+                        entries.add(ModItems.DEV_HOE_BAWNGWAWTER);
+
+                        entries.add(ModItems.DEV_BRUSH_SHADESOFCEDAR);
+                        entries.add(ModItems.DEV_SWORD_SHADESOFCEDAR);
+                        entries.add(ModItems.DEV_PICKAXE_SHADESOFCEDAR);
+                        entries.add(ModItems.DEV_SHOVEL_SHADESOFCEDAR);
+                        entries.add(ModItems.DEV_AXE_SHADESOFCEDAR);
+                        entries.add(ModItems.DEV_HOE_SHADESOFCEDAR);
                     }).build());
 
     public static final ItemGroup MEGA_STONES_GROUP = Registry.register(Registries.ITEM_GROUP,

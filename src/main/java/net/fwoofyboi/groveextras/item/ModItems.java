@@ -2,10 +2,11 @@ package net.fwoofyboi.groveextras.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fwoofyboi.groveextras.GroveExtras;
-import net.minecraft.item.BrushItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.SwordItem;
+import net.fwoofyboi.groveextras.component.ModDataComponentTypes;
+import net.minecraft.component.ComponentType;
+import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.UnbreakableComponent;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -59,8 +60,96 @@ public class ModItems {
     public static final Item CRYSTAL_SHARD_SLATE = registerItem("crystal_shard_slate", new Item(new Item.Settings()));
     public static final Item CRYSTAL_SHARD_RAINBOW = registerItem("crystal_shard_rainbow", new Item(new Item.Settings()));
 
+    //Summon Swords & Shields
+    public static final Item APPRENTICES_EPEE = registerItem("apprentices_epee",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item PLASMA_SWORD = registerItem("plasma_sword",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item SPECTRAL_CLUB = registerItem("spectral_club",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item COBALT_EPEE = registerItem("cobalt_epee",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item IVY_CUDGEL = registerItem("ivy_cudgel",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item LAKE_SPIRIT_SHIELD = registerItem("lake_spirit_shield", new ShieldItem(new Item.Settings()));
+    public static final Item LAKE_SPIRIT_SWORD = registerItem("lake_spirit_sword",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item RUSTED_SHIELD = registerItem("rusted_shield", new ShieldItem(new Item.Settings()));
+    public static final Item RUSTED_SWORD = registerItem("rusted_sword",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item SWORD_OF_RUIN = registerItem("sword_of_ruin",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item TERRACOTTA_EPEE = registerItem("terracotta_epee",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item VIRIDIAN_EPEE = registerItem("viridian_epee",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+
     //Dev Tools
     public static final Item DEV_BRUSH_BAWNGWAWTER = registerItem("dev_brush_bawngwawter", new BrushItem(new Item.Settings()));
+    public static final Item DEV_SHEARS_BAWNGWAWTER = registerItem("dev_shears_bawngwawter", new ShearsItem(new Item.Settings()));
+    public static final Item DEV_SWORD_BAWNGWAWTER = registerItem("dev_sword_bawngwawter",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_PICKAXE_BAWNGWAWTER = registerItem("dev_pickaxe_bawngwawter",
+            new PickaxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1, -2.8F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_SHOVEL_BAWNGWAWTER = registerItem("dev_shovel_bawngwawter",
+            new ShovelItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1.5F, -3.0F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_AXE_BAWNGWAWTER = registerItem("dev_axe_bawngwawter",
+            new AxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 6, -3.2F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_HOE_BAWNGWAWTER = registerItem("dev_hoe_bawngwawter",
+            new HoeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 0, -3.0F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+
+    public static final Item DEV_BRUSH_SHADESOFCEDAR = registerItem("dev_brush_shadesofcedar", new BrushItem(new Item.Settings()));
+    public static final Item DEV_SWORD_SHADESOFCEDAR = registerItem("dev_sword_shadesofcedar",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_PICKAXE_SHADESOFCEDAR = registerItem("dev_pickaxe_shadesofcedar",
+            new PickaxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1, -2.8F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_SHOVEL_SHADESOFCEDAR = registerItem("dev_shovel_shadesofcedar",
+            new ShovelItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1.5F, -3.0F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_AXE_SHADESOFCEDAR = registerItem("dev_axe_shadesofcedar",
+            new AxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 6, -3.2F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_HOE_SHADESOFCEDAR = registerItem("dev_hoe_shadesofcedar",
+            new HoeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 0, -3.0F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+
 
     //Creative Icons
     public static final Item ICON_FORM_SWAP = registerItem("icon_form_swap", new Item(new Item.Settings()));
