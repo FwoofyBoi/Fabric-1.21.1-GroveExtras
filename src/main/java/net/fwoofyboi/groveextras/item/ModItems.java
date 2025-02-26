@@ -104,6 +104,137 @@ public class ModItems {
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
 
+    //Evo Stone Armors
+    public static final Item HELMET_DAWN_STONE = registerItem("helmet_dawn_stone",
+            new ArmorItem(ModArmorMaterials.DAWN_STONE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item CHESTPLATE_DAWN_STONE = registerItem("chestplate_dawn_stone",
+            new ArmorItem(ModArmorMaterials.DAWN_STONE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item LEGGINGS_DAWN_STONE = registerItem("leggings_dawn_stone",
+            new ArmorItem(ModArmorMaterials.DAWN_STONE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item BOOTS_DAWN_STONE = registerItem("boots_dawn_stone",
+            new ArmorItem(ModArmorMaterials.DAWN_STONE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item HELMET_DUSK_STONE = registerItem("helmet_dusk_stone",
+            new ArmorItem(ModArmorMaterials.DUSK_STONE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item CHESTPLATE_DUSK_STONE = registerItem("chestplate_dusk_stone",
+            new ArmorItem(ModArmorMaterials.DUSK_STONE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item LEGGINGS_DUSK_STONE = registerItem("leggings_dusk_stone",
+            new ArmorItem(ModArmorMaterials.DUSK_STONE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item BOOTS_DUSK_STONE = registerItem("boots_dusk_stone",
+            new ArmorItem(ModArmorMaterials.DUSK_STONE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item HELMET_FIRE_STONE = registerItem("helmet_fire_stone",
+            new ArmorItem(ModArmorMaterials.FIRE_STONE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item CHESTPLATE_FIRE_STONE = registerItem("chestplate_fire_stone",
+            new ArmorItem(ModArmorMaterials.FIRE_STONE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item LEGGINGS_FIRE_STONE = registerItem("leggings_fire_stone",
+            new ArmorItem(ModArmorMaterials.FIRE_STONE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item BOOTS_FIRE_STONE = registerItem("boots_fire_stone",
+            new ArmorItem(ModArmorMaterials.FIRE_STONE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item HELMET_ICE_STONE = registerItem("helmet_ice_stone",
+            new ArmorItem(ModArmorMaterials.ICE_STONE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item CHESTPLATE_ICE_STONE = registerItem("chestplate_ice_stone",
+            new ArmorItem(ModArmorMaterials.ICE_STONE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item LEGGINGS_ICE_STONE = registerItem("leggings_ice_stone",
+            new ArmorItem(ModArmorMaterials.ICE_STONE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item BOOTS_ICE_STONE = registerItem("boots_ice_stone",
+            new ArmorItem(ModArmorMaterials.ICE_STONE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item HELMET_LEAF_STONE = registerItem("helmet_leaf_stone",
+            new ArmorItem(ModArmorMaterials.LEAF_STONE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item CHESTPLATE_LEAF_STONE = registerItem("chestplate_leaf_stone",
+            new ArmorItem(ModArmorMaterials.LEAF_STONE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item LEGGINGS_LEAF_STONE = registerItem("leggings_leaf_stone",
+            new ArmorItem(ModArmorMaterials.LEAF_STONE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item BOOTS_LEAF_STONE = registerItem("boots_leaf_stone",
+            new ArmorItem(ModArmorMaterials.LEAF_STONE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item HELMET_MOON_STONE = registerItem("helmet_moon_stone",
+            new ArmorItem(ModArmorMaterials.MOON_STONE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item CHESTPLATE_MOON_STONE = registerItem("chestplate_moon_stone",
+            new ArmorItem(ModArmorMaterials.MOON_STONE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item LEGGINGS_MOON_STONE = registerItem("leggings_moon_stone",
+            new ArmorItem(ModArmorMaterials.MOON_STONE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item BOOTS_MOON_STONE = registerItem("boots_moon_stone",
+            new ArmorItem(ModArmorMaterials.MOON_STONE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item HELMET_SHINY_STONE = registerItem("helmet_shiny_stone",
+            new ArmorItem(ModArmorMaterials.SHINY_STONE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item CHESTPLATE_SHINY_STONE = registerItem("chestplate_shiny_stone",
+            new ArmorItem(ModArmorMaterials.SHINY_STONE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item LEGGINGS_SHINY_STONE = registerItem("leggings_shiny_stone",
+            new ArmorItem(ModArmorMaterials.SHINY_STONE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item BOOTS_SHINY_STONE = registerItem("boots_shiny_stone",
+            new ArmorItem(ModArmorMaterials.SHINY_STONE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item HELMET_SUN_STONE = registerItem("helmet_sun_stone",
+            new ArmorItem(ModArmorMaterials.SUN_STONE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item CHESTPLATE_SUN_STONE = registerItem("chestplate_sun_stone",
+            new ArmorItem(ModArmorMaterials.SUN_STONE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item LEGGINGS_SUN_STONE = registerItem("leggings_sun_stone",
+            new ArmorItem(ModArmorMaterials.SUN_STONE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item BOOTS_SUN_STONE = registerItem("boots_sun_stone",
+            new ArmorItem(ModArmorMaterials.SUN_STONE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item HELMET_THUNDER_STONE = registerItem("helmet_thunder_stone",
+            new ArmorItem(ModArmorMaterials.THUNDER_STONE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item CHESTPLATE_THUNDER_STONE = registerItem("chestplate_thunder_stone",
+            new ArmorItem(ModArmorMaterials.THUNDER_STONE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item LEGGINGS_THUNDER_STONE = registerItem("leggings_thunder_stone",
+            new ArmorItem(ModArmorMaterials.THUNDER_STONE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item BOOTS_THUNDER_STONE = registerItem("boots_thunder_stone",
+            new ArmorItem(ModArmorMaterials.THUNDER_STONE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item HELMET_WATER_STONE = registerItem("helmet_water_stone",
+            new ArmorItem(ModArmorMaterials.WATER_STONE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item CHESTPLATE_WATER_STONE = registerItem("chestplate_water_stone",
+            new ArmorItem(ModArmorMaterials.WATER_STONE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item LEGGINGS_WATER_STONE = registerItem("leggings_water_stone",
+            new ArmorItem(ModArmorMaterials.WATER_STONE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item BOOTS_WATER_STONE = registerItem("boots_water_stone",
+            new ArmorItem(ModArmorMaterials.WATER_STONE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
     //Dev Tools
     public static final Item DEV_BRUSH_BAWNGWAWTER = registerItem("dev_brush_bawngwawter", new BrushItem(new Item.Settings()));
     public static final Item DEV_SHEARS_BAWNGWAWTER = registerItem("dev_shears_bawngwawter", new ShearsItem(new Item.Settings()));

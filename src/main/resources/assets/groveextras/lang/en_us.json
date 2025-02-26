@@ -24,6 +24,56 @@
   "item.groveextras.yellow_shard": "Yellow Shard",
   "item.groveextras.pretty_feather": "Pretty Feather",
 
+  "item.groveextras.helmet_dawn_stone": "Dawn Stone Helmet",
+  "item.groveextras.chestplate_dawn_stone": "Dawn Stone Chestplate",
+  "item.groveextras.leggings_dawn_stone": "Dawn Stone Leggings",
+  "item.groveextras.boots_dawn_stone": "Dawn Stone Boots",
+
+  "item.groveextras.helmet_dusk_stone": "Dusk Stone Helmet",
+  "item.groveextras.chestplate_dusk_stone": "Dusk Stone Chestplate",
+  "item.groveextras.leggings_dusk_stone": "Dusk Stone Leggings",
+  "item.groveextras.boots_dusk_stone": "Dusk Stone Boots",
+
+  "item.groveextras.helmet_fire_stone": "Fire Stone Helmet",
+  "item.groveextras.chestplate_fire_stone": "Fire Stone Chestplate",
+  "item.groveextras.leggings_fire_stone": "Fire Stone Leggings",
+  "item.groveextras.boots_fire_stone": "Fire Stone Boots",
+
+  "item.groveextras.helmet_ice_stone": "Ice Stone Helmet",
+  "item.groveextras.chestplate_ice_stone": "Ice Stone Chestplate",
+  "item.groveextras.leggings_ice_stone": "Ice Stone Leggings",
+  "item.groveextras.boots_ice_stone": "Ice Stone Boots",
+
+  "item.groveextras.helmet_leaf_stone": "Leaf Stone Helmet",
+  "item.groveextras.chestplate_leaf_stone": "Leaf Stone Chestplate",
+  "item.groveextras.leggings_leaf_stone": "Leaf Stone Leggings",
+  "item.groveextras.boots_leaf_stone": "Leaf Stone Boots",
+
+  "item.groveextras.helmet_moon_stone": "Moon Stone Helmet",
+  "item.groveextras.chestplate_moon_stone": "Moon Stone Chestplate",
+  "item.groveextras.leggings_moon_stone": "Moon Stone Leggings",
+  "item.groveextras.boots_moon_stone": "Moon Stone Boots",
+
+  "item.groveextras.helmet_shiny_stone": "Shiny Stone Helmet",
+  "item.groveextras.chestplate_shiny_stone": "Shiny Stone Chestplate",
+  "item.groveextras.leggings_shiny_stone": "Shiny Stone Leggings",
+  "item.groveextras.boots_shiny_stone": "Shiny Stone Boots",
+
+  "item.groveextras.helmet_sun_stone": "Sun Stone Helmet",
+  "item.groveextras.chestplate_sun_stone": "Sun Stone Chestplate",
+  "item.groveextras.leggings_sun_stone": "Sun Stone Leggings",
+  "item.groveextras.boots_sun_stone": "Sun Stone Boots",
+
+  "item.groveextras.helmet_thunder_stone": "Thunder Stone Helmet",
+  "item.groveextras.chestplate_thunder_stone": "Thunder Stone Chestplate",
+  "item.groveextras.leggings_thunder_stone": "Thunder Stone Leggings",
+  "item.groveextras.boots_thunder_stone": "Thunder Stone Boots",
+
+  "item.groveextras.helmet_water_stone": "Water Stone Helmet",
+  "item.groveextras.chestplate_water_stone": "Water Stone Chestplate",
+  "item.groveextras.leggings_water_stone": "Water Stone Leggings",
+  "item.groveextras.boots_water_stone": "Water Stone Boots",
+
   "item.groveextras.apprentices_epee": "Apprentice's Épée",
   "item.groveextras.plasma_sword": "Plasma Sword",
   "item.groveextras.spectral_club": "Spectral Club",
@@ -416,5 +466,6 @@
   "itemgroup.groveextras.key_items": "Summon Items",
   "itemgroup.groveextras.form_swap_items": "Form Change Items",
   "itemgroup.groveextras.evolution_items": "Evolution Items+",
-  "itemgroup.groveextras.mega_stones": "Mega Stones+"
+  "itemgroup.groveextras.mega_stones": "Mega Stones+",
+  "itemgroup.groveextras.grove_armor": "Armor Sets"
 }

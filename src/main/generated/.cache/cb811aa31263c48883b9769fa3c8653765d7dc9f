@@ -1,6 +1,2 @@
-// 1.21.1	2025-02-25T16:25:01.4122466	Grove Extras/Tags for minecraft:item
-de1dbce6d6a79f94da75562bdb6702df5fb5a274 data\minecraft\tags\item\swords.json
-d7dc6007e30e037e76f400c8f392dedc00c03498 data\minecraft\tags\item\axes.json
-f98e72dd24fd5a66251cac040bd34d5ff64c2a2a data\minecraft\tags\item\pickaxes.json
-fc1326e20fb6bd8211e39b2ad5f10cd883207e5d data\minecraft\tags\item\hoes.json
-26c6c83bcfc44d71e57e88c46a0182580ea445d1 data\minecraft\tags\item\shovels.json
+// 1.21.1	2025-02-25T19:11:50.9534478	Grove Extras/Tags for minecraft:item
+b8806e5a710e3c75acd5659d9187e10dde5a4c22 data\minecraft\tags\item\trimmable_armor.json

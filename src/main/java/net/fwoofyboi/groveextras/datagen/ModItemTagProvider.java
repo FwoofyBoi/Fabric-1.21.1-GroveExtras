@@ -15,6 +15,17 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+
+        //getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                //.add(ModItems.HELMET_DAWN_STONE);
+        //getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                //.add(ModItems.CHESTPLATE_DAWN_STONE);
+        //getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                //.add(ModItems.LEGGINGS_DAWN_STONE);
+        //getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                //.add(ModItems.BOOTS_DAWN_STONE);
+
+
         //getOrCreateTagBuilder(ItemTags.SWORDS)
                 //.add(ModItems.DEV_SWORD_BAWNGWAWTER);
         //getOrCreateTagBuilder(ItemTags.PICKAXES)
@@ -25,6 +36,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 //.add(ModItems.DEV_AXE_BAWNGWAWTER);
         //getOrCreateTagBuilder(ItemTags.HOES)
                 //.add(ModItems.DEV_HOE_BAWNGWAWTER);
+
+
+
 
     }
 }

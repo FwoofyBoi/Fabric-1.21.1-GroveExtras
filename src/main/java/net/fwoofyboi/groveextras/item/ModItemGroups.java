@@ -311,6 +311,63 @@ public class ModItemGroups {
 
                     }).build());
 
+    public static final ItemGroup GROVE_ARMOR_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "grove_armor"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.HELMET_DAWN_STONE))
+                    .displayName(Text.translatable("itemgroup.groveextras.grove_armor"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.HELMET_DAWN_STONE);
+                        entries.add(ModItems.CHESTPLATE_DAWN_STONE);
+                        entries.add(ModItems.LEGGINGS_DAWN_STONE);
+                        entries.add(ModItems.BOOTS_DAWN_STONE);
+
+                        entries.add(ModItems.HELMET_DUSK_STONE);
+                        entries.add(ModItems.CHESTPLATE_DUSK_STONE);
+                        entries.add(ModItems.LEGGINGS_DUSK_STONE);
+                        entries.add(ModItems.BOOTS_DUSK_STONE);
+
+                        entries.add(ModItems.HELMET_FIRE_STONE);
+                        entries.add(ModItems.CHESTPLATE_FIRE_STONE);
+                        entries.add(ModItems.LEGGINGS_FIRE_STONE);
+                        entries.add(ModItems.BOOTS_FIRE_STONE);
+
+                        entries.add(ModItems.HELMET_ICE_STONE);
+                        entries.add(ModItems.CHESTPLATE_ICE_STONE);
+                        entries.add(ModItems.LEGGINGS_ICE_STONE);
+                        entries.add(ModItems.BOOTS_ICE_STONE);
+
+                        entries.add(ModItems.HELMET_LEAF_STONE);
+                        entries.add(ModItems.CHESTPLATE_LEAF_STONE);
+                        entries.add(ModItems.LEGGINGS_LEAF_STONE);
+                        entries.add(ModItems.BOOTS_LEAF_STONE);
+
+                        entries.add(ModItems.HELMET_MOON_STONE);
+                        entries.add(ModItems.CHESTPLATE_MOON_STONE);
+                        entries.add(ModItems.LEGGINGS_MOON_STONE);
+                        entries.add(ModItems.BOOTS_MOON_STONE);
+
+                        entries.add(ModItems.HELMET_SHINY_STONE);
+                        entries.add(ModItems.CHESTPLATE_SHINY_STONE);
+                        entries.add(ModItems.LEGGINGS_SHINY_STONE);
+                        entries.add(ModItems.BOOTS_SHINY_STONE);
+
+                        entries.add(ModItems.HELMET_SUN_STONE);
+                        entries.add(ModItems.CHESTPLATE_SUN_STONE);
+                        entries.add(ModItems.LEGGINGS_SUN_STONE);
+                        entries.add(ModItems.BOOTS_SUN_STONE);
+
+                        entries.add(ModItems.HELMET_THUNDER_STONE);
+                        entries.add(ModItems.CHESTPLATE_THUNDER_STONE);
+                        entries.add(ModItems.LEGGINGS_THUNDER_STONE);
+                        entries.add(ModItems.BOOTS_THUNDER_STONE);
+
+                        entries.add(ModItems.HELMET_WATER_STONE);
+                        entries.add(ModItems.CHESTPLATE_WATER_STONE);
+                        entries.add(ModItems.LEGGINGS_WATER_STONE);
+                        entries.add(ModItems.BOOTS_WATER_STONE);
+
+                    }).build());
+
     public static final ItemGroup EVOLUTION_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(GroveExtras.MOD_ID, "evolution_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SCROLL_OF_DARKNESS))

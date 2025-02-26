@@ -7,6 +7,7 @@ import net.fwoofyboi.groveextras.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -31,6 +32,12 @@ public class ModModelProvider extends FabricModelProvider {
         //itemModelGenerator.register(ModItems.DEV_SHOVEL_BAWNGWAWTER, Models.HANDHELD);
         //itemModelGenerator.register(ModItems.DEV_AXE_BAWNGWAWTER, Models.HANDHELD);
         //itemModelGenerator.register(ModItems.DEV_HOE_BAWNGWAWTER, Models.HANDHELD);
+
+        //itemModelGenerator.registerArmor(((ArmorItem) ModItems.HELMET_DAWN_STONE));
+        //itemModelGenerator.registerArmor(((ArmorItem) ModItems.CHESTPLATE_DAWN_STONE));
+        //itemModelGenerator.registerArmor(((ArmorItem) ModItems.LEGGINGS_DAWN_STONE));
+        //itemModelGenerator.registerArmor(((ArmorItem) ModItems.BOOTS_DAWN_STONE));
+
 
     }
 }
