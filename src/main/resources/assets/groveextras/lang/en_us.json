@@ -270,6 +270,8 @@
   "item.groveextras.white_stone": "White Stone",
   "item.groveextras.wishing_star": "Wishing Star",
 
+  "item.groveextras.plush_voucher": "Plushie Voucher",
+
   "block.groveextras.dev_a0_surface": "A0 Surface Block DEV",
   "block.groveextras.dev_a0_ruins": "A0 Ruins Block DEV",
   "block.groveextras.dev_a0_lush": "A0 Lush Block DEV",
@@ -485,5 +487,6 @@
   "itemgroup.groveextras.evolution_items": "Evolution Items+",
   "itemgroup.groveextras.mega_stones": "Mega Stones+",
   "itemgroup.groveextras.grove_armor": "Armor Sets",
-  "itemgroup.groveextras.grove_discs": "Grove Discs"
+  "itemgroup.groveextras.grove_discs": "Grove Discs",
+  "itemgroup.groveextras.plush": "Plushies"
 }

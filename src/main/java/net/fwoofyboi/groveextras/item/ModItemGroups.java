@@ -311,6 +311,15 @@ public class ModItemGroups {
 
                     }).build());
 
+    public static final ItemGroup PLUSH_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "plush"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PLUSH_VOUCHER))
+                    .displayName(Text.translatable("itemgroup.groveextras.plush"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.PLUSH_VOUCHER);
+
+                    }).build());
+
     public static final ItemGroup GROVE_DISCS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(GroveExtras.MOD_ID, "grove_discs"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.MUSIC_DISC_CORAL_REEF))

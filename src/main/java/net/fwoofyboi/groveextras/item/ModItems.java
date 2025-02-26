@@ -300,6 +300,10 @@ public class ModItems {
     public static final Item ICON_EASTER = registerItem("icon_easter", new Item(new Item.Settings()));
     public static final Item ICON_HALLOWEEN = registerItem("icon_halloween", new Item(new Item.Settings()));
 
+    //Plushie Vouchers
+
+    public static final Item PLUSH_VOUCHER = registerItem("plush_voucher", new Item(new Item.Settings()));
+
     //Form Swap Items
     public static final Item GRACIDEA_FLOWER = registerItem("gracidea_flower", new Item(new Item.Settings()));
     public static final Item PLATE_MEADOW = registerItem("plate_meadow", new Item(new Item.Settings()));
