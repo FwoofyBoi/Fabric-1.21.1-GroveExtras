@@ -458,6 +458,8 @@
   "block.groveextras.crystal_brick_stairs_rainbow": "Rainbow Crystal Brick Stairs",
   "block.groveextras.crystal_brick_slab_rainbow": "Rainbow Crystal Brick Slab",
 
+  "block.groveextras.gravestone": "Gravestone",
+
 
   "item.groveextras.music_disc_coral_reef": "Music Disc",
   "item.groveextras.music_disc_coral_reef.desc": "ShadesOfCedar - Coral Reef",
@@ -488,5 +490,6 @@
   "itemgroup.groveextras.mega_stones": "Mega Stones+",
   "itemgroup.groveextras.grove_armor": "Armor Sets",
   "itemgroup.groveextras.grove_discs": "Grove Discs",
-  "itemgroup.groveextras.plush": "Plushies"
+  "itemgroup.groveextras.plush": "Plushies",
+  "itemgroup.groveextras.grove_decor": "Grove Decor"
 }

@@ -1,6 +1,7 @@
 package net.fwoofyboi.groveextras.block;
 
 import net.fwoofyboi.groveextras.GroveExtras;
+import net.fwoofyboi.groveextras.block.custom.GravestoneBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -376,6 +377,11 @@ public class ModBlocks {
 
     public static final Block SHRINE_DARKRAI = registerBlock("shrine_darkrai",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.HEAVY_CORE)));
+
+    //Grove Decor
+    public static final Block GRAVESTONE = registerBlock("gravestone",
+            new GravestoneBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(1.0f).requiresTool().sounds(BlockSoundGroup.POLISHED_TUFF)));
 
 
 

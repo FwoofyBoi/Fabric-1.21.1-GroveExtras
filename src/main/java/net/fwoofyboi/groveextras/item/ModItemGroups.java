@@ -5,6 +5,7 @@ import net.fwoofyboi.groveextras.GroveExtras;
 import net.fwoofyboi.groveextras.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -317,6 +318,15 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.groveextras.plush"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.PLUSH_VOUCHER);
+
+                    }).build());
+
+    public static final ItemGroup GROVE_DECOR_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "grove_decor"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(Items.FLOWER_POT))
+                    .displayName(Text.translatable("itemgroup.groveextras.grove_decor"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.GRAVESTONE);
 
                     }).build());
 
