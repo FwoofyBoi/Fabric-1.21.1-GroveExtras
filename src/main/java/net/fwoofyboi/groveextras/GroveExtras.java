@@ -6,6 +6,7 @@ import net.fwoofyboi.groveextras.block.ModBlocks;
 import net.fwoofyboi.groveextras.component.ModDataComponentTypes;
 import net.fwoofyboi.groveextras.item.ModItemGroups;
 import net.fwoofyboi.groveextras.item.ModItems;
+import net.fwoofyboi.groveextras.sound.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +21,7 @@ public class GroveExtras implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModDataComponentTypes.registerDataComponentTypes();
+		ModSounds.registerSounds();
+
 	}
 }

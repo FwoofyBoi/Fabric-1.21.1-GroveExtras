@@ -2,8 +2,7 @@ package net.fwoofyboi.groveextras.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fwoofyboi.groveextras.GroveExtras;
-import net.fwoofyboi.groveextras.component.ModDataComponentTypes;
-import net.minecraft.component.ComponentType;
+import net.fwoofyboi.groveextras.sound.ModSounds;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.UnbreakableComponent;
 import net.minecraft.item.*;
@@ -281,6 +280,17 @@ public class ModItems {
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 0, -3.0F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
 
+    //Grove Discs
+    public static final Item MUSIC_DISC_CORAL_REEF = registerItem("music_disc_coral_reef",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.CORAL_REEF_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_WANDER = registerItem("music_disc_wander",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.WANDER_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_UPLOAD = registerItem("music_disc_upload",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.UPLOAD_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_TOXIC = registerItem("music_disc_toxic",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.TOXIC_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_GLACIER = registerItem("music_disc_glacier",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLACIER_KEY).maxCount(1)));
 
     //Creative Icons
     public static final Item ICON_FORM_SWAP = registerItem("icon_form_swap", new Item(new Item.Settings()));
@@ -444,6 +454,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(WITHER_SKULL_FRAGMENT);
+            fabricItemGroupEntries.add(DNA_STRAND);
         });
     }
 }

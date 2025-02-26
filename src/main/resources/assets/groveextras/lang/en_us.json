@@ -456,6 +456,23 @@
   "block.groveextras.crystal_brick_stairs_rainbow": "Rainbow Crystal Brick Stairs",
   "block.groveextras.crystal_brick_slab_rainbow": "Rainbow Crystal Brick Slab",
 
+
+  "item.groveextras.music_disc_coral_reef": "Music Disc",
+  "item.groveextras.music_disc_coral_reef.desc": "ShadesOfCedar - Coral Reef",
+
+  "item.groveextras.music_disc_wander": "Music Disc",
+  "item.groveextras.music_disc_wander.desc": "ShadesOfCedar - Wander",
+
+  "item.groveextras.music_disc_upload": "Music Disc",
+  "item.groveextras.music_disc_upload.desc": "ShadesOfCedar - Upload",
+
+  "item.groveextras.music_disc_toxic": "Music Disc",
+  "item.groveextras.music_disc_toxic.desc": "ShadesOfCedar - Toxic",
+
+  "item.groveextras.music_disc_glacier": "Music Disc",
+  "item.groveextras.music_disc_glacier.desc": "ShadesOfCedar - Glacier",
+
+
   "itemgroup.groveextras.crate_keys": "Crate Keys",
   "itemgroup.groveextras.treasure_items": "Treasure Items",
   "itemgroup.groveextras.dev_blocks": "Dev Blocks",
@@ -467,5 +484,6 @@
   "itemgroup.groveextras.form_swap_items": "Form Change Items",
   "itemgroup.groveextras.evolution_items": "Evolution Items+",
   "itemgroup.groveextras.mega_stones": "Mega Stones+",
-  "itemgroup.groveextras.grove_armor": "Armor Sets"
+  "itemgroup.groveextras.grove_armor": "Armor Sets",
+  "itemgroup.groveextras.grove_discs": "Grove Discs"
 }

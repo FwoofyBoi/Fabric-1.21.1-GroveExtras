@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.groveextras.music_disc_coral_reef.desc"
+  },
+  "length_in_seconds": 134.0,
+  "sound_event": "groveextras:coral_reef"
+}

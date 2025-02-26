@@ -311,6 +311,19 @@ public class ModItemGroups {
 
                     }).build());
 
+    public static final ItemGroup GROVE_DISCS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "grove_discs"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.MUSIC_DISC_CORAL_REEF))
+                    .displayName(Text.translatable("itemgroup.groveextras.grove_discs"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.MUSIC_DISC_CORAL_REEF);
+                        entries.add(ModItems.MUSIC_DISC_WANDER);
+                        entries.add(ModItems.MUSIC_DISC_UPLOAD);
+                        entries.add(ModItems.MUSIC_DISC_TOXIC);
+                        entries.add(ModItems.MUSIC_DISC_GLACIER);
+
+                    }).build());
+
     public static final ItemGroup GROVE_ARMOR_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(GroveExtras.MOD_ID, "grove_armor"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.HELMET_DAWN_STONE))

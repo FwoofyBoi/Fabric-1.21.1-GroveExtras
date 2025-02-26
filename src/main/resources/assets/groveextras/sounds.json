@@ -1,0 +1,42 @@
+{
+  "coral_reef": {
+    "sounds": [
+      {
+        "name": "groveextras:coral_reef",
+        "stream": true
+      }
+    ]
+  },
+  "wander": {
+    "sounds": [
+      {
+        "name": "groveextras:wander",
+        "stream": true
+      }
+    ]
+  },
+  "upload": {
+    "sounds": [
+      {
+        "name": "groveextras:upload",
+        "stream": true
+      }
+    ]
+  },
+  "toxic": {
+    "sounds": [
+      {
+        "name": "groveextras:toxic",
+        "stream": true
+      }
+    ]
+  },
+  "glacier": {
+    "sounds": [
+      {
+        "name": "groveextras:glacier",
+        "stream": true
+      }
+    ]
+  }
+}
