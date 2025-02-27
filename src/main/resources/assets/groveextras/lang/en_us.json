@@ -463,6 +463,11 @@
   "block.groveextras.gravestone_skull": "Gravestone",
   "block.groveextras.gravestone_statement": "Gravestone",
 
+  "block.groveextras.crystal_lights_cool": "Cool Crystal Lights",
+  "block.groveextras.crystal_lights_floral": "Floral Crystal Lights",
+  "block.groveextras.crystal_lights_festive": "Festive Crystal Lights",
+  "block.groveextras.crystal_lights_warm": "Warm Crystal Lights",
+
 
   "item.groveextras.music_disc_coral_reef": "Music Disc",
   "item.groveextras.music_disc_coral_reef.desc": "ShadesOfCedar - Coral Reef",

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/crystal_lights_festive",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/crystal_lights_festive"
+    },
+    "facing=south": {
+      "model": "groveextras:block/crystal_lights_festive",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/crystal_lights_festive",
+      "y": 270
+    }
+  }
+}

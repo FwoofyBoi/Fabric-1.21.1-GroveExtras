@@ -331,6 +331,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GRAVESTONE_SKULL);
                         entries.add(ModBlocks.GRAVESTONE_STATEMENT);
 
+                        entries.add(ModBlocks.CRYSTAL_LIGHTS_COOL);
+                        entries.add(ModBlocks.CRYSTAL_LIGHTS_FLORAL);
+                        entries.add(ModBlocks.CRYSTAL_LIGHTS_FESTIVE);
+                        entries.add(ModBlocks.CRYSTAL_LIGHTS_WARM);
+
                     }).build());
 
     public static final ItemGroup GROVE_DISCS_GROUP = Registry.register(Registries.ITEM_GROUP,

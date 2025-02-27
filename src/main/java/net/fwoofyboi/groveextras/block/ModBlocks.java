@@ -1,6 +1,7 @@
 package net.fwoofyboi.groveextras.block;
 
 import net.fwoofyboi.groveextras.GroveExtras;
+import net.fwoofyboi.groveextras.block.custom.CrystalLightsBlock;
 import net.fwoofyboi.groveextras.block.custom.GravestoneBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -391,6 +392,19 @@ public class ModBlocks {
     public static final Block GRAVESTONE_STATEMENT = registerBlock("gravestone_statement",
             new GravestoneBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(1.0f).requiresTool().sounds(BlockSoundGroup.POLISHED_TUFF)));
+
+    public static final Block CRYSTAL_LIGHTS_COOL = registerBlock("crystal_lights_cool",
+            new CrystalLightsBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.SMALL_AMETHYST_BUD)));
+    public static final Block CRYSTAL_LIGHTS_FLORAL = registerBlock("crystal_lights_floral",
+            new CrystalLightsBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.SMALL_AMETHYST_BUD)));
+    public static final Block CRYSTAL_LIGHTS_FESTIVE = registerBlock("crystal_lights_festive",
+            new CrystalLightsBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.SMALL_AMETHYST_BUD)));
+    public static final Block CRYSTAL_LIGHTS_WARM = registerBlock("crystal_lights_warm",
+            new CrystalLightsBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.SMALL_AMETHYST_BUD)));
 
 
 

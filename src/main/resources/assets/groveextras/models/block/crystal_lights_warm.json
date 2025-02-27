@@ -1,0 +1,17 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "groveextras:block/crystal_lights_warm",
+    "texture": "groveextras:block/crystal_lights_warm"
+  },
+  "elements": [
+    {   "from": [ 0, 0, 15.9 ],
+      "to": [ 16, 16, 15.9 ],
+      "shade": false,
+      "faces": {
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#texture" }
+      }
+    }
+  ]
+}
