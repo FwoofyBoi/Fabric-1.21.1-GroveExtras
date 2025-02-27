@@ -327,6 +327,9 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.groveextras.grove_decor"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.GRAVESTONE);
+                        entries.add(ModBlocks.GRAVESTONE_RIP);
+                        entries.add(ModBlocks.GRAVESTONE_SKULL);
+                        entries.add(ModBlocks.GRAVESTONE_STATEMENT);
 
                     }).build());
 

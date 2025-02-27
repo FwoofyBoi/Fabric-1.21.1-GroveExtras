@@ -382,6 +382,15 @@ public class ModBlocks {
     public static final Block GRAVESTONE = registerBlock("gravestone",
             new GravestoneBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(1.0f).requiresTool().sounds(BlockSoundGroup.POLISHED_TUFF)));
+    public static final Block GRAVESTONE_RIP = registerBlock("gravestone_rip",
+            new GravestoneBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(1.0f).requiresTool().sounds(BlockSoundGroup.POLISHED_TUFF)));
+    public static final Block GRAVESTONE_SKULL = registerBlock("gravestone_skull",
+            new GravestoneBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(1.0f).requiresTool().sounds(BlockSoundGroup.POLISHED_TUFF)));
+    public static final Block GRAVESTONE_STATEMENT = registerBlock("gravestone_statement",
+            new GravestoneBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(1.0f).requiresTool().sounds(BlockSoundGroup.POLISHED_TUFF)));
 
 
 

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/gravestone_statement",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/gravestone_statement"
+    },
+    "facing=south": {
+      "model": "groveextras:block/gravestone_statement",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/gravestone_statement",
+      "y": 270
+    }
+  }
+}
