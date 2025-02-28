@@ -38,5 +38,13 @@
         "stream": true
       }
     ]
+  },
+  "dunes": {
+    "sounds": [
+      {
+        "name": "groveextras:dunes",
+        "stream": true
+      }
+    ]
   }
 }

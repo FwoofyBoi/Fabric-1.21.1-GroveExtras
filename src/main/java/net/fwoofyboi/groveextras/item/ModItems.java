@@ -312,6 +312,8 @@ public class ModItems {
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.TOXIC_KEY).maxCount(1)));
     public static final Item MUSIC_DISC_GLACIER = registerItem("music_disc_glacier",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLACIER_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_DUNES = registerItem("music_disc_dunes",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.DUNES_KEY).maxCount(1)));
 
     //Creative Icons
     public static final Item ICON_FORM_SWAP = registerItem("icon_form_swap", new Item(new Item.Settings()));

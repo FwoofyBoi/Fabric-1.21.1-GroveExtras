@@ -374,6 +374,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MUSIC_DISC_UPLOAD);
                         entries.add(ModItems.MUSIC_DISC_TOXIC);
                         entries.add(ModItems.MUSIC_DISC_GLACIER);
+                        entries.add(ModItems.MUSIC_DISC_DUNES);
 
                     }).build());
 
