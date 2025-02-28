@@ -102,6 +102,12 @@
   "item.groveextras.dev_axe_shadesofcedar": "Shades' Axe",
   "item.groveextras.dev_hoe_shadesofcedar": "Shades' Hoe",
 
+  "item.groveextras.dev_sword_marisnow": "Mari's Sword",
+  "item.groveextras.dev_pickaxe_marisnow": "Mari's Pickaxe",
+  "item.groveextras.dev_shovel_marisnow": "Mari's Shovel",
+  "item.groveextras.dev_axe_marisnow": "Mari's Axe",
+  "item.groveextras.dev_hoe_marisnow": "Mari's Hoe",
+
   "item.groveextras.crystal_shard_blue": "Blue Crystal Shard",
   "item.groveextras.crystal_shard_cyan": "Cyan Crystal Shard",
   "item.groveextras.crystal_shard_green": "Green Crystal Shard",
@@ -469,6 +475,42 @@
   "block.groveextras.crystal_lights_warm": "Warm Crystal Lights",
 
 
+  "block.groveextras.plush_sleigh": "Sleigh Plushie",
+  "block.groveextras.plush_gingerbread_man": "Gingerbread Man Plushie",
+  "block.groveextras.plush_present": "Present Plushie",
+  "block.groveextras.plush_santa_hat": "Santa Hat Plushie",
+  "block.groveextras.plush_snowman": "Snowman Plushie",
+  "block.groveextras.plush_xmas_dratini": "Holiday Dratini Plushie",
+  "block.groveextras.plush_s_xmas_dratini": "Shiny Holiday Dratini Plushie",
+  "block.groveextras.plush_xmas_paras": "Holiday Paras Plushie",
+  "block.groveextras.plush_s_xmas_paras": "Shiny Holiday Paras Plushie",
+  "block.groveextras.plush_xmas_rowlet": "Holiday Rowlet Plushie",
+  "block.groveextras.plush_s_xmas_rowlet": "Shiny Holiday Rowlet Plushie",
+
+  "block.groveextras.plush_pumpkin": "Pumpkin Plushie",
+  "block.groveextras.plush_ghost": "Ghost Plushie",
+  "block.groveextras.plush_lil_reaper": "Lil' Reaper Plushie",
+  "block.groveextras.plush_crystal_ball": "Crystal Ball Plushie",
+  "block.groveextras.plush_candy_corn": "Candy Corn Plushie",
+  "block.groveextras.plush_caramel_apple": "Caramel Apple Plushie",
+  "block.groveextras.plush_potions": "Potion Plushies",
+  "block.groveextras.plush_brain_in_jar": "Brain in a Jar Plushie",
+  "block.groveextras.plush_halloween_bulbasaur": "Halloween Bulbasaur Plushie",
+  "block.groveextras.plush_s_halloween_bulbasaur": "Shiny Halloween Bulbasaur Plushie",
+
+  "block.groveextras.plush_basket": "Easter Basket Plushie",
+  "block.groveextras.plush_chick": "Easter Chick Plushie",
+  "block.groveextras.plush_egg_easter_blue": "Blue Easter Egg Plushie",
+  "block.groveextras.plush_egg_easter_green": "Green Easter Egg Plushie",
+  "block.groveextras.plush_egg_easter_orange": "Orange Easter Egg Plushie",
+  "block.groveextras.plush_easter_diglett": "Easter Diglett Plushie",
+  "block.groveextras.plush_s_easter_diglett": "Shiny Easter Diglett Plushie",
+  "block.groveextras.plush_easter_scorbunny": "Easter Scorbunny Plushie",
+  "block.groveextras.plush_s_easter_scorbunny": "Shiny Easter Scorbunny Plushie",
+  "block.groveextras.plush_easter_togepi": "Easter Togepi Plushie",
+  "block.groveextras.plush_s_easter_togepi": "Shiny Easter Togepi Plushie",
+
+
   "item.groveextras.music_disc_coral_reef": "Music Disc",
   "item.groveextras.music_disc_coral_reef.desc": "ShadesOfCedar - Coral Reef",
 
@@ -499,5 +541,6 @@
   "itemgroup.groveextras.grove_armor": "Armor Sets",
   "itemgroup.groveextras.grove_discs": "Grove Discs",
   "itemgroup.groveextras.plush": "Plushies",
-  "itemgroup.groveextras.grove_decor": "Grove Decor"
+  "itemgroup.groveextras.grove_decor": "Grove Decor",
+  "itemgroup.groveextras.xmas_plush": "X-Mas Plushies"
 }

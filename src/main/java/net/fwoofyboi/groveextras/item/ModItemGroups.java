@@ -300,6 +300,13 @@ public class ModItemGroups {
                         entries.add(ModItems.DEV_SHOVEL_SHADESOFCEDAR);
                         entries.add(ModItems.DEV_AXE_SHADESOFCEDAR);
                         entries.add(ModItems.DEV_HOE_SHADESOFCEDAR);
+
+                        entries.add(ModItems.DEV_SWORD_MARISNOW);
+                        entries.add(ModItems.DEV_PICKAXE_MARISNOW);
+                        entries.add(ModItems.DEV_SHOVEL_MARISNOW);
+                        entries.add(ModItems.DEV_AXE_MARISNOW);
+                        entries.add(ModItems.DEV_HOE_MARISNOW);
+
                     }).build());
 
     public static final ItemGroup MEGA_STONES_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -335,6 +342,25 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRYSTAL_LIGHTS_FLORAL);
                         entries.add(ModBlocks.CRYSTAL_LIGHTS_FESTIVE);
                         entries.add(ModBlocks.CRYSTAL_LIGHTS_WARM);
+
+                    }).build());
+
+    public static final ItemGroup XMAS_PLUSH_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "xmas_plush"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ICON_XMAS))
+                    .displayName(Text.translatable("itemgroup.groveextras.xmas_plush"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.PLUSH_SLEIGH);
+                        entries.add(ModBlocks.PLUSH_GINGERBREAD_MAN);
+                        entries.add(ModBlocks.PLUSH_PRESENT);
+                        entries.add(ModBlocks.PLUSH_SANTA_HAT);
+                        entries.add(ModBlocks.PLUSH_SNOWMAN);
+                        entries.add(ModBlocks.PLUSH_XMAS_DRATINI);
+                        entries.add(ModBlocks.PLUSH_S_XMAS_DRATINI);
+                        entries.add(ModBlocks.PLUSH_XMAS_PARAS);
+                        entries.add(ModBlocks.PLUSH_S_XMAS_PARAS);
+                        entries.add(ModBlocks.PLUSH_XMAS_ROWLET);
+                        entries.add(ModBlocks.PLUSH_S_XMAS_ROWLET);
 
                     }).build());
 

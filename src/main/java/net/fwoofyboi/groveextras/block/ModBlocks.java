@@ -1,8 +1,7 @@
 package net.fwoofyboi.groveextras.block;
 
 import net.fwoofyboi.groveextras.GroveExtras;
-import net.fwoofyboi.groveextras.block.custom.CrystalLightsBlock;
-import net.fwoofyboi.groveextras.block.custom.GravestoneBlock;
+import net.fwoofyboi.groveextras.block.custom.*;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -406,7 +405,45 @@ public class ModBlocks {
             new CrystalLightsBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.SMALL_AMETHYST_BUD)));
 
+    //X-Mas Plushies
+    public static final Block PLUSH_SLEIGH = registerBlock("plush_sleigh",
+            new SleighPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_GINGERBREAD_MAN = registerBlock("plush_gingerbread_man",
+            new GingerbreadManPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_PRESENT = registerBlock("plush_present",
+            new PresentPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_SANTA_HAT = registerBlock("plush_santa_hat",
+            new SantaHatPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_SNOWMAN = registerBlock("plush_snowman",
+            new SnowmanPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_XMAS_DRATINI = registerBlock("plush_xmas_dratini",
+            new XmasDratiniPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_XMAS_DRATINI = registerBlock("plush_s_xmas_dratini",
+            new XmasDratiniPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_XMAS_PARAS = registerBlock("plush_xmas_paras",
+            new XmasParasPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_XMAS_PARAS = registerBlock("plush_s_xmas_paras",
+            new XmasParasPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_XMAS_ROWLET = registerBlock("plush_xmas_rowlet",
+            new XmasRowletPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_XMAS_ROWLET = registerBlock("plush_s_xmas_rowlet",
+            new XmasRowletPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
 
+    //Easter Plushies
+
+
+    //Halloween Plushies
 
 
     private static Block registerBlock(String name, Block block) {
