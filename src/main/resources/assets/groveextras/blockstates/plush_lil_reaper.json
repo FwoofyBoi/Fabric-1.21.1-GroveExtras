@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/plush_lil_reaper",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/plush_lil_reaper"
+    },
+    "facing=south": {
+      "model": "groveextras:block/plush_lil_reaper",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/plush_lil_reaper",
+      "y": 270
+    }
+  }
+}

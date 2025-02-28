@@ -325,6 +325,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.groveextras.plush"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.PLUSH_VOUCHER);
+                        entries.add(ModBlocks.PLUSH_EGG);
 
                     }).build());
 
@@ -362,6 +363,41 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PLUSH_XMAS_ROWLET);
                         entries.add(ModBlocks.PLUSH_S_XMAS_ROWLET);
 
+                    }).build());
+
+    public static final ItemGroup EASTER_PLUSH_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "easter_plush"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ICON_EASTER))
+                    .displayName(Text.translatable("itemgroup.groveextras.easter_plush"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.PLUSH_BASKET);
+                        entries.add(ModBlocks.PLUSH_CHICK);
+                        entries.add(ModBlocks.PLUSH_EGG_EASTER_BLUE);
+                        entries.add(ModBlocks.PLUSH_EGG_EASTER_GREEN);
+                        entries.add(ModBlocks.PLUSH_EGG_EASTER_ORANGE);
+                        entries.add(ModBlocks.PLUSH_EASTER_DIGLETT);
+                        entries.add(ModBlocks.PLUSH_S_EASTER_DIGLETT);
+                        entries.add(ModBlocks.PLUSH_EASTER_SCORBUNNY);
+                        entries.add(ModBlocks.PLUSH_S_EASTER_SCORBUNNY);
+                        entries.add(ModBlocks.PLUSH_EASTER_TOGEPI);
+                        entries.add(ModBlocks.PLUSH_S_EASTER_TOGEPI);
+                    }).build());
+
+    public static final ItemGroup HALLOWEEN_PLUSH_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "halloween_plush"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ICON_HALLOWEEN))
+                    .displayName(Text.translatable("itemgroup.groveextras.halloween_plush"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.PLUSH_PUMPKIN);
+                        entries.add(ModBlocks.PLUSH_GHOST);
+                        entries.add(ModBlocks.PLUSH_LIL_REAPER);
+                        entries.add(ModBlocks.PLUSH_CRYSTAL_BALL);
+                        entries.add(ModBlocks.PLUSH_CANDY_CORN);
+                        entries.add(ModBlocks.PLUSH_CARAMEL_APPLE);
+                        entries.add(ModBlocks.PLUSH_POTIONS);
+                        entries.add(ModBlocks.PLUSH_BRAIN_IN_JAR);
+                        entries.add(ModBlocks.PLUSH_HALLOWEEN_BULBASAUR);
+                        entries.add(ModBlocks.PLUSH_S_HALLOWEEN_BULBASAUR);
                     }).build());
 
     public static final ItemGroup GROVE_DISCS_GROUP = Registry.register(Registries.ITEM_GROUP,

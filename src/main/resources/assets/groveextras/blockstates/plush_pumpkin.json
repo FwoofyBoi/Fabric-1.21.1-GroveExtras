@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/plush_pumpkin",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/plush_pumpkin"
+    },
+    "facing=south": {
+      "model": "groveextras:block/plush_pumpkin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/plush_pumpkin",
+      "y": 270
+    }
+  }
+}

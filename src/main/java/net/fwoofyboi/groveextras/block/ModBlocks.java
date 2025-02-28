@@ -375,6 +375,7 @@ public class ModBlocks {
     public static final Block CHISELED_CRYSTAL_BLOCK_RAINBOW = registerBlock("chiseled_crystal_block_rainbow",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+
     public static final Block SHRINE_DARKRAI = registerBlock("shrine_darkrai",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.HEAVY_CORE)));
 
@@ -441,10 +442,76 @@ public class ModBlocks {
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
 
     //Easter Plushies
-
+    public static final Block PLUSH_BASKET = registerBlock("plush_basket",
+            new BasketPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_CHICK = registerBlock("plush_chick",
+            new ChickPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_EGG_EASTER_BLUE = registerBlock("plush_egg_easter_blue",
+            new EggPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_EGG_EASTER_GREEN = registerBlock("plush_egg_easter_green",
+            new EggPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_EGG_EASTER_ORANGE = registerBlock("plush_egg_easter_orange",
+            new EggPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_EASTER_DIGLETT = registerBlock("plush_easter_diglett",
+            new EasterDiglettPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_EASTER_DIGLETT = registerBlock("plush_s_easter_diglett",
+            new EasterDiglettPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_EASTER_SCORBUNNY = registerBlock("plush_easter_scorbunny",
+            new EasterScorbunnyPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_EASTER_SCORBUNNY = registerBlock("plush_s_easter_scorbunny",
+            new EasterScorbunnyPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_EASTER_TOGEPI = registerBlock("plush_easter_togepi",
+            new EasterTogepiPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_EASTER_TOGEPI = registerBlock("plush_s_easter_togepi",
+            new EasterTogepiPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
 
     //Halloween Plushies
+    public static final Block PLUSH_PUMPKIN = registerBlock("plush_pumpkin",
+            new PumpkinPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_GHOST = registerBlock("plush_ghost",
+            new GhostPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_LIL_REAPER = registerBlock("plush_lil_reaper",
+            new LilReaperPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_CRYSTAL_BALL = registerBlock("plush_crystal_ball",
+            new CrystalBallPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_CANDY_CORN = registerBlock("plush_candy_corn",
+            new CandyCornPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_CARAMEL_APPLE = registerBlock("plush_caramel_apple",
+            new CaramelApplePlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_POTIONS = registerBlock("plush_potions",
+            new PotionsPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_BRAIN_IN_JAR = registerBlock("plush_brain_in_jar",
+            new BrainInJarPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_HALLOWEEN_BULBASAUR = registerBlock("plush_halloween_bulbasaur",
+            new HalloweenBulbasaurPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_HALLOWEEN_BULBASAUR = registerBlock("plush_s_halloween_bulbasaur",
+            new HalloweenBulbasaurPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
 
+    //Plushies
+    public static final Block PLUSH_EGG = registerBlock("plush_egg",
+            new EggPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

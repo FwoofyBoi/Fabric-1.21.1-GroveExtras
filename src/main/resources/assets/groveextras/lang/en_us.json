@@ -510,6 +510,8 @@
   "block.groveextras.plush_easter_togepi": "Easter Togepi Plushie",
   "block.groveextras.plush_s_easter_togepi": "Shiny Easter Togepi Plushie",
 
+  "block.groveextras.plush_egg": "Egg Plushie",
+
 
   "item.groveextras.music_disc_coral_reef": "Music Disc",
   "item.groveextras.music_disc_coral_reef.desc": "ShadesOfCedar - Coral Reef",
@@ -545,5 +547,7 @@
   "itemgroup.groveextras.grove_discs": "Grove Discs",
   "itemgroup.groveextras.plush": "Plushies",
   "itemgroup.groveextras.grove_decor": "Grove Decor",
-  "itemgroup.groveextras.xmas_plush": "X-Mas Plushies"
+  "itemgroup.groveextras.xmas_plush": "X-Mas Plushies",
+  "itemgroup.groveextras.easter_plush": "Easter Plushies",
+  "itemgroup.groveextras.halloween_plush": "Halloween Plushies"
 }

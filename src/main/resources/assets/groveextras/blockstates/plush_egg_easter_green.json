@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/plush_egg_easter_green",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/plush_egg_easter_green"
+    },
+    "facing=south": {
+      "model": "groveextras:block/plush_egg_easter_green",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/plush_egg_easter_green",
+      "y": 270
+    }
+  }
+}
