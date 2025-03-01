@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/plush_pouch_star_dust",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/plush_pouch_star_dust"
+    },
+    "facing=south": {
+      "model": "groveextras:block/plush_pouch_star_dust",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/plush_pouch_star_dust",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "groveextras:block/plush_dwebble",
+  "texture_size": [
+    64,
+    64
+  ],
+  "textures": {
+    "0": "groveextras:block/plush_s_dwebble",
+    "particle": "groveextras:block/plush_s_dwebble"
+  }
+}

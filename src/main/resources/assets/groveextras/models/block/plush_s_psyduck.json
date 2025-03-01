@@ -1,0 +1,11 @@
+{
+  "parent": "groveextras:block/plush_psyduck",
+  "texture_size": [
+    32,
+    32
+  ],
+  "textures": {
+    "0": "groveextras:block/plush_s_psyduck",
+    "particle": "groveextras:block/plush_s_psyduck"
+  }
+}

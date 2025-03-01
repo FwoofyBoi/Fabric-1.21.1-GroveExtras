@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/plush_s_kabuto",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/plush_s_kabuto"
+    },
+    "facing=south": {
+      "model": "groveextras:block/plush_s_kabuto",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/plush_s_kabuto",
+      "y": 270
+    }
+  }
+}

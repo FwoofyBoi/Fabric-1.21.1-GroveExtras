@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/plush_shroomish",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/plush_shroomish"
+    },
+    "facing=south": {
+      "model": "groveextras:block/plush_shroomish",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/plush_shroomish",
+      "y": 270
+    }
+  }
+}

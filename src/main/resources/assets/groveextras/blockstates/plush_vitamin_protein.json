@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/plush_vitamin_protein",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/plush_vitamin_protein"
+    },
+    "facing=south": {
+      "model": "groveextras:block/plush_vitamin_protein",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/plush_vitamin_protein",
+      "y": 270
+    }
+  }
+}

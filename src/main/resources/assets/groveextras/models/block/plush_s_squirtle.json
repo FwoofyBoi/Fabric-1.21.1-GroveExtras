@@ -1,0 +1,11 @@
+{
+  "parent": "groveextras:block/plush_squirtle",
+  "texture_size": [
+    64,
+    64
+  ],
+  "textures": {
+    "0": "groveextras:block/plush_s_squirtle",
+    "particle": "groveextras:block/plush_s_squirtle"
+  }
+}

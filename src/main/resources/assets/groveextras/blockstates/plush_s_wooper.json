@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/plush_s_wooper",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/plush_s_wooper"
+    },
+    "facing=south": {
+      "model": "groveextras:block/plush_s_wooper",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/plush_s_wooper",
+      "y": 270
+    }
+  }
+}
