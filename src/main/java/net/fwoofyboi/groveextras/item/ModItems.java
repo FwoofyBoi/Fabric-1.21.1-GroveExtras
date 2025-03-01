@@ -62,7 +62,7 @@ public class ModItems {
     //Summon Swords & Shields
     public static final Item APPRENTICES_EPEE = registerItem("apprentices_epee",
             new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1, -2.0F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
     public static final Item PLASMA_SWORD = registerItem("plasma_sword",
             new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
@@ -70,15 +70,15 @@ public class ModItems {
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
     public static final Item SPECTRAL_CLUB = registerItem("spectral_club",
             new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 5, -3.0F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
     public static final Item COBALT_EPEE = registerItem("cobalt_epee",
             new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1, -2.0F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
     public static final Item IVY_CUDGEL = registerItem("ivy_cudgel",
             new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 5, -3.0F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
     public static final Item LAKE_SPIRIT_SHIELD = registerItem("lake_spirit_shield", new ShieldItem(new Item.Settings()));
     public static final Item LAKE_SPIRIT_SWORD = registerItem("lake_spirit_sword",
@@ -96,11 +96,11 @@ public class ModItems {
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
     public static final Item TERRACOTTA_EPEE = registerItem("terracotta_epee",
             new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1, -2.0F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
     public static final Item VIRIDIAN_EPEE = registerItem("viridian_epee",
             new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1, -2.0F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
 
     //Evo Stone Armors

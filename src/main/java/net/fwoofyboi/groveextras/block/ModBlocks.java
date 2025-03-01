@@ -508,6 +508,9 @@ public class ModBlocks {
             new HalloweenBulbasaurPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
 
+    //Trophies
+
+
     //Plushies
     public static final Block PLUSH_BALL_POKE = registerBlock("plush_ball_poke",
             new BallPlushBlock(AbstractBlock.Settings.create().nonOpaque()
