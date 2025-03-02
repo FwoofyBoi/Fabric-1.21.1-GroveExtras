@@ -307,6 +307,12 @@ public class ModItemGroups {
                         entries.add(ModItems.DEV_AXE_MARISNOW);
                         entries.add(ModItems.DEV_HOE_MARISNOW);
 
+                        entries.add(ModItems.DEV_SWORD_KINGSTEGO);
+                        entries.add(ModItems.DEV_PICKAXE_KINGSTEGO);
+                        entries.add(ModItems.DEV_SHOVEL_KINGSTEGO);
+                        entries.add(ModItems.DEV_AXE_KINGSTEGO);
+                        entries.add(ModItems.DEV_HOE_KINGSTEGO);
+
                     }).build());
 
     public static final ItemGroup MEGA_STONES_GROUP = Registry.register(Registries.ITEM_GROUP,

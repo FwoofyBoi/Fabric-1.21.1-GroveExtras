@@ -301,6 +301,27 @@ public class ModItems {
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 0, -3.0F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
 
+    public static final Item DEV_SWORD_KINGSTEGO = registerItem("dev_sword_kingstego",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 5, -3.0F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_PICKAXE_KINGSTEGO = registerItem("dev_pickaxe_kingstego",
+            new PickaxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1, -2.8F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_SHOVEL_KINGSTEGO = registerItem("dev_shovel_kingstego",
+            new ShovelItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1.5F, -3.0F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_AXE_KINGSTEGO = registerItem("dev_axe_kingstego",
+            new AxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 6, -3.2F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_HOE_KINGSTEGO = registerItem("dev_hoe_kingstego",
+            new HoeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 0, -3.0F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+
     //Grove Discs
     public static final Item MUSIC_DISC_CORAL_REEF = registerItem("music_disc_coral_reef",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.CORAL_REEF_KEY).maxCount(1)));
