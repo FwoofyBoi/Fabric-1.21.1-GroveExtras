@@ -132,7 +132,7 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block GRAVEL_AQUARIUM = registerBlock("gravel_aquarium",
-            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.GRAVEL)));
+            new Block(AbstractBlock.Settings.create().strength(0.6f).sounds(BlockSoundGroup.GRAVEL)));
 
     public static final Block GRANITE_BRICKS = registerBlock("granite_bricks",
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.TUFF_BRICKS)));
