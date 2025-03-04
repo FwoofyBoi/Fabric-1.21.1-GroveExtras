@@ -140,6 +140,7 @@
   "item.groveextras.icon_xmas": "X-Mas Icon",
   "item.groveextras.icon_easter": "Easter Icon",
   "item.groveextras.icon_halloween": "Halloween Icon",
+  "item.groveextras.icon_speak": "Speak Icon",
 
   "item.groveextras.syrupy_apple": "Syrupy Apple",
   "item.groveextras.metal_alloy": "Metal Alloy",
@@ -228,7 +229,7 @@
   "item.groveextras.blue_soul_dew": "Blue Soul Dew",
   "item.groveextras.bulu_bell": "Bulu Bell",
   "item.groveextras.cloned_sash": "Cloned Sash",
-  "item.groveextras.combat_sash": "Combat Feather",
+  "item.groveextras.combat_feather": "Combat Feather",
   "item.groveextras.death_wing": "Death Wing",
   "item.groveextras.dragon_statue": "Dragon Statue",
   "item.groveextras.eclipse_flute": "Eclipse Flute",
@@ -332,7 +333,7 @@
   "block.groveextras.mines_fossilised_stone": "Fossilised Stone",
   "block.groveextras.mines_fossilised_deepslate": "Fossilised Deepslate",
 
-  "block.groveextras.shrines_darkrai": "Darkrai Shrine",
+  "block.groveextras.shrine_darkrai": "Darkrai Shrine",
 
   "block.groveextras.budding_crystal_blue": "Budding Blue Crystal",
   "block.groveextras.budding_crystal_cyan": "Budding Cyan Crystal",

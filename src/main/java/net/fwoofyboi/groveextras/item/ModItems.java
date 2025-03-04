@@ -343,6 +343,7 @@ public class ModItems {
     public static final Item ICON_XMAS = registerItem("icon_xmas", new Item(new Item.Settings()));
     public static final Item ICON_EASTER = registerItem("icon_easter", new Item(new Item.Settings()));
     public static final Item ICON_HALLOWEEN = registerItem("icon_halloween", new Item(new Item.Settings()));
+    public static final Item ICON_SPEAK = registerItem("icon_speak", new Item(new Item.Settings()));
 
     //Plushie Vouchers
 
