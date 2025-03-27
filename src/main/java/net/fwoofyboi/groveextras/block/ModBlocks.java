@@ -47,11 +47,11 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block MINES_FOSSILISED_SAND = registerBlock("mines_fossilised_sand",
-            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.SAND)));
+            new Block(AbstractBlock.Settings.create().strength(0.5f).requiresTool().sounds(BlockSoundGroup.SAND)));
     public static final Block MINES_FOSSILISED_STONE = registerBlock("mines_fossilised_stone",
-            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().strength(0.5f).requiresTool().sounds(BlockSoundGroup.STONE)));
     public static final Block MINES_FOSSILISED_DEEPSLATE = registerBlock("mines_fossilised_deepslate",
-            new Block(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+            new Block(AbstractBlock.Settings.create().strength(0.5f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block BUDDING_CRYSTAL_BLUE = registerBlock("budding_crystal_blue",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
