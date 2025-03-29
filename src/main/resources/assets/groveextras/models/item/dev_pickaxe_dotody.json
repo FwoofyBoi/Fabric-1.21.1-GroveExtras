@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "groveextras:item/dev_pickaxe_dotody"
+  }
+}

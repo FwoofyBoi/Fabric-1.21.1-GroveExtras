@@ -322,6 +322,69 @@ public class ModItems {
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 0, -3.0F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
 
+    public static final Item DEV_SWORD_DOTODY = registerItem("dev_sword_dotody",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_PICKAXE_DOTODY = registerItem("dev_pickaxe_dotody",
+            new PickaxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1, -2.8F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_SHOVEL_DOTODY = registerItem("dev_shovel_dotody",
+            new ShovelItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1.5F, -3.0F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_AXE_DOTODY = registerItem("dev_axe_dotody",
+            new AxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 6, -3.2F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_HOE_DOTODY = registerItem("dev_hoe_dotody",
+            new HoeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 0, -3.0F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+
+    public static final Item DEV_SWORD_GIRAFFE = registerItem("dev_sword_giraffe",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_PICKAXE_GIRAFFE = registerItem("dev_pickaxe_giraffe",
+            new PickaxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1, -2.8F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_SHOVEL_GIRAFFE = registerItem("dev_shovel_giraffe",
+            new ShovelItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1.5F, -3.0F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_AXE_GIRAFFE = registerItem("dev_axe_giraffe",
+            new AxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 6, -3.2F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_HOE_GIRAFFE = registerItem("dev_hoe_giraffe",
+            new HoeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 0, -3.0F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+
+    public static final Item DEV_SWORD_CRAYOLA = registerItem("dev_sword_crayola",
+            new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_PICKAXE_CRAYOLA = registerItem("dev_pickaxe_crayola",
+            new PickaxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1, -2.8F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_SHOVEL_CRAYOLA = registerItem("dev_shovel_crayola",
+            new ShovelItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1.5F, -3.0F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_AXE_CRAYOLA = registerItem("dev_axe_crayola",
+            new AxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 6, -3.2F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_HOE_CRAYOLA = registerItem("dev_hoe_crayola",
+            new HoeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 0, -3.0F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+
     //Grove Discs
     public static final Item MUSIC_DISC_CORAL_REEF = registerItem("music_disc_coral_reef",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.CORAL_REEF_KEY).maxCount(1)));
