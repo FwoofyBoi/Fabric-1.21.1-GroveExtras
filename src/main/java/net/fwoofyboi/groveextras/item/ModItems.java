@@ -235,7 +235,7 @@ public class ModItems {
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
     //Dev Tools
-    public static final Item DEV_BRUSH_BAWNGWAWTER = registerItem("dev_brush_bawngwawter", new BrushItem(new Item.Settings()));
+    public static final Item DEV_BRUSH_BAWNGWAWTER = registerItem("dev_brush_bawngwawter", new BrushItem(new Item.Settings().maxCount(1)));
     public static final Item DEV_SHEARS_BAWNGWAWTER = registerItem("dev_shears_bawngwawter", new ShearsItem(new Item.Settings()));
     public static final Item DEV_SWORD_BAWNGWAWTER = registerItem("dev_sword_bawngwawter",
             new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
@@ -258,7 +258,7 @@ public class ModItems {
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 0, -3.0F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
 
-    public static final Item DEV_BRUSH_SHADESOFCEDAR = registerItem("dev_brush_shadesofcedar", new BrushItem(new Item.Settings()));
+    public static final Item DEV_BRUSH_SHADESOFCEDAR = registerItem("dev_brush_shadesofcedar", new BrushItem(new Item.Settings().maxCount(1)));
     public static final Item DEV_SWORD_SHADESOFCEDAR = registerItem("dev_sword_shadesofcedar",
             new SwordItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 3, -2.4F))
