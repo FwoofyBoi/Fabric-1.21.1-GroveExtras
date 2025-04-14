@@ -698,6 +698,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PLATE_SPLASH);
                         entries.add(ModItems.PLATE_IRON);
                         entries.add(ModItems.PLATE_FLAME);
+                        entries.add(ModItems.PLATE_BLANK);
                         entries.add(ModItems.MASK_TEAL);
                         entries.add(ModItems.MASK_CORNERSTONE);
                         entries.add(ModItems.MASK_WELLSPRING);

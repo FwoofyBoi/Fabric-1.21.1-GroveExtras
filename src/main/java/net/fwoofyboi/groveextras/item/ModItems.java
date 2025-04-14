@@ -431,6 +431,7 @@ public class ModItems {
     public static final Item PLATE_SPLASH = registerItem("plate_splash", new Item(new Item.Settings()));
     public static final Item PLATE_IRON = registerItem("plate_iron", new Item(new Item.Settings()));
     public static final Item PLATE_FLAME = registerItem("plate_flame", new Item(new Item.Settings()));
+    public static final Item PLATE_BLANK = registerItem("plate_blank", new Item(new Item.Settings()));
     public static final Item MASK_TEAL = registerItem("mask_teal", new Item(new Item.Settings()));
     public static final Item MASK_CORNERSTONE = registerItem("mask_cornerstone", new Item(new Item.Settings()));
     public static final Item MASK_WELLSPRING = registerItem("mask_wellspring", new Item(new Item.Settings()));
