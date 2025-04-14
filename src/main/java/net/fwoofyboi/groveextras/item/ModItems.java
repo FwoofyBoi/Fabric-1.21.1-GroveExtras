@@ -463,6 +463,25 @@ public class ModItems {
     public static final Item ULTRANECROZIUM_Z = registerItem("ultranecrozium_z", new Item(new Item.Settings()));
     public static final Item PRISON_BOTTLE = registerItem("prison_bottle", new Item(new Item.Settings()));
 
+    public static final Item MEMORY_NORMAL = registerItem("memory_normal", new Item(new Item.Settings()));
+    public static final Item MEMORY_FIRE = registerItem("memory_fire", new Item(new Item.Settings()));
+    public static final Item MEMORY_GRASS = registerItem("memory_grass", new Item(new Item.Settings()));
+    public static final Item MEMORY_WATER = registerItem("memory_water", new Item(new Item.Settings()));
+    public static final Item MEMORY_FLYING = registerItem("memory_flying", new Item(new Item.Settings()));
+    public static final Item MEMORY_STEEL = registerItem("memory_steel", new Item(new Item.Settings()));
+    public static final Item MEMORY_ICE = registerItem("memory_ice", new Item(new Item.Settings()));
+    public static final Item MEMORY_ROCK = registerItem("memory_rock", new Item(new Item.Settings()));
+    public static final Item MEMORY_GHOST = registerItem("memory_ghost", new Item(new Item.Settings()));
+    public static final Item MEMORY_DARK = registerItem("memory_dark", new Item(new Item.Settings()));
+    public static final Item MEMORY_FAIRY = registerItem("memory_fairy", new Item(new Item.Settings()));
+    public static final Item MEMORY_PSYCHIC = registerItem("memory_psychic", new Item(new Item.Settings()));
+    public static final Item MEMORY_BUG = registerItem("memory_bug", new Item(new Item.Settings()));
+    public static final Item MEMORY_POISON = registerItem("memory_poison", new Item(new Item.Settings()));
+    public static final Item MEMORY_GROUND = registerItem("memory_ground", new Item(new Item.Settings()));
+    public static final Item MEMORY_ELECTRIC = registerItem("memory_electric", new Item(new Item.Settings()));
+    public static final Item MEMORY_DRAGON = registerItem("memory_dragon", new Item(new Item.Settings()));
+    public static final Item MEMORY_FIGHTING = registerItem("memory_fighting", new Item(new Item.Settings()));
+
     //Key Items (Summon Items)
     public static final Item ANCIENT_DRIVE = registerItem("ancient_drive", new Item(new Item.Settings()));
     public static final Item AZURE_FLUTE = registerItem("azure_flute", new Item(new Item.Settings()));
@@ -557,6 +576,27 @@ public class ModItems {
     //Mega Stones
     public static final Item RAW_DIANCITE = registerItem("raw_diancite", new Item(new Item.Settings()));
     public static final Item CUT_DIANCITE = registerItem("cut_diancite", new Item(new Item.Settings()));
+
+    //Badges
+    public static final Item BADGE_BLANK = registerItem("badge_blank", new Item(new Item.Settings()));
+    public static final Item BADGE_NORMAL = registerItem("badge_normal", new Item(new Item.Settings()));
+    public static final Item BADGE_FIRE = registerItem("badge_fire", new Item(new Item.Settings()));
+    public static final Item BADGE_WATER = registerItem("badge_water", new Item(new Item.Settings()));
+    public static final Item BADGE_ELECTRIC = registerItem("badge_electric", new Item(new Item.Settings()));
+    public static final Item BADGE_ROCK = registerItem("badge_rock", new Item(new Item.Settings()));
+    public static final Item BADGE_GROUND = registerItem("badge_ground", new Item(new Item.Settings()));
+    public static final Item BADGE_STEEL = registerItem("badge_steel", new Item(new Item.Settings()));
+    public static final Item BADGE_DARK = registerItem("badge_dark", new Item(new Item.Settings()));
+    public static final Item BADGE_FAIRY = registerItem("badge_fairy", new Item(new Item.Settings()));
+    public static final Item BADGE_FIGHTING = registerItem("badge_fighting", new Item(new Item.Settings()));
+    public static final Item BADGE_PSYCHIC = registerItem("badge_psychic", new Item(new Item.Settings()));
+    public static final Item BADGE_GHOST = registerItem("badge_ghost", new Item(new Item.Settings()));
+    public static final Item BADGE_BUG = registerItem("badge_bug", new Item(new Item.Settings()));
+    public static final Item BADGE_POISON = registerItem("badge_poison", new Item(new Item.Settings()));
+    public static final Item BADGE_FLYING = registerItem("badge_flying", new Item(new Item.Settings()));
+    public static final Item BADGE_ICE = registerItem("badge_ice", new Item(new Item.Settings()));
+    public static final Item BADGE_DRAGON = registerItem("badge_dragon", new Item(new Item.Settings()));
+    public static final Item BADGE_GRASS = registerItem("badge_grass", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(GroveExtras.MOD_ID, name), item);

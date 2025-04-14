@@ -730,6 +730,54 @@ public class ModItemGroups {
                         entries.add(ModItems.ULTRANECROZIUM_Z);
                         entries.add(ModItems.PRISON_BOTTLE);
 
+                        entries.add(ModItems.MEMORY_NORMAL);
+                        entries.add(ModItems.MEMORY_FAIRY);
+                        entries.add(ModItems.MEMORY_FIGHTING);
+                        entries.add(ModItems.MEMORY_FIRE);
+                        entries.add(ModItems.MEMORY_FLYING);
+                        entries.add(ModItems.MEMORY_DARK);
+                        entries.add(ModItems.MEMORY_DRAGON);
+                        entries.add(ModItems.MEMORY_BUG);
+                        entries.add(ModItems.MEMORY_ELECTRIC);
+                        entries.add(ModItems.MEMORY_GHOST);
+                        entries.add(ModItems.MEMORY_GRASS);
+                        entries.add(ModItems.MEMORY_GROUND);
+                        entries.add(ModItems.MEMORY_ROCK);
+                        entries.add(ModItems.MEMORY_WATER);
+                        entries.add(ModItems.MEMORY_POISON);
+                        entries.add(ModItems.MEMORY_PSYCHIC);
+                        entries.add(ModItems.MEMORY_ICE);
+                        entries.add(ModItems.MEMORY_STEEL);
+
+                    }).build());
+
+
+    public static final ItemGroup BADGE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "badge_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.BADGE_BLANK))
+                    .displayName(Text.translatable("itemgroup.groveextras.badge_items"))
+                    .entries((displayContext, entries) -> {
+
+                        entries.add(ModItems.BADGE_BUG);
+                        entries.add(ModItems.BADGE_DARK);
+                        entries.add(ModItems.BADGE_DRAGON);
+                        entries.add(ModItems.BADGE_ELECTRIC);
+                        entries.add(ModItems.BADGE_FAIRY);
+                        entries.add(ModItems.BADGE_FIGHTING);
+                        entries.add(ModItems.BADGE_FIRE);
+                        entries.add(ModItems.BADGE_FLYING);
+                        entries.add(ModItems.BADGE_GHOST);
+                        entries.add(ModItems.BADGE_GRASS);
+                        entries.add(ModItems.BADGE_GROUND);
+                        entries.add(ModItems.BADGE_ICE);
+                        entries.add(ModItems.BADGE_NORMAL);
+                        entries.add(ModItems.BADGE_POISON);
+                        entries.add(ModItems.BADGE_PSYCHIC);
+                        entries.add(ModItems.BADGE_ROCK);
+                        entries.add(ModItems.BADGE_STEEL);
+                        entries.add(ModItems.BADGE_WATER);
+                        entries.add(ModItems.BADGE_BLANK);
+
                     }).build());
 
 
