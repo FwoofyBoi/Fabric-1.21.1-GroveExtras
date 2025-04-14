@@ -100,5 +100,7 @@ public class GroveExtrasClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_SMOLIV, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_SMOLIV, RenderLayer.getCutout());
 
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LEAGUE_TROPHY, RenderLayer.getCutout());
+
     }
 }

@@ -710,6 +710,10 @@ public class ModBlocks {
             new SmolivPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
 
+    //Trophies
+    public static final Block LEAGUE_TROPHY = registerBlock("league_trophy",
+            new LeagueTrophyBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOD)));
 
 
     private static Block registerBlock(String name, Block block) {

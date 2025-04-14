@@ -778,6 +778,8 @@ public class ModItemGroups {
                         entries.add(ModItems.BADGE_WATER);
                         entries.add(ModItems.BADGE_BLANK);
 
+                        entries.add(ModBlocks.LEAGUE_TROPHY);
+
                     }).build());
 
 
