@@ -18,9 +18,9 @@ public class LeagueTrophyBlock extends HorizontalFacingBlock {
 
     public static final MapCodec<LeagueTrophyBlock> CODEC = createCodec(LeagueTrophyBlock::new);
     private static final VoxelShape X_SHAPE =
-            Block.createCuboidShape(5.0, 0.0, 5.0,11.0, 6.0, 11.0);
+            Block.createCuboidShape(4.0, 0.0, 4.0,12.0, 13.0, 12.0);
     private static final VoxelShape Z_SHAPE =
-            Block.createCuboidShape(5.0, 0.0, 5.0,11.0, 6.0, 11.0);
+            Block.createCuboidShape(4.0, 0.0, 4.0,12.0, 13.0, 12.0);
 
 
     public LeagueTrophyBlock(Settings settings) {
