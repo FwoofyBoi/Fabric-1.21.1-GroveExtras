@@ -331,6 +331,9 @@ public class ModItemGroups {
                         entries.add(ModItems.DEV_AXE_CRAYOLA);
                         entries.add(ModItems.DEV_HOE_CRAYOLA);
 
+                        entries.add(ModItems.DEV_PICKAXE_TYLLUX);
+                        entries.add(ModItems.DEV_AXE_TYLLUX);
+
                     }).build());
 
     public static final ItemGroup MEGA_STONES_GROUP = Registry.register(Registries.ITEM_GROUP,

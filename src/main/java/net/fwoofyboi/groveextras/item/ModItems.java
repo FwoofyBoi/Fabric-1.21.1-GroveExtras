@@ -386,6 +386,15 @@ public class ModItems {
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 0, -3.0F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
 
+    public static final Item DEV_PICKAXE_TYLLUX = registerItem("dev_pickaxe_tyllux",
+            new PickaxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 1, -2.8F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+    public static final Item DEV_AXE_TYLLUX = registerItem("dev_axe_tyllux",
+            new AxeItem(ModToolMaterials.DNA_STRAND, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 6, -3.2F))
+                    .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
+
     //Grove Discs
     public static final Item MUSIC_DISC_CORAL_REEF = registerItem("music_disc_coral_reef",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.CORAL_REEF_KEY).maxCount(1)));
