@@ -500,6 +500,9 @@ public class ModItemGroups {
                         entries.add(ModItems.MUSIC_DISC_TOXIC);
                         entries.add(ModItems.MUSIC_DISC_GLACIER);
                         entries.add(ModItems.MUSIC_DISC_DUNES);
+                        entries.add(ModItems.MUSIC_DISC_WHIMSY);
+                        entries.add(ModItems.MUSIC_DISC_GLADE);
+                        entries.add(ModItems.MUSIC_DISC_MENACE);
 
                     }).build());
 

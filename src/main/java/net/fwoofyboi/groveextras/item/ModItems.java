@@ -398,6 +398,12 @@ public class ModItems {
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLACIER_KEY).maxCount(1)));
     public static final Item MUSIC_DISC_DUNES = registerItem("music_disc_dunes",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.DUNES_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_WHIMSY = registerItem("music_disc_whimsy",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.WHIMSY_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_GLADE = registerItem("music_disc_glade",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.GLADE_KEY).maxCount(1)));
+    public static final Item MUSIC_DISC_MENACE = registerItem("music_disc_menace",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.MENACE_KEY).maxCount(1)));
 
     //Creative Icons
     public static final Item ICON_FORM_SWAP = registerItem("icon_form_swap", new Item(new Item.Settings()));

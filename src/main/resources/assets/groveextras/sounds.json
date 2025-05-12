@@ -46,5 +46,29 @@
         "stream": true
       }
     ]
+  },
+  "whimsy": {
+    "sounds": [
+      {
+        "name": "groveextras:whimsy",
+        "stream": true
+      }
+    ]
+  },
+  "glade": {
+    "sounds": [
+      {
+        "name": "groveextras:glade",
+        "stream": true
+      }
+    ]
+  },
+  "menace": {
+    "sounds": [
+      {
+        "name": "groveextras:menace",
+        "stream": true
+      }
+    ]
   }
 }

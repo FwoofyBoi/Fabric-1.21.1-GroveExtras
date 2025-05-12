@@ -35,6 +35,18 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> DUNES_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(GroveExtras.MOD_ID, "dunes"));
 
+    public static final SoundEvent WHIMSY = registerSoundEvent("whimsy");
+    public static final RegistryKey<JukeboxSong> WHIMSY_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(GroveExtras.MOD_ID, "whimsy"));
+
+    public static final SoundEvent GLADE = registerSoundEvent("glade");
+    public static final RegistryKey<JukeboxSong> GLADE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(GroveExtras.MOD_ID, "glade"));
+
+    public static final SoundEvent MENACE = registerSoundEvent("menace");
+    public static final RegistryKey<JukeboxSong> MENACE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(GroveExtras.MOD_ID, "menace"));
+
 
 
     private static SoundEvent registerSoundEvent(String name) {

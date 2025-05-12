@@ -95,12 +95,12 @@
   "item.groveextras.dev_axe_bawngwawter": "Bawng's Axe",
   "item.groveextras.dev_hoe_bawngwawter": "Bawng's Hoe",
 
-  "item.groveextras.dev_brush_shadesofcedar": "Shades' Brush",
-  "item.groveextras.dev_sword_shadesofcedar": "Shades' Sword",
-  "item.groveextras.dev_pickaxe_shadesofcedar": "Shades' Pickaxe",
-  "item.groveextras.dev_shovel_shadesofcedar": "Shades' Shovel",
-  "item.groveextras.dev_axe_shadesofcedar": "Shades' Axe",
-  "item.groveextras.dev_hoe_shadesofcedar": "Shades' Hoe",
+  "item.groveextras.dev_brush_shadesofcedar": "Cedar's Brush",
+  "item.groveextras.dev_sword_shadesofcedar": "Cedar's Sword",
+  "item.groveextras.dev_pickaxe_shadesofcedar": "Cedar's Pickaxe",
+  "item.groveextras.dev_shovel_shadesofcedar": "Cedar's Shovel",
+  "item.groveextras.dev_axe_shadesofcedar": "Cedar's Axe",
+  "item.groveextras.dev_hoe_shadesofcedar": "Cedar's Hoe",
 
   "item.groveextras.dev_sword_marisnow": "Mari's Sword",
   "item.groveextras.dev_pickaxe_marisnow": "Mari's Pickaxe",
@@ -119,6 +119,9 @@
   "item.groveextras.dev_shovel_dotody": "DoTo's Shovel",
   "item.groveextras.dev_axe_dotody": "DoTo's Axe",
   "item.groveextras.dev_hoe_dotody": "DoTo's Hoe",
+
+  "item.groveextras.dev_pickaxe_tyllux": "Tyllux's Pickaxe",
+  "item.groveextras.dev_axe_tyllux": "Tyllux's Axe",
 
   "item.groveextras.dev_sword_giraffe": "Giraffe's Sword",
   "item.groveextras.dev_pickaxe_giraffe": "Giraffe's Pickaxe",
@@ -655,19 +658,28 @@
   "item.groveextras.music_disc_coral_reef.desc": "ShadesOfCedar - Coral Reef",
 
   "item.groveextras.music_disc_wander": "Music Disc",
-  "item.groveextras.music_disc_wander.desc": "ShadesOfCedar - Wander",
+  "item.groveextras.music_disc_wander.desc": "CedarBorne - Wander",
 
   "item.groveextras.music_disc_upload": "Music Disc",
-  "item.groveextras.music_disc_upload.desc": "ShadesOfCedar - Upload",
+  "item.groveextras.music_disc_upload.desc": "CedarBorne - Upload",
 
   "item.groveextras.music_disc_toxic": "Music Disc",
-  "item.groveextras.music_disc_toxic.desc": "ShadesOfCedar - Toxic",
+  "item.groveextras.music_disc_toxic.desc": "CedarBorne - Toxic",
 
   "item.groveextras.music_disc_glacier": "Music Disc",
-  "item.groveextras.music_disc_glacier.desc": "ShadesOfCedar - Glacier",
+  "item.groveextras.music_disc_glacier.desc": "CedarBorne - Glacier",
 
   "item.groveextras.music_disc_dunes": "Music Disc",
-  "item.groveextras.music_disc_dunes.desc": "ShadesOfCedar - Dunes",
+  "item.groveextras.music_disc_dunes.desc": "CedarBorne - Dunes",
+
+  "item.groveextras.music_disc_whimsy": "Music Disc",
+  "item.groveextras.music_disc_whimsy.desc": "CedarBorne - Whimsy",
+
+  "item.groveextras.music_disc_glade": "Music Disc",
+  "item.groveextras.music_disc_glade.desc": "CedarBorne - Glade",
+
+  "item.groveextras.music_disc_menace": "Music Disc",
+  "item.groveextras.music_disc_menace.desc": "CedarBorne - Menace",
 
 
   "itemgroup.groveextras.crate_keys": "Crate Keys",

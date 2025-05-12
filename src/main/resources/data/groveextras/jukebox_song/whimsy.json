@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.groveextras.music_disc_whimsy.desc"
+  },
+  "length_in_seconds": 156.0,
+  "sound_event": "groveextras:whimsy"
+}
