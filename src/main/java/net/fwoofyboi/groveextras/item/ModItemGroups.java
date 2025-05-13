@@ -346,6 +346,16 @@ public class ModItemGroups {
 
                     }).build());
 
+    public static final ItemGroup BALL_PLUSH_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "pokeball_plush"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PLUSH_BALL_POKE))
+                    .displayName(Text.translatable("itemgroup.groveextras.pokeball_plush"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.PLUSH_BALL_POKE);
+                        entries.add(ModBlocks.PLUSH_BALL_GREAT);
+
+                    }).build());
+
     public static final ItemGroup PLUSH_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(GroveExtras.MOD_ID, "plush"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PLUSH_VOUCHER))

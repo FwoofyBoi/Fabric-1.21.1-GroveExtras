@@ -512,9 +512,15 @@ public class ModBlocks {
 
 
     //Plushies
+    //Balls
     public static final Block PLUSH_BALL_POKE = registerBlock("plush_ball_poke",
             new BallPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_BALL_GREAT = registerBlock("plush_ball_great",
+            new BallPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+
+    //Misc
     public static final Block PLUSH_SNAIL = registerBlock("plush_snail",
             new SnailPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));

@@ -587,6 +587,8 @@
 
 
   "block.groveextras.plush_ball_poke": "Poké Ball Plushie",
+  "block.groveextras.plush_ball_great": "Great Ball Plushie",
+
   "block.groveextras.plush_snail": "Snail Plushie",
   "block.groveextras.plush_egg": "Egg Plushie",
   "block.groveextras.plush_steve": "Steve Plushie",
@@ -696,6 +698,7 @@
   "itemgroup.groveextras.grove_armor": "Armor Sets",
   "itemgroup.groveextras.grove_discs": "Grove Discs",
   "itemgroup.groveextras.plush": "Plushies",
+  "itemgroup.groveextras.pokeball_plush": "Ball Plushies",
   "itemgroup.groveextras.grove_decor": "Grove Decor",
   "itemgroup.groveextras.xmas_plush": "X-Mas Plushies",
   "itemgroup.groveextras.easter_plush": "Easter Plushies",
