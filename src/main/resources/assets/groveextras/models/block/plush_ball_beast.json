@@ -1,0 +1,11 @@
+{
+  "parent": "groveextras:block/plush_ball_poke",
+  "texture_size": [
+    32,
+    32
+  ],
+  "textures": {
+    "0": "groveextras:block/plush_ball_beast",
+    "particle": "groveextras:block/plush_ball_beast"
+  }
+}

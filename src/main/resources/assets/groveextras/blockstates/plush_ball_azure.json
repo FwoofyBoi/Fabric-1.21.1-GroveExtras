@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/plush_ball_azure",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/plush_ball_azure"
+    },
+    "facing=south": {
+      "model": "groveextras:block/plush_ball_azure",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/plush_ball_azure",
+      "y": 270
+    }
+  }
+}

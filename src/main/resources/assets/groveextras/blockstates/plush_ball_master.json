@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/plush_ball_master",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/plush_ball_master"
+    },
+    "facing=south": {
+      "model": "groveextras:block/plush_ball_master",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/plush_ball_master",
+      "y": 270
+    }
+  }
+}

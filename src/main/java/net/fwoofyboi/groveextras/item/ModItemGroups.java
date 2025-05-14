@@ -353,6 +353,37 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PLUSH_BALL_POKE);
                         entries.add(ModBlocks.PLUSH_BALL_GREAT);
+                        entries.add(ModBlocks.PLUSH_BALL_AZURE);
+                        entries.add(ModBlocks.PLUSH_BALL_BEAST);
+                        entries.add(ModBlocks.PLUSH_BALL_CHERISH);
+                        entries.add(ModBlocks.PLUSH_BALL_CITRINE);
+                        entries.add(ModBlocks.PLUSH_BALL_DIVE);
+                        entries.add(ModBlocks.PLUSH_BALL_DREAM);
+                        entries.add(ModBlocks.PLUSH_BALL_DUSK);
+                        entries.add(ModBlocks.PLUSH_BALL_FAST);
+                        entries.add(ModBlocks.PLUSH_BALL_FRIEND);
+                        entries.add(ModBlocks.PLUSH_BALL_HEAL);
+                        entries.add(ModBlocks.PLUSH_BALL_HEAVY);
+                        entries.add(ModBlocks.PLUSH_BALL_LEVEL);
+                        entries.add(ModBlocks.PLUSH_BALL_LOVE);
+                        entries.add(ModBlocks.PLUSH_BALL_LURE);
+                        entries.add(ModBlocks.PLUSH_BALL_LUXURY);
+                        entries.add(ModBlocks.PLUSH_BALL_MASTER);
+                        entries.add(ModBlocks.PLUSH_BALL_MOON);
+                        entries.add(ModBlocks.PLUSH_BALL_NEST);
+                        entries.add(ModBlocks.PLUSH_BALL_NET);
+                        entries.add(ModBlocks.PLUSH_BALL_PARK);
+                        entries.add(ModBlocks.PLUSH_BALL_PREMIER);
+                        entries.add(ModBlocks.PLUSH_BALL_QUICK);
+                        entries.add(ModBlocks.PLUSH_BALL_REPEAT);
+                        entries.add(ModBlocks.PLUSH_BALL_ROSEATE);
+                        entries.add(ModBlocks.PLUSH_BALL_SAFARI);
+                        entries.add(ModBlocks.PLUSH_BALL_SLATE);
+                        entries.add(ModBlocks.PLUSH_BALL_SPORT);
+                        entries.add(ModBlocks.PLUSH_BALL_STRANGE);
+                        entries.add(ModBlocks.PLUSH_BALL_TIMER);
+                        entries.add(ModBlocks.PLUSH_BALL_ULTRA);
+                        entries.add(ModBlocks.PLUSH_BALL_VERDANT);
 
                     }).build());
 
