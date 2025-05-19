@@ -18,9 +18,9 @@ public class SquirtlePlushBlock extends HorizontalFacingBlock {
 
     public static final MapCodec<SquirtlePlushBlock> CODEC = createCodec(SquirtlePlushBlock::new);
     private static final VoxelShape X_SHAPE =
-            Block.createCuboidShape(2.0, 0.0, 3.0,14.0, 15.0, 13.0);
+            Block.createCuboidShape(2.0, 0.0, 3.0,14.0, 16.0, 13.0);
     private static final VoxelShape Z_SHAPE =
-            Block.createCuboidShape(3.0, 0.0, 2.0,13.0, 15.0, 14.0);
+            Block.createCuboidShape(3.0, 0.0, 2.0,13.0, 16.0, 14.0);
 
 
     public SquirtlePlushBlock(Settings settings) {

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/plush_grubbin",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/plush_grubbin"
+    },
+    "facing=south": {
+      "model": "groveextras:block/plush_grubbin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/plush_grubbin",
+      "y": 270
+    }
+  }
+}

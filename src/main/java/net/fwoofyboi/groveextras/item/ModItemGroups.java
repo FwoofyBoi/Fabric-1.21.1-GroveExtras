@@ -459,6 +459,36 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PLUSH_S_SUNKERN);
                         entries.add(ModBlocks.PLUSH_SMOLIV);
                         entries.add(ModBlocks.PLUSH_S_SMOLIV);
+                        entries.add(ModBlocks.PLUSH_ANORITH);
+                        entries.add(ModBlocks.PLUSH_S_ANORITH);
+                        entries.add(ModBlocks.PLUSH_CACTOT);
+                        entries.add(ModBlocks.PLUSH_S_CACTOT);
+                        entries.add(ModBlocks.PLUSH_CHERUBI);
+                        entries.add(ModBlocks.PLUSH_S_CHERUBI);
+                        entries.add(ModBlocks.PLUSH_EEVEE);
+                        entries.add(ModBlocks.PLUSH_S_EEVEE);
+                        entries.add(ModBlocks.PLUSH_GRUBBIN);
+                        entries.add(ModBlocks.PLUSH_S_GRUBBIN);
+                        entries.add(ModBlocks.PLUSH_LITTEN);
+                        entries.add(ModBlocks.PLUSH_S_LITTEN);
+                        entries.add(ModBlocks.PLUSH_PHANTUMP);
+                        entries.add(ModBlocks.PLUSH_S_PHANTUMP);
+                        entries.add(ModBlocks.PLUSH_PINCURCHIN);
+                        entries.add(ModBlocks.PLUSH_S_PINCURCHIN);
+                        entries.add(ModBlocks.PLUSH_BULBASAUR);
+                        entries.add(ModBlocks.PLUSH_S_BULBASAUR);
+                        entries.add(ModBlocks.PLUSH_CHARMANDER);
+                        entries.add(ModBlocks.PLUSH_S_CHARMANDER);
+                        entries.add(ModBlocks.PLUSH_POPPLIO);
+                        entries.add(ModBlocks.PLUSH_S_POPPLIO);
+                        entries.add(ModBlocks.PLUSH_REBBLE);
+                        entries.add(ModBlocks.PLUSH_S_REBBLE);
+                        entries.add(ModBlocks.PLUSH_ROWLET);
+                        entries.add(ModBlocks.PLUSH_S_ROWLET);
+                        entries.add(ModBlocks.PLUSH_SEEDOT);
+                        entries.add(ModBlocks.PLUSH_S_SEEDOT);
+                        entries.add(ModBlocks.PLUSH_SWINUB);
+                        entries.add(ModBlocks.PLUSH_S_SWINUB);
 
                     }).build());
 
