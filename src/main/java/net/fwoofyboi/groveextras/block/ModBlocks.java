@@ -808,7 +808,6 @@ public class ModBlocks {
     public static final Block PLUSH_S_SMOLIV = registerBlock("plush_s_smoliv",
             new SmolivPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
-
     public static final Block PLUSH_ANORITH = registerBlock("plush_anorith",
             new AnorithPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
