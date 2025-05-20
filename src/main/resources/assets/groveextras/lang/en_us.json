@@ -746,6 +746,55 @@
   "item.groveextras.music_disc_menace.desc": "CedarBorne - Menace",
 
 
+  "painting.groveextras.honeymoon.title": "Honeymoon",
+  "painting.groveextras.honeymoon.author": "BawngWawter",
+
+  "painting.groveextras.amanita_muscaria.title": "Amanita Muscaria",
+  "painting.groveextras.amanita_muscaria.author": "BawngWawter",
+
+  "painting.groveextras.cinna.title": "Cinna",
+  "painting.groveextras.cinna.author": "GiraffeLife",
+
+  "painting.groveextras.crayola.title": "Crayola",
+  "painting.groveextras.crayola.author": "GiraffeLife",
+
+  "painting.groveextras.cynical.title": "Cynical",
+  "painting.groveextras.cynical.author": "GiraffeLife",
+
+  "painting.groveextras.doto.title": "Doto",
+  "painting.groveextras.doto.author": "GiraffeLife",
+
+  "painting.groveextras.giraffe.title": "Giraffe",
+  "painting.groveextras.giraffe.author": "GiraffeLife",
+
+  "painting.groveextras.glitchy.title": "Glitchy",
+  "painting.groveextras.glitchy.author": "GiraffeLife",
+
+  "painting.groveextras.grove_team.title": "Grove Staff Team",
+  "painting.groveextras.grove_team.author": "GiraffeLife",
+
+  "painting.groveextras.mari.title": "Mari",
+  "painting.groveextras.mari.author": "GiraffeLife",
+
+  "painting.groveextras.power_couple.title": "Power Couple",
+  "painting.groveextras.power_couple.author": "GiraffeLife",
+
+  "painting.groveextras.randazzlle.title": "Randazzlle",
+  "painting.groveextras.randazzlle.author": "GiraffeLife",
+
+  "painting.groveextras.stego.title": "Stego",
+  "painting.groveextras.stego.author": "GiraffeLife",
+
+  "painting.groveextras.tyllux.title": "Tyllux",
+  "painting.groveextras.tyllux.author": "GiraffeLife",
+
+  "painting.groveextras.vetlem.title": "Vetlem",
+  "painting.groveextras.vetlem.author": "GiraffeLife",
+
+  "painting.groveextras.crustle_peek.title": "Crustle Peek",
+  "painting.groveextras.crustle_peek.author": "GiraffeLife",
+
+
   "itemgroup.groveextras.crate_keys": "Crate Keys",
   "itemgroup.groveextras.treasure_items": "Treasure Items",
   "itemgroup.groveextras.dev_blocks": "Dev Blocks",
