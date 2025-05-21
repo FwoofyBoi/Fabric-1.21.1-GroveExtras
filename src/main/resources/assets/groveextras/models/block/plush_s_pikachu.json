@@ -1,0 +1,11 @@
+{
+  "parent": "groveextras:block/plush_pikachu",
+  "texture_size": [
+    128,
+    128
+  ],
+  "textures": {
+    "0": "groveextras:block/plush_s_pikachu",
+    "particle": "groveextras:block/plush_s_pikachu"
+  }
+}

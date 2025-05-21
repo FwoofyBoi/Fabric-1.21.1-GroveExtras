@@ -898,6 +898,12 @@ public class ModBlocks {
     public static final Block PLUSH_S_SWINUB = registerBlock("plush_s_swinub",
             new SwinubPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_PIKACHU = registerBlock("plush_pikachu",
+            new PikachuPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_PIKACHU = registerBlock("plush_s_pikachu",
+            new PikachuPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
 
     //Trophies
     public static final Block LEAGUE_TROPHY = registerBlock("league_trophy",

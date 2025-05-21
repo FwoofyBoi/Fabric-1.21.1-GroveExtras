@@ -489,6 +489,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PLUSH_S_SEEDOT);
                         entries.add(ModBlocks.PLUSH_SWINUB);
                         entries.add(ModBlocks.PLUSH_S_SWINUB);
+                        entries.add(ModBlocks.PLUSH_PIKACHU);
+                        entries.add(ModBlocks.PLUSH_S_PIKACHU);
 
                     }).build());
 
