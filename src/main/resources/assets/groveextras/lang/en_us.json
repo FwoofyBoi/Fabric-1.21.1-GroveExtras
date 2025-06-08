@@ -347,6 +347,7 @@
   "item.groveextras.wishing_star": "Wishing Star",
 
   "item.groveextras.plush_voucher": "Plushie Voucher",
+  "item.groveextras.special_voucher": "Special Pokémon Voucher",
 
   "block.groveextras.dev_a0_surface": "A0 Surface Block DEV",
   "block.groveextras.dev_a0_ruins": "A0 Ruins Block DEV",
@@ -721,7 +722,7 @@
 
 
   "item.groveextras.music_disc_coral_reef": "Music Disc",
-  "item.groveextras.music_disc_coral_reef.desc": "ShadesOfCedar - Coral Reef",
+  "item.groveextras.music_disc_coral_reef.desc": "CedarBorne - Coral Reef",
 
   "item.groveextras.music_disc_wander": "Music Disc",
   "item.groveextras.music_disc_wander.desc": "CedarBorne - Wander",
@@ -816,5 +817,6 @@
   "itemgroup.groveextras.xmas_plush": "X-Mas Plushies",
   "itemgroup.groveextras.easter_plush": "Easter Plushies",
   "itemgroup.groveextras.halloween_plush": "Halloween Plushies",
-  "itemgroup.groveextras.badge_items": "Badges"
+  "itemgroup.groveextras.badge_items": "Badges",
+  "itemgroup.groveextras.grove_vouchers": "Vouchers"
 }

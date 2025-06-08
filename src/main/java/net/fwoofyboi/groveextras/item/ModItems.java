@@ -395,6 +395,12 @@ public class ModItems {
                     .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.DNA_STRAND, 6, -3.2F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true))));
 
+
+    //Vouchers
+    public static final Item SPECIAL_VOUCHER = registerItem("special_voucher",
+            new Item(new Item.Settings()));
+
+
     //Grove Discs
     public static final Item MUSIC_DISC_CORAL_REEF = registerItem("music_disc_coral_reef",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.CORAL_REEF_KEY).maxCount(1)));

@@ -494,6 +494,16 @@ public class ModItemGroups {
 
                     }).build());
 
+    public static final ItemGroup GROVE_VOUCHERS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "grove_vouchers"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SPECIAL_VOUCHER))
+                    .displayName(Text.translatable("itemgroup.groveextras.grove_vouchers"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.PLUSH_VOUCHER);
+                        entries.add(ModItems.SPECIAL_VOUCHER);
+
+                    }).build());
+
     public static final ItemGroup GROVE_DECOR_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(GroveExtras.MOD_ID, "grove_decor"),
             FabricItemGroup.builder().icon(() -> new ItemStack(Items.FLOWER_POT))
