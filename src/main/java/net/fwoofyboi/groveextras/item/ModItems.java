@@ -17,6 +17,8 @@ public class ModItems {
     public static final Item KEY_ELITE = registerItem("key_elite", new Item(new Item.Settings()));
     public static final Item KEY_MASTER = registerItem("key_master", new Item(new Item.Settings()));
     public static final Item KEY_COSMETIC = registerItem("key_cosmetic", new Item(new Item.Settings()));
+    public static final Item KEY_PLUSH = registerItem("key_plush", new Item(new Item.Settings()));
+    public static final Item KEY_BASE = registerItem("key_base", new Item(new Item.Settings()));
 
     //Treasure Items
     public static final Item TOPAZ = registerItem("topaz", new Item(new Item.Settings()));

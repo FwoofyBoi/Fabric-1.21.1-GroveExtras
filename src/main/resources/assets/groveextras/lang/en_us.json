@@ -3,6 +3,8 @@
   "item.groveextras.key_elite": "Elite Key",
   "item.groveextras.key_master": "Master Key",
   "item.groveextras.key_cosmetic": "Cosmetic Key",
+  "item.groveextras.key_plush": "Plushie Key",
+  "item.groveextras.key_base": "Base Key",
 
   "item.groveextras.topaz": "Topaz",
   "item.groveextras.cut_diamond": "Cut Diamond",
@@ -108,7 +110,7 @@
   "item.groveextras.dev_axe_marisnow": "Mari's Axe",
   "item.groveextras.dev_hoe_marisnow": "Mari's Hoe",
 
-  "item.groveextras.dev_sword_kingstego": "Stego's Hammer",
+  "item.groveextras.dev_sword_kingstego": "Stego's Warhammer",
   "item.groveextras.dev_pickaxe_kingstego": "Stego's Pickaxe",
   "item.groveextras.dev_shovel_kingstego": "Stego's Shovel",
   "item.groveextras.dev_axe_kingstego": "Stego's Axe",

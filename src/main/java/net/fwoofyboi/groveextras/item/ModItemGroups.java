@@ -14,13 +14,15 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup CRATE_KEYS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(GroveExtras.MOD_ID, "crate_keys"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.KEY_COSMETIC))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.KEY_BASE))
                     .displayName(Text.translatable("itemgroup.groveextras.crate_keys"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.KEY_VOTE);
                         entries.add(ModItems.KEY_ELITE);
                         entries.add(ModItems.KEY_MASTER);
                         entries.add(ModItems.KEY_COSMETIC);
+                        entries.add(ModItems.KEY_BASE);
+                        entries.add(ModItems.KEY_PLUSH);
                     }).build());
 
     public static final ItemGroup TREASURE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
