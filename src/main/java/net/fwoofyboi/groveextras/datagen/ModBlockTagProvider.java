@@ -22,7 +22,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         //getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 //.add(ModBlocks.CRYSTAL_BRICKS_BLUE);
-        //getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.GRANITE_BRICK_WALL);
+        //getOrCreateTagBuilder(BlockTags.WALLS)
+                // .add(ModBlocks.GRANITE_BRICK_WALL);
 
     }
 }
