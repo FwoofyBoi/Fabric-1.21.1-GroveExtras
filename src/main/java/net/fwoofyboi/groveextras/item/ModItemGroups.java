@@ -25,6 +25,20 @@ public class ModItemGroups {
                         entries.add(ModItems.KEY_PLUSH);
                     }).build());
 
+
+    public static final ItemGroup GROVE_GOODIES_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "grove_goodies"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CARAMEL))
+                    .displayName(Text.translatable("itemgroup.groveextras.grove_goodies"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.RED_CANDY_CANE);
+                        entries.add(ModItems.YELLOW_CANDY_CANE);
+                        entries.add(ModItems.GREEN_CANDY_CANE);
+                        entries.add(ModItems.BLUE_CANDY_CANE);
+                        entries.add(ModItems.CARAMEL);
+                    }).build());
+
+
     public static final ItemGroup TREASURE_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(GroveExtras.MOD_ID, "treasure_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RUBY))

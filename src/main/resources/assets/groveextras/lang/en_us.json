@@ -6,6 +6,13 @@
   "item.groveextras.key_plush": "Plushie Key",
   "item.groveextras.key_base": "Base Key",
 
+
+  "item.groveextras.red_candy_cane": "Red Candy Cane",
+  "item.groveextras.yellow_candy_cane": "Yellow Candy Cane",
+  "item.groveextras.green_candy_cane": "Green Candy Cane",
+  "item.groveextras.blue_candy_cane": "Blue Candy Cane",
+  "item.groveextras.caramel": "Caramel",
+
   "item.groveextras.topaz": "Topaz",
   "item.groveextras.cut_diamond": "Cut Diamond",
   "item.groveextras.sapphire": "Sapphire",
@@ -812,6 +819,8 @@
   "painting.groveextras.crustle_peek.author": "GiraffeLife",
 
 
+
+
   "itemgroup.groveextras.crate_keys": "Crate Keys",
   "itemgroup.groveextras.treasure_items": "Treasure Items",
   "itemgroup.groveextras.dev_blocks": "Dev Blocks",
@@ -832,5 +841,6 @@
   "itemgroup.groveextras.easter_plush": "Easter Plushies",
   "itemgroup.groveextras.halloween_plush": "Halloween Plushies",
   "itemgroup.groveextras.badge_items": "Badges",
-  "itemgroup.groveextras.grove_vouchers": "Vouchers"
+  "itemgroup.groveextras.grove_vouchers": "Vouchers",
+  "itemgroup.groveextras.grove_goodies": "Grove Goodies"
 }
