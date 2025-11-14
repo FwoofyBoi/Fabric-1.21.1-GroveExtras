@@ -395,6 +395,18 @@
   "block.groveextras.calcite_polished_slab": "Polished Calcite Slab",
   "block.groveextras.calcite_polished_wall": "Polished Calcite Wall",
 
+  "block.groveextras.packed_ice_bricks": "Packed Ice Bricks",
+  "block.groveextras.packed_ice_brick_stairs": "Packed Ice Brick Stairs",
+  "block.groveextras.packed_ice_brick_slab": "Packed Ice Brick Slab",
+  "block.groveextras.packed_ice_brick_wall": "Packed Ice Brick Wall",
+  "block.groveextras.chiseled_packed_ice": "Chiseled Packed Ice",
+
+  "block.groveextras.blue_ice_bricks": "Blue Ice Bricks",
+  "block.groveextras.blue_ice_brick_stairs": "Blue Ice Brick Stairs",
+  "block.groveextras.blue_ice_brick_slab": "Blue Ice Brick Slab",
+  "block.groveextras.blue_ice_brick_wall": "Blue Ice Brick Wall",
+  "block.groveextras.chiseled_blue_ice": "Chiseled Blue Ice",
+
   "block.groveextras.mines_fossilised_sand": "Fossilised Sand",
   "block.groveextras.mines_fossilised_stone": "Fossilised Stone",
   "block.groveextras.mines_fossilised_deepslate": "Fossilised Deepslate",

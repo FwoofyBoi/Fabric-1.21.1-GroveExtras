@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "groveextras:block/blue_ice_brick_slab"
+    },
+    "type=double": {
+      "model": "groveextras:block/blue_ice_bricks"
+    },
+    "type=top": {
+      "model": "groveextras:block/blue_ice_brick_slab_top"
+    }
+  }
+}

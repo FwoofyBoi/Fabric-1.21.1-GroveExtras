@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "groveextras:block/blue_ice_bricks",
+    "side": "groveextras:block/blue_ice_bricks",
+    "top": "groveextras:block/blue_ice_bricks"
+  }
+}

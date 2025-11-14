@@ -184,6 +184,81 @@ public class ModBlocks {
     public static final Block CALCITE_POLISHED_WALL = registerBlock("calcite_polished_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE).mapColor(MapColor.TERRACOTTA_WHITE)));
 
+    public static final Block PACKED_ICE_BRICKS = registerBlock("packed_ice_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(0.5f)
+                    .slipperiness(0.98f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.GLASS)
+                    .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block PACKED_ICE_BRICK_STAIRS = registerBlock("packed_ice_brick_stairs",
+            new StairsBlock(ModBlocks.PACKED_ICE_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create()
+                            .strength(0.5f)
+                            .slipperiness(0.98f)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.GLASS)
+                            .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block PACKED_ICE_BRICK_SLAB = registerBlock("packed_ice_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create()
+                    .strength(0.5f)
+                    .slipperiness(0.98f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.GLASS)
+                    .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block PACKED_ICE_BRICK_WALL = registerBlock("packed_ice_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create()
+                    .strength(0.5f)
+                    .slipperiness(0.98f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.GLASS)
+                    .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block CHISELED_PACKED_ICE = registerBlock("chiseled_packed_ice",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(0.5f)
+                    .slipperiness(0.98f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.GLASS)
+                    .mapColor(MapColor.PALE_PURPLE)));
+
+    public static final Block BLUE_ICE_BRICKS = registerBlock("blue_ice_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(2.8f)
+                    .slipperiness(0.989f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.GLASS)
+                    .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block BLUE_ICE_BRICK_STAIRS = registerBlock("blue_ice_brick_stairs",
+            new StairsBlock(ModBlocks.BLUE_ICE_BRICKS.getDefaultState(),
+                    AbstractBlock.Settings.create()
+                            .strength(2.8f)
+                            .slipperiness(0.989f)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.GLASS)
+                            .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block BLUE_ICE_BRICK_SLAB = registerBlock("blue_ice_brick_slab",
+            new SlabBlock(AbstractBlock.Settings.create()
+                    .strength(2.8f)
+                    .slipperiness(0.989f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.GLASS)
+                    .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block BLUE_ICE_BRICK_WALL = registerBlock("blue_ice_brick_wall",
+            new WallBlock(AbstractBlock.Settings.create()
+                    .strength(2.8f)
+                    .slipperiness(0.989f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.GLASS)
+                    .mapColor(MapColor.PALE_PURPLE)));
+    public static final Block CHISELED_BLUE_ICE = registerBlock("chiseled_blue_ice",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(2.8f)
+                    .slipperiness(0.989f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.GLASS)
+                    .mapColor(MapColor.PALE_PURPLE)));
+
+
     public static final Block CRYSTAL_BRICKS_BLUE = registerBlock("crystal_bricks_blue",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LAPIS_BLUE)));
     public static final Block CRYSTAL_BRICK_STAIRS_BLUE = registerBlock("crystal_brick_stairs_blue",

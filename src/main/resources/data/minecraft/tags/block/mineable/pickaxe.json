@@ -35,6 +35,18 @@
     "groveextras:calcite_polished_slab",
     "groveextras:calcite_polished_wall",
 
+    "groveextras:blue_ice_bricks",
+    "groveextras:blue_ice_brick_stairs",
+    "groveextras:blue_ice_brick_slab",
+    "groveextras:blue_ice_brick_wall",
+    "groveextras:chiseled_blue_ice",
+
+    "groveextras:packed_ice_bricks",
+    "groveextras:packed_ice_brick_stairs",
+    "groveextras:packed_ice_brick_slab",
+    "groveextras:packed_ice_brick_wall",
+    "groveextras:chiseled_packed_ice",
+
     "groveextras:gravestone",
     "groveextras:gravestone_rip",
     "groveextras:gravestone_skull",
