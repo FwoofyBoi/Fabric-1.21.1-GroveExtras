@@ -150,6 +150,26 @@
     "groveextras:crystal_brick_slab_mocha",
     "groveextras:crystal_brick_slab_orchid",
     "groveextras:crystal_brick_slab_slate",
-    "groveextras:crystal_brick_slab_rainbow"
+    "groveextras:crystal_brick_slab_rainbow",
+
+    "groveextras:crystal_brick_wall_blue",
+    "groveextras:crystal_brick_wall_cyan",
+    "groveextras:crystal_brick_wall_green",
+    "groveextras:crystal_brick_wall_lime",
+    "groveextras:crystal_brick_wall_magenta",
+    "groveextras:crystal_brick_wall_orange",
+    "groveextras:crystal_brick_wall_pink",
+    "groveextras:crystal_brick_wall_red",
+    "groveextras:crystal_brick_wall_white",
+    "groveextras:crystal_brick_wall_yellow",
+    "groveextras:crystal_brick_wall_auburn",
+    "groveextras:crystal_brick_wall_cornflower",
+    "groveextras:crystal_brick_wall_gray",
+    "groveextras:crystal_brick_wall_indigo",
+    "groveextras:crystal_brick_wall_maroon",
+    "groveextras:crystal_brick_wall_mocha",
+    "groveextras:crystal_brick_wall_orchid",
+    "groveextras:crystal_brick_wall_slate",
+    "groveextras:crystal_brick_wall_rainbow"
   ]
 }

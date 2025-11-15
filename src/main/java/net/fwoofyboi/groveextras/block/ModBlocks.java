@@ -266,6 +266,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LAPIS_BLUE)));
     public static final Block CRYSTAL_BRICK_SLAB_BLUE = registerBlock("crystal_brick_slab_blue",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LAPIS_BLUE)));
+    public static final Block CRYSTAL_BRICK_WALL_BLUE = registerBlock("crystal_brick_wall_blue",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LAPIS_BLUE)));
 
     public static final Block CRYSTAL_BRICKS_CYAN = registerBlock("crystal_bricks_cyan",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LIGHT_BLUE)));
@@ -274,6 +276,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LIGHT_BLUE)));
     public static final Block CRYSTAL_BRICK_SLAB_CYAN = registerBlock("crystal_brick_slab_cyan",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LIGHT_BLUE)));
+    public static final Block CRYSTAL_BRICK_WALL_CYAN = registerBlock("crystal_brick_wall_cyan",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LIGHT_BLUE)));
 
     public static final Block CRYSTAL_BRICKS_GREEN = registerBlock("crystal_bricks_green",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.EMERALD_GREEN)));
@@ -282,6 +286,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.EMERALD_GREEN)));
     public static final Block CRYSTAL_BRICK_SLAB_GREEN = registerBlock("crystal_brick_slab_green",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.EMERALD_GREEN)));
+    public static final Block CRYSTAL_BRICK_WALL_GREEN = registerBlock("crystal_brick_wall_green",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.EMERALD_GREEN)));
 
     public static final Block CRYSTAL_BRICKS_LIME = registerBlock("crystal_bricks_lime",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LIME)));
@@ -290,6 +296,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LIME)));
     public static final Block CRYSTAL_BRICK_SLAB_LIME = registerBlock("crystal_brick_slab_lime",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LIME)));
+    public static final Block CRYSTAL_BRICK_WALL_LIME = registerBlock("crystal_brick_wall_lime",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LIME)));
 
     public static final Block CRYSTAL_BRICKS_MAGENTA = registerBlock("crystal_bricks_magenta",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.DULL_PINK)));
@@ -298,6 +306,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.DULL_PINK)));
     public static final Block CRYSTAL_BRICK_SLAB_MAGENTA = registerBlock("crystal_brick_slab_magenta",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.DULL_PINK)));
+    public static final Block CRYSTAL_BRICK_WALL_MAGENTA = registerBlock("crystal_brick_wall_magenta",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.DULL_PINK)));
 
     public static final Block CRYSTAL_BRICKS_ORANGE = registerBlock("crystal_bricks_orange",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.ORANGE)));
@@ -306,6 +316,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.ORANGE)));
     public static final Block CRYSTAL_BRICK_SLAB_ORANGE = registerBlock("crystal_brick_slab_orange",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.ORANGE)));
+    public static final Block CRYSTAL_BRICK_WALL_ORANGE = registerBlock("crystal_brick_wall_orange",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.ORANGE)));
 
     public static final Block CRYSTAL_BRICKS_PINK = registerBlock("crystal_bricks_pink",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.PINK)));
@@ -314,6 +326,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.PINK)));
     public static final Block CRYSTAL_BRICK_SLAB_PINK = registerBlock("crystal_brick_slab_pink",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.PINK)));
+    public static final Block CRYSTAL_BRICK_WALL_PINK = registerBlock("crystal_brick_wall_pink",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.PINK)));
 
     public static final Block CRYSTAL_BRICKS_RED = registerBlock("crystal_bricks_red",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.DULL_RED)));
@@ -322,6 +336,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.DULL_RED)));
     public static final Block CRYSTAL_BRICK_SLAB_RED = registerBlock("crystal_brick_slab_red",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.DULL_RED)));
+    public static final Block CRYSTAL_BRICK_WALL_RED = registerBlock("crystal_brick_wall_red",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.DULL_RED)));
 
     public static final Block CRYSTAL_BRICKS_WHITE = registerBlock("crystal_bricks_white",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.WHITE)));
@@ -330,6 +346,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.WHITE)));
     public static final Block CRYSTAL_BRICK_SLAB_WHITE = registerBlock("crystal_brick_slab_white",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.WHITE)));
+    public static final Block CRYSTAL_BRICK_WALL_WHITE = registerBlock("crystal_brick_wall_white",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.WHITE)));
 
     public static final Block CRYSTAL_BRICKS_YELLOW = registerBlock("crystal_bricks_yellow",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.YELLOW)));
@@ -338,6 +356,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.YELLOW)));
     public static final Block CRYSTAL_BRICK_SLAB_YELLOW = registerBlock("crystal_brick_slab_yellow",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.YELLOW)));
+    public static final Block CRYSTAL_BRICK_WALL_YELLOW = registerBlock("crystal_brick_wall_yellow",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.YELLOW)));
 
     public static final Block CRYSTAL_BRICKS_AUBURN = registerBlock("crystal_bricks_auburn",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.TERRACOTTA_ORANGE)));
@@ -346,6 +366,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.TERRACOTTA_ORANGE)));
     public static final Block CRYSTAL_BRICK_SLAB_AUBURN = registerBlock("crystal_brick_slab_auburn",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.TERRACOTTA_ORANGE)));
+    public static final Block CRYSTAL_BRICK_WALL_AUBURN = registerBlock("crystal_brick_wall_auburn",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.TERRACOTTA_ORANGE)));
 
     public static final Block CRYSTAL_BRICKS_CORNFLOWER = registerBlock("crystal_bricks_cornflower",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.CYAN)));
@@ -354,6 +376,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.CYAN)));
     public static final Block CRYSTAL_BRICK_SLAB_CORNFLOWER = registerBlock("crystal_brick_slab_cornflower",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.CYAN)));
+    public static final Block CRYSTAL_BRICK_WALL_CORNFLOWER = registerBlock("crystal_brick_wall_cornflower",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.CYAN)));
 
     public static final Block CRYSTAL_BRICKS_GRAY = registerBlock("crystal_bricks_gray",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LIGHT_GRAY)));
@@ -362,6 +386,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LIGHT_GRAY)));
     public static final Block CRYSTAL_BRICK_SLAB_GRAY = registerBlock("crystal_brick_slab_gray",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LIGHT_GRAY)));
+    public static final Block CRYSTAL_BRICK_WALL_GRAY = registerBlock("crystal_brick_wall_gray",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LIGHT_GRAY)));
 
     public static final Block CRYSTAL_BRICKS_INDIGO = registerBlock("crystal_bricks_indigo",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.PURPLE)));
@@ -370,6 +396,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.PURPLE)));
     public static final Block CRYSTAL_BRICK_SLAB_INDIGO = registerBlock("crystal_brick_slab_indigo",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.PURPLE)));
+    public static final Block CRYSTAL_BRICK_WALL_INDIGO = registerBlock("crystal_brick_wall_indigo",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.PURPLE)));
 
     public static final Block CRYSTAL_BRICKS_MAROON = registerBlock("crystal_bricks_maroon",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.RED)));
@@ -378,6 +406,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.RED)));
     public static final Block CRYSTAL_BRICK_SLAB_MAROON = registerBlock("crystal_brick_slab_maroon",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.RED)));
+    public static final Block CRYSTAL_BRICK_WALL_MAROON = registerBlock("crystal_brick_wall_maroon",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.RED)));
 
     public static final Block CRYSTAL_BRICKS_MOCHA = registerBlock("crystal_bricks_mocha",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.BROWN)));
@@ -386,6 +416,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.BROWN)));
     public static final Block CRYSTAL_BRICK_SLAB_MOCHA = registerBlock("crystal_brick_slab_mocha",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.BROWN)));
+    public static final Block CRYSTAL_BRICK_WALL_MOCHA = registerBlock("crystal_brick_wall_mocha",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.BROWN)));
 
     public static final Block CRYSTAL_BRICKS_ORCHID = registerBlock("crystal_bricks_orchid",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.MAGENTA)));
@@ -394,6 +426,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.MAGENTA)));
     public static final Block CRYSTAL_BRICK_SLAB_ORCHID = registerBlock("crystal_brick_slab_orchid",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.MAGENTA)));
+    public static final Block CRYSTAL_BRICK_WALL_ORCHID = registerBlock("crystal_brick_wall_orchid",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.MAGENTA)));
 
     public static final Block CRYSTAL_BRICKS_SLATE = registerBlock("crystal_bricks_slate",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.GRAY)));
@@ -402,6 +436,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.GRAY)));
     public static final Block CRYSTAL_BRICK_SLAB_SLATE = registerBlock("crystal_brick_slab_slate",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.GRAY)));
+    public static final Block CRYSTAL_BRICK_WALL_SLATE = registerBlock("crystal_brick_wall_slate",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.GRAY)));
 
     public static final Block CRYSTAL_BRICKS_RAINBOW = registerBlock("crystal_bricks_rainbow",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.OFF_WHITE)));
@@ -410,6 +446,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.OFF_WHITE)));
     public static final Block CRYSTAL_BRICK_SLAB_RAINBOW = registerBlock("crystal_brick_slab_rainbow",
             new SlabBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.OFF_WHITE)));
+    public static final Block CRYSTAL_BRICK_WALL_RAINBOW = registerBlock("crystal_brick_wall_rainbow",
+            new WallBlock(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.OFF_WHITE)));
 
     public static final Block CHISELED_CRYSTAL_BLOCK_BLUE = registerBlock("chiseled_crystal_block_blue",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).mapColor(MapColor.LAPIS_BLUE)));

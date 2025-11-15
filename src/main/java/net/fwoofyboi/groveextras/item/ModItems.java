@@ -440,6 +440,8 @@ public class ModItems {
     public static final Item BLUE_CANDY_CANE = registerItem("blue_candy_cane", new Item(new Item.Settings().food(ModFoodComponents.BLUE_CANDY_CANE)));
     public static final Item CARAMEL = registerItem("caramel", new Item(new Item.Settings().food(ModFoodComponents.CARAMEL)));
 
+    //public static final Item SNOW_BRICK = registerItem("snow_brick", new SnowBrickItem(new Item.Settings()));
+
     //Plushie Vouchers
 
     public static final Item PLUSH_VOUCHER = registerItem("plush_voucher", new Item(new Item.Settings()));
