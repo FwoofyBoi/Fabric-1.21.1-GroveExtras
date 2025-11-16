@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "groveextras:gravel_aquarium"
+    "groveextras:gravel_aquarium",
+    "groveextras:snow_bricks"
   ]
 }

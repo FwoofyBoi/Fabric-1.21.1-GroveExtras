@@ -37,7 +37,8 @@ public class ModItemGroups {
                         entries.add(ModItems.BLUE_CANDY_CANE);
                         entries.add(ModItems.CARAMEL);
 
-                        //entries.add(ModItems.SNOW_BRICK);
+                        entries.add(ModItems.SNOW_BRICK);
+
                     }).build());
 
 
@@ -192,6 +193,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CALCITE_POLISHED_STAIRS);
                         entries.add(ModBlocks.CALCITE_POLISHED_SLAB);
                         entries.add(ModBlocks.CALCITE_POLISHED_WALL);
+
+                        entries.add(ModBlocks.SNOW_BRICKS);
 
                         entries.add(ModBlocks.PACKED_ICE_BRICKS);
                         entries.add(ModBlocks.PACKED_ICE_BRICK_STAIRS);

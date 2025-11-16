@@ -441,6 +441,7 @@ public class ModItems {
     public static final Item CARAMEL = registerItem("caramel", new Item(new Item.Settings().food(ModFoodComponents.CARAMEL)));
 
     //public static final Item SNOW_BRICK = registerItem("snow_brick", new SnowBrickItem(new Item.Settings()));
+    public static final Item SNOW_BRICK = registerItem("snow_brick", new Item(new Item.Settings()));
 
     //Plushie Vouchers
 

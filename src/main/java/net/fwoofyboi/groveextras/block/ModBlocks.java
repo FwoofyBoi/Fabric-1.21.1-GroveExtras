@@ -184,6 +184,9 @@ public class ModBlocks {
     public static final Block CALCITE_POLISHED_WALL = registerBlock("calcite_polished_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().sounds(BlockSoundGroup.CALCITE).mapColor(MapColor.TERRACOTTA_WHITE)));
 
+    public static final Block SNOW_BRICKS = registerBlock("snow_bricks",
+            new Block(AbstractBlock.Settings.create().strength(0.3f).sounds(BlockSoundGroup.SNOW).mapColor(MapColor.WHITE)));
+
     public static final Block PACKED_ICE_BRICKS = registerBlock("packed_ice_bricks",
             new Block(AbstractBlock.Settings.create()
                     .strength(0.5f)
