@@ -2,8 +2,11 @@ package net.fwoofyboi.groveextras;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fwoofyboi.groveextras.block.ModBlocks;
+import net.fwoofyboi.groveextras.entity.ModEntities;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
 
 public class GroveExtrasClient implements ClientModInitializer {
     @Override
@@ -166,6 +169,10 @@ public class GroveExtrasClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_PIKACHU, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LEAGUE_TROPHY, RenderLayer.getCutout());
+
+
+        EntityRendererRegistry.register(ModEntities.SNOW_BRICK, FlyingItemEntityRenderer::new);
+        EntityRendererRegistry.register(ModEntities.PINECONE, FlyingItemEntityRenderer::new);
 
     }
 }

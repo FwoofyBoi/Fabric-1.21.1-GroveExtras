@@ -3,6 +3,8 @@ package net.fwoofyboi.groveextras.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fwoofyboi.groveextras.GroveExtras;
 import net.fwoofyboi.groveextras.item.custom.ModArmorItem;
+import net.fwoofyboi.groveextras.item.custom.PineconeItem;
+import net.fwoofyboi.groveextras.item.custom.SnowBrickItem;
 import net.fwoofyboi.groveextras.sound.ModSounds;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.UnbreakableComponent;
@@ -440,8 +442,9 @@ public class ModItems {
     public static final Item BLUE_CANDY_CANE = registerItem("blue_candy_cane", new Item(new Item.Settings().food(ModFoodComponents.BLUE_CANDY_CANE)));
     public static final Item CARAMEL = registerItem("caramel", new Item(new Item.Settings().food(ModFoodComponents.CARAMEL)));
 
-    //public static final Item SNOW_BRICK = registerItem("snow_brick", new SnowBrickItem(new Item.Settings()));
-    public static final Item SNOW_BRICK = registerItem("snow_brick", new Item(new Item.Settings()));
+
+    public static final Item SNOW_BRICK = registerItem("snow_brick", new SnowBrickItem(new Item.Settings()));
+    public static final Item PINECONE = registerItem("pinecone", new PineconeItem(new Item.Settings()));
 
     //Plushie Vouchers
 

@@ -15,6 +15,8 @@
 
   "item.groveextras.snow_brick": "Snow Brick",
 
+  "item.groveextras.pinecone": "Pinecone",
+
   "item.groveextras.topaz": "Topaz",
   "item.groveextras.cut_diamond": "Cut Diamond",
   "item.groveextras.sapphire": "Sapphire",
@@ -844,6 +846,8 @@
 
 
   "entity.groveextras.snow_brick": "Snow Brick",
+
+  "entity.groveextras.pinecone": "Pinecone",
 
 
   "itemgroup.groveextras.crate_keys": "Crate Keys",

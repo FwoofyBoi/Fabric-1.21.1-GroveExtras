@@ -38,6 +38,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CARAMEL);
 
                         entries.add(ModItems.SNOW_BRICK);
+                        entries.add(ModItems.PINECONE);
 
                     }).build());
 
