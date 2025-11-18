@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/tylers_fish",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/tylers_fish"
+    },
+    "facing=south": {
+      "model": "groveextras:block/tylers_fish",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/tylers_fish",
+      "y": 270
+    }
+  }
+}

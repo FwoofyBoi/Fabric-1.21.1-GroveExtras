@@ -40,6 +40,8 @@ public class ModItemGroups {
                         entries.add(ModItems.SNOW_BRICK);
                         entries.add(ModItems.PINECONE);
 
+                        entries.add(ModBlocks.TYLERS_FISH);
+
                     }).build());
 
 
@@ -590,6 +592,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PLUSH_S_XMAS_PARAS);
                         entries.add(ModBlocks.PLUSH_XMAS_ROWLET);
                         entries.add(ModBlocks.PLUSH_S_XMAS_ROWLET);
+
+                        entries.add(ModBlocks.PLUSH_XMAS_FENNIKEN);
+                        entries.add(ModBlocks.PLUSH_S_XMAS_FENNIKEN);
+                        entries.add(ModBlocks.PLUSH_XMAS_TREE);
+                        entries.add(ModBlocks.PLUSH_XMAS_SNOWMAN_PIKACHU);
 
                     }).build());
 

@@ -556,6 +556,28 @@ public class ModBlocks {
     public static final Block PLUSH_S_XMAS_ROWLET = registerBlock("plush_s_xmas_rowlet",
             new XmasRowletPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_XMAS_FENNIKEN = registerBlock("plush_xmas_fenniken",
+            new XmasFennikenPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_XMAS_FENNIKEN = registerBlock("plush_s_xmas_fenniken",
+            new XmasFennikenPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_XMAS_SNOWMAN_PIKACHU = registerBlock("plush_xmas_snowman_pikachu",
+            new SnowmanPikachuPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_XMAS_TREE = registerBlock("plush_xmas_tree",
+            new XmasTreePlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+
+
+    //Tylers Special Blocks
+    public static final Block TYLERS_FISH = registerBlock("tylers_fish",
+            new TylersFishBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f)
+                    .slipperiness(0.989f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.GLASS)
+                    .mapColor(MapColor.PALE_PURPLE)));
 
     //Easter Plushies
     public static final Block PLUSH_BASKET = registerBlock("plush_basket",
