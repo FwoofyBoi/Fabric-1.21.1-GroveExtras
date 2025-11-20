@@ -1,0 +1,5 @@
+// 1.21.1	2025-11-18T13:34:29.3982542	Grove Extras/Block Loot Tables
+02f9d42f906c70fc20f9e29a91b4dc7380d168d9 data\groveextras\loot_table\blocks\framed_glass_door.json
+5e52045c442ff8efb3dbaf61be0e2d41ea21ee92 data\groveextras\loot_table\blocks\framed_glass_trapdoor.json
+4712e11115350719841f66eb545e85c368d759fa data\groveextras\loot_table\blocks\dark_framed_glass_trapdoor.json
+be0b7e2c684404ca7956b0903eaee86ad52c1167 data\groveextras\loot_table\blocks\dark_framed_glass_door.json
