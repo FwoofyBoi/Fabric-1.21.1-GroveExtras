@@ -11,7 +11,14 @@
   "item.groveextras.yellow_candy_cane": "Yellow Candy Cane",
   "item.groveextras.green_candy_cane": "Green Candy Cane",
   "item.groveextras.blue_candy_cane": "Blue Candy Cane",
+  "item.groveextras.red_miners_treat": "Red Miner's Treat",
+  "item.groveextras.yellow_miners_treat": "Yellow Miner's Treat",
+  "item.groveextras.green_miners_treat": "Green Miner's Treat",
+  "item.groveextras.blue_miners_treat": "Blue Miner's Treat",
   "item.groveextras.caramel": "Caramel",
+
+  "item.groveextras.garlic": "Garlic",
+  "item.groveextras.garlic_clove": "Garlic Clove",
 
   "item.groveextras.snow_brick": "Snow Brick",
 
@@ -590,6 +597,11 @@
   "block.groveextras.crystal_lights_floral": "Floral Crystal Lights",
   "block.groveextras.crystal_lights_festive": "Festive Crystal Lights",
   "block.groveextras.crystal_lights_warm": "Warm Crystal Lights",
+
+  "block.groveextras.framed_glass_door": "Framed Glass Door",
+  "block.groveextras.framed_glass_trapdoor": "Framed Glass Trapdoor",
+  "block.groveextras.dark_framed_glass_door": "Dark Framed Glass Door",
+  "block.groveextras.dark_framed_glass_trapdoor": "Dark Framed Glass Trapdoor",
 
 
   "block.groveextras.plush_sleigh": "Sleigh Plushie",

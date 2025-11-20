@@ -170,6 +170,12 @@
     "groveextras:crystal_brick_wall_mocha",
     "groveextras:crystal_brick_wall_orchid",
     "groveextras:crystal_brick_wall_slate",
-    "groveextras:crystal_brick_wall_rainbow"
+    "groveextras:crystal_brick_wall_rainbow",
+
+
+    "groveextras:framed_glass_door",
+    "groveextras:framed_glass_trapdoor",
+    "groveextras:dark_framed_glass_door",
+    "groveextras:dark_framed_glass_trapdoor"
   ]
 }

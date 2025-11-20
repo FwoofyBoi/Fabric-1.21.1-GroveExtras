@@ -436,15 +436,28 @@ public class ModItems {
 
 
     //Fun Items
-    public static final Item RED_CANDY_CANE = registerItem("red_candy_cane", new Item(new Item.Settings().food(ModFoodComponents.RED_CANDY_CANE)));
-    public static final Item YELLOW_CANDY_CANE = registerItem("yellow_candy_cane", new Item(new Item.Settings().food(ModFoodComponents.YELLOW_CANDY_CANE)));
-    public static final Item GREEN_CANDY_CANE = registerItem("green_candy_cane", new Item(new Item.Settings().food(ModFoodComponents.GREEN_CANDY_CANE)));
-    public static final Item BLUE_CANDY_CANE = registerItem("blue_candy_cane", new Item(new Item.Settings().food(ModFoodComponents.BLUE_CANDY_CANE)));
+    public static final Item RED_CANDY_CANE = registerItem("red_candy_cane", new Item(new Item.Settings().food(ModFoodComponents.RED_MINERS_TREAT)));
+    public static final Item YELLOW_CANDY_CANE = registerItem("yellow_candy_cane", new Item(new Item.Settings().food(ModFoodComponents.YELLOW_MINERS_TREAT)));
+    public static final Item GREEN_CANDY_CANE = registerItem("green_candy_cane", new Item(new Item.Settings().food(ModFoodComponents.GREEN_MINERS_TREAT)));
+    public static final Item BLUE_CANDY_CANE = registerItem("blue_candy_cane", new Item(new Item.Settings().food(ModFoodComponents.BLUE_MINERS_TREAT)));
+
+    public static final Item RED_MINERS_TREAT = registerItem("red_miners_treat", new Item(new Item.Settings().food(ModFoodComponents.RED_MINERS_TREAT)));
+    public static final Item YELLOW_MINERS_TREAT = registerItem("yellow_miners_treat", new Item(new Item.Settings().food(ModFoodComponents.YELLOW_MINERS_TREAT)));
+    public static final Item GREEN_MINERS_TREAT = registerItem("green_miners_treat", new Item(new Item.Settings().food(ModFoodComponents.GREEN_MINERS_TREAT)));
+    public static final Item BLUE_MINERS_TREAT = registerItem("blue_miners_treat", new Item(new Item.Settings().food(ModFoodComponents.BLUE_MINERS_TREAT)));
+
     public static final Item CARAMEL = registerItem("caramel", new Item(new Item.Settings().food(ModFoodComponents.CARAMEL)));
 
 
     public static final Item SNOW_BRICK = registerItem("snow_brick", new SnowBrickItem(new Item.Settings()));
     public static final Item PINECONE = registerItem("pinecone", new PineconeItem(new Item.Settings()));
+
+
+    //Farmables
+
+    public static final Item GARLIC = registerItem("garlic", new Item(new Item.Settings().food(ModFoodComponents.GARLIC)));
+    public static final Item GARLIC_CLOVE = registerItem("garlic_clove", new Item(new Item.Settings().food(ModFoodComponents.GARLIC_CLOVE)));
+
 
     //Plushie Vouchers
 

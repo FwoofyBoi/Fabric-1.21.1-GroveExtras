@@ -35,12 +35,22 @@ public class ModItemGroups {
                         entries.add(ModItems.YELLOW_CANDY_CANE);
                         entries.add(ModItems.GREEN_CANDY_CANE);
                         entries.add(ModItems.BLUE_CANDY_CANE);
+
+                        entries.add(ModItems.RED_MINERS_TREAT);
+                        entries.add(ModItems.YELLOW_MINERS_TREAT);
+                        entries.add(ModItems.GREEN_MINERS_TREAT);
+                        entries.add(ModItems.BLUE_MINERS_TREAT);
+
                         entries.add(ModItems.CARAMEL);
 
                         entries.add(ModItems.SNOW_BRICK);
                         entries.add(ModItems.PINECONE);
 
                         entries.add(ModBlocks.TYLERS_FISH);
+
+
+                        entries.add(ModItems.GARLIC);
+                        entries.add(ModItems.GARLIC_CLOVE);
 
                     }).build());
 
@@ -573,6 +583,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRYSTAL_LIGHTS_FLORAL);
                         entries.add(ModBlocks.CRYSTAL_LIGHTS_FESTIVE);
                         entries.add(ModBlocks.CRYSTAL_LIGHTS_WARM);
+
+                        entries.add(ModBlocks.FRAMED_GLASS_DOOR);
+                        entries.add(ModBlocks.FRAMED_GLASS_TRAPDOOR);
+                        entries.add(ModBlocks.DARK_FRAMED_GLASS_DOOR);
+                        entries.add(ModBlocks.DARK_FRAMED_GLASS_TRAPDOOR);
 
                     }).build());
 

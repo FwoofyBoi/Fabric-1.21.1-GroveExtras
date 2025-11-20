@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "a":
+    {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "pattern": [
+    "##",
+    "a#",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "groveextras:framed_glass_door"
+  }
+}

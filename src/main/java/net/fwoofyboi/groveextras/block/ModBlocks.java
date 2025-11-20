@@ -3,6 +3,7 @@ package net.fwoofyboi.groveextras.block;
 import net.fwoofyboi.groveextras.GroveExtras;
 import net.fwoofyboi.groveextras.block.custom.*;
 import net.minecraft.block.*;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -522,6 +523,20 @@ public class ModBlocks {
             new CrystalLightsBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.SMALL_AMETHYST_BUD)));
 
+    public static final Block FRAMED_GLASS_DOOR = registerBlock("framed_glass_door",
+            new DoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.create().mapColor(MapColor.IRON_GRAY)
+                    .strength(3.0f).requiresTool().nonOpaque().pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block FRAMED_GLASS_TRAPDOOR = registerBlock("framed_glass_trapdoor",
+            new TrapdoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.create().mapColor(MapColor.IRON_GRAY)
+                    .strength(3.0f).requiresTool().nonOpaque().pistonBehavior(PistonBehavior.DESTROY)));
+
+    public static final Block DARK_FRAMED_GLASS_DOOR = registerBlock("dark_framed_glass_door",
+            new DoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.create().mapColor(MapColor.BLACK)
+                    .strength(3.0f).requiresTool().nonOpaque().pistonBehavior(PistonBehavior.DESTROY)));
+    public static final Block DARK_FRAMED_GLASS_TRAPDOOR = registerBlock("dark_framed_glass_trapdoor",
+            new TrapdoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.create().mapColor(MapColor.BLACK)
+                    .strength(3.0f).requiresTool().nonOpaque().pistonBehavior(PistonBehavior.DESTROY)));
+
     //X-Mas Plushies
     public static final Block PLUSH_SLEIGH = registerBlock("plush_sleigh",
             new SleighPlushBlock(AbstractBlock.Settings.create().nonOpaque()
@@ -575,7 +590,6 @@ public class ModBlocks {
             new TylersFishBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f)
                     .slipperiness(0.989f)
-                    .requiresTool()
                     .sounds(BlockSoundGroup.GLASS)
                     .mapColor(MapColor.PALE_PURPLE)));
 

@@ -21,6 +21,12 @@ public class ModModelProvider extends FabricModelProvider {
         //blueCrystalBrickPool.stairs(ModBlocks.CRYSTAL_BRICK_STAIRS_BLUE);
         //blueCrystalBrickPool.slab(ModBlocks.CRYSTAL_BRICK_SLAB_BLUE);
 
+        //blockStateModelGenerator.registerDoor(ModBlocks.FRAMED_GLASS_DOOR);
+        //blockStateModelGenerator.registerDoor(ModBlocks.DARK_FRAMED_GLASS_DOOR);
+
+        //blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.FRAMED_GLASS_TRAPDOOR);
+        //blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DARK_FRAMED_GLASS_TRAPDOOR);
+
     }
 
     @Override
