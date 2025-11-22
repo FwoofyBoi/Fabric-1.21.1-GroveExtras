@@ -51,6 +51,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.GARLIC);
                         entries.add(ModItems.GARLIC_CLOVE);
+                        entries.add(ModBlocks.WILD_GARLIC);
 
                     }).build());
 

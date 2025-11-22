@@ -496,6 +496,22 @@ public class ModBlocks {
     public static final Block SHRINE_DARKRAI = registerBlock("shrine_darkrai",
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.HEAVY_CORE)));
 
+
+    //Crops/Plants
+
+    public static final Block WILD_GARLIC = registerBlock("wild_garlic",
+            new ShortPlantBlock(
+                    AbstractBlock.Settings.create()
+                            .mapColor(MapColor.DARK_GREEN)
+                            .noCollision()
+                            .breakInstantly()
+                            .sounds(BlockSoundGroup.CROP)
+                            .offset(AbstractBlock.OffsetType.XYZ)
+                            .burnable()
+                            .pistonBehavior(PistonBehavior.DESTROY)
+            )
+    );
+
     //Grove Decor
     public static final Block GRAVESTONE = registerBlock("gravestone",
             new GravestoneBlock(AbstractBlock.Settings.create().nonOpaque()
