@@ -53,6 +53,18 @@ public class ModItemGroups {
                         entries.add(ModItems.GARLIC_CLOVE);
                         entries.add(ModBlocks.WILD_GARLIC);
 
+                        entries.add(ModBlocks.PURPLE_HEART_LOG);
+                        entries.add(ModBlocks.PURPLE_HEART_WOOD);
+                        entries.add(ModBlocks.STRIPPED_PURPLE_HEART_LOG);
+                        entries.add(ModBlocks.STRIPPED_PURPLE_HEART_WOOD);
+                        entries.add(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_LOG);
+                        entries.add(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_WOOD);
+                        entries.add(ModBlocks.PURPLE_HEART_LEAVES);
+                        //entries.add(ModBlocks.PURPLE_HEART_SAPLING);
+
+                        entries.add(ModBlocks.PURPLE_HEART_PLANKS);
+                        entries.add(ModBlocks.LIGHT_PURPLE_HEART_PLANKS);
+
                     }).build());
 
 

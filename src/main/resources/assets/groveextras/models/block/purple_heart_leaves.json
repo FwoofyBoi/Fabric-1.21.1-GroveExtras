@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "groveextras:block/purple_heart_leaves"
+  }
+}

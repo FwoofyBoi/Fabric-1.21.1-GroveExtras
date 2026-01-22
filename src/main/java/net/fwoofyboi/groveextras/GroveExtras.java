@@ -2,6 +2,8 @@ package net.fwoofyboi.groveextras;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
+import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.fwoofyboi.groveextras.block.ModBlocks;
 import net.fwoofyboi.groveextras.component.ModDataComponentTypes;
 import net.fwoofyboi.groveextras.entity.ModEntities;
@@ -24,6 +26,23 @@ public class GroveExtras implements ModInitializer {
 		ModDataComponentTypes.registerDataComponentTypes();
 		ModSounds.registerSounds();
 		ModEntities.registerModEntities();
+
+
+		StrippableBlockRegistry.register(ModBlocks.PURPLE_HEART_LOG, ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_LOG);
+		StrippableBlockRegistry.register(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_LOG, ModBlocks.STRIPPED_PURPLE_HEART_LOG);
+		StrippableBlockRegistry.register(ModBlocks.PURPLE_HEART_WOOD, ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_WOOD);
+		StrippableBlockRegistry.register(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_WOOD, ModBlocks.STRIPPED_PURPLE_HEART_WOOD);
+
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PURPLE_HEART_LOG, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PURPLE_HEART_WOOD, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_LOG, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_WOOD, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_PURPLE_HEART_LOG, 5, 5);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_PURPLE_HEART_WOOD, 5, 5);
+
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PURPLE_HEART_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.LIGHT_PURPLE_HEART_PLANKS, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PURPLE_HEART_LEAVES, 30, 60);
 
 	}
 }
