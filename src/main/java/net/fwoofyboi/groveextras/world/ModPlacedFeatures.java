@@ -1,23 +1,29 @@
 package net.fwoofyboi.groveextras.world;
 
 import net.fwoofyboi.groveextras.GroveExtras;
+import net.fwoofyboi.groveextras.block.ModBlocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
-import net.minecraft.world.gen.feature.ConfiguredFeature;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.FeatureConfig;
-import net.minecraft.world.gen.feature.PlacedFeature;
+import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.placementmodifier.PlacementModifier;
 
 import java.util.List;
 
 public class ModPlacedFeatures {
 
+    public static final RegistryKey<PlacedFeature> PURPLE_HEART_PLACED_KEY = registerKey("purple_heart_placed");
+
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
+
+        register(context, PURPLE_HEART_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MEGA_PURPLE_HEART_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
+                        PlacedFeatures.createCountExtraModifier(1, 0.1f, 1),//amount of placed tree, chance of extras, amount of extras
+                        ModBlocks.PURPLE_HEART_SAPLING));
+
 
     }
 
