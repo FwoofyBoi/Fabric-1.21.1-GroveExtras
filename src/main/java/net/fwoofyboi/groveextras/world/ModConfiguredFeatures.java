@@ -13,12 +13,16 @@ import net.minecraft.world.gen.feature.FeatureConfig;
 import net.minecraft.world.gen.feature.TreeFeatureConfig;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
+import net.minecraft.world.gen.foliage.JungleFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
+import net.minecraft.world.gen.stateprovider.SimpleBlockStateProvider;
+import net.minecraft.world.gen.trunk.MegaJungleTrunkPlacer;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
 public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> PURPLE_HEART_KEY = registerKey("purple_heart");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> MEGA_PURPLE_HEART_KEY = registerKey("mega_purple_heart");
 
 
 
@@ -26,11 +30,18 @@ public class ModConfiguredFeatures {
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
 
         register(context, PURPLE_HEART_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
-                BlockStateProvider.of(ModBlocks.PURPLE_HEART_LOG),
-                new StraightTrunkPlacer(5, 6, 3),
-                BlockStateProvider.of(ModBlocks.PURPLE_HEART_LEAVES),
-                new BlobFoliagePlacer(ConstantIntProvider.create(4), ConstantIntProvider.create(1), 3),
+                SimpleBlockStateProvider.of(ModBlocks.PURPLE_HEART_LOG),
+                new StraightTrunkPlacer(4, 8, 0),//baseHeight, firstRandomHeight, secondRandomHeight
+                SimpleBlockStateProvider.of(ModBlocks.PURPLE_HEART_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3),//radius, offset, height
                 new TwoLayersFeatureSize(1, 0, 2)).build());
+
+        register(context, MEGA_PURPLE_HEART_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.PURPLE_HEART_LOG),
+                new MegaJungleTrunkPlacer(10, 2, 19),//baseHeight, firstRandomHeight, secondRandomHeight
+                BlockStateProvider.of(ModBlocks.PURPLE_HEART_LEAVES),
+                new JungleFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 2),//radius, offset, height
+                new TwoLayersFeatureSize(1, 1, 2)).build());
 
     }
 

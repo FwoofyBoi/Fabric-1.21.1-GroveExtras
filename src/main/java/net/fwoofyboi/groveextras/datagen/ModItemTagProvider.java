@@ -46,6 +46,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.STRIPPED_PURPLE_HEART_LOG.asItem())
                 .add(ModBlocks.STRIPPED_PURPLE_HEART_WOOD.asItem());
 
+        getOrCreateTagBuilder(ItemTags.LOGS)
+                .add(ModBlocks.PURPLE_HEART_LOG.asItem())
+                .add(ModBlocks.PURPLE_HEART_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_LOG.asItem())
+                .add(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_PURPLE_HEART_LOG.asItem())
+                .add(ModBlocks.STRIPPED_PURPLE_HEART_WOOD.asItem());
+
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(ModBlocks.PURPLE_HEART_PLANKS.asItem())
                 .add(ModBlocks.LIGHT_PURPLE_HEART_PLANKS.asItem());
