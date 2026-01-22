@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "groveextras:block/stripped_light_purple_heart_log",
+    "side": "groveextras:block/stripped_light_purple_heart_log"
+  }
+}

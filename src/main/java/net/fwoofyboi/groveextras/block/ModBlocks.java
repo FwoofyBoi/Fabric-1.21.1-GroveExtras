@@ -2,7 +2,9 @@ package net.fwoofyboi.groveextras.block;
 
 import net.fwoofyboi.groveextras.GroveExtras;
 import net.fwoofyboi.groveextras.block.custom.*;
+import net.fwoofyboi.groveextras.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
+import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -506,11 +508,47 @@ public class ModBlocks {
                             .noCollision()
                             .breakInstantly()
                             .sounds(BlockSoundGroup.CROP)
-                            .offset(AbstractBlock.OffsetType.XYZ)
+                            .offset(AbstractBlock.OffsetType.XZ)
                             .burnable()
                             .pistonBehavior(PistonBehavior.DESTROY)
             )
     );
+
+    //Woods/Trees
+
+    public static final Block PURPLE_HEART_PLANKS = registerBlock("purple_heart_planks",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.MAGENTA)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()
+            ));
+    public static final Block LIGHT_PURPLE_HEART_PLANKS = registerBlock("light_purple_heart_planks",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_MAGENTA)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .strength(2.0F, 3.0F)
+                    .sounds(BlockSoundGroup.WOOD)
+                    .burnable()
+            ));
+
+    public static final Block PURPLE_HEART_LOG = registerBlock("purple_heart_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LOG)));
+    public static final Block PURPLE_HEART_WOOD = registerBlock("purple_heart_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_WOOD)));
+    public static final Block STRIPPED_LIGHT_PURPLE_HEART_LOG = registerBlock("stripped_light_purple_heart_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_LOG)));
+    public static final Block STRIPPED_LIGHT_PURPLE_HEART_WOOD = registerBlock("stripped_light_purple_heart_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_WOOD)));
+    public static final Block STRIPPED_PURPLE_HEART_LOG = registerBlock("stripped_purple_heart_log",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_LOG)));
+    public static final Block STRIPPED_PURPLE_HEART_WOOD = registerBlock("stripped_purple_heart_wood",
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_CHERRY_WOOD)));
+
+    public static final Block PURPLE_HEART_LEAVES = registerBlock("purple_heart_leaves",
+            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.JUNGLE_LEAVES)));
+
+    public static final Block PURPLE_HEART_SAPLING = registerBlock("purple_heart_sapling",
+            new SaplingBlock(ModSaplingGenerators.PURPLE_HEART, AbstractBlock.Settings.copy(Blocks.JUNGLE_SAPLING)));
 
     //Grove Decor
     public static final Block GRAVESTONE = registerBlock("gravestone",

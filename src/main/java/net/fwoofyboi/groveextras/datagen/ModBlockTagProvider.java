@@ -25,5 +25,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         //getOrCreateTagBuilder(BlockTags.WALLS)
                 // .add(ModBlocks.GRANITE_BRICK_WALL);
 
+        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.PURPLE_HEART_LOG)
+                .add(ModBlocks.PURPLE_HEART_WOOD)
+                .add(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_LOG)
+                .add(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_WOOD)
+                .add(ModBlocks.STRIPPED_PURPLE_HEART_LOG)
+                .add(ModBlocks.STRIPPED_PURPLE_HEART_WOOD);
     }
 }

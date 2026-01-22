@@ -184,6 +184,7 @@ public class GroveExtrasClient implements ClientModInitializer {
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TYLERS_FISH, RenderLayer.getTranslucent());
 
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PURPLE_HEART_SAPLING, RenderLayer.getCutout());
 
         EntityRendererRegistry.register(ModEntities.SNOW_BRICK, FlyingItemEntityRenderer::new);
         EntityRendererRegistry.register(ModEntities.PINECONE, FlyingItemEntityRenderer::new);

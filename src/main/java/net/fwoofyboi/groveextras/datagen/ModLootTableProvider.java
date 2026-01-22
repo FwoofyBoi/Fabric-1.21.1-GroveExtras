@@ -23,5 +23,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         //addDrop(ModBlocks.FRAMED_GLASS_TRAPDOOR);
         //addDrop(ModBlocks.DARK_FRAMED_GLASS_TRAPDOOR);
 
+        addDrop(ModBlocks.PURPLE_HEART_PLANKS);
+        addDrop(ModBlocks.LIGHT_PURPLE_HEART_PLANKS);
+        addDrop(ModBlocks.PURPLE_HEART_LOG);
+        addDrop(ModBlocks.PURPLE_HEART_WOOD);
+        addDrop(ModBlocks.STRIPPED_PURPLE_HEART_LOG);
+        addDrop(ModBlocks.STRIPPED_PURPLE_HEART_WOOD);
+        addDrop(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_LOG);
+        addDrop(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_WOOD);
+        addDrop(ModBlocks.PURPLE_HEART_SAPLING);
+
+        addDrop(ModBlocks.PURPLE_HEART_LEAVES, leavesDrops(ModBlocks.PURPLE_HEART_LEAVES, ModBlocks.PURPLE_HEART_SAPLING, 0.0625f));
     }
 }

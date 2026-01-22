@@ -2,6 +2,7 @@ package net.fwoofyboi.groveextras.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.fwoofyboi.groveextras.block.ModBlocks;
 import net.fwoofyboi.groveextras.item.ModItems;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
@@ -37,7 +38,17 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         //getOrCreateTagBuilder(ItemTags.HOES)
                 //.add(ModItems.DEV_HOE_BAWNGWAWTER);
 
+        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.PURPLE_HEART_LOG.asItem())
+                .add(ModBlocks.PURPLE_HEART_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_LOG.asItem())
+                .add(ModBlocks.STRIPPED_LIGHT_PURPLE_HEART_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_PURPLE_HEART_LOG.asItem())
+                .add(ModBlocks.STRIPPED_PURPLE_HEART_WOOD.asItem());
 
+        getOrCreateTagBuilder(ItemTags.PLANKS)
+                .add(ModBlocks.PURPLE_HEART_PLANKS.asItem())
+                .add(ModBlocks.LIGHT_PURPLE_HEART_PLANKS.asItem());
 
 
     }
