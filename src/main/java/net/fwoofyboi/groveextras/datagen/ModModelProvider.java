@@ -16,16 +16,29 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        //BlockStateModelGenerator.BlockTexturePool blueCrystalBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CRYSTAL_BRICKS_BLUE);
+        BlockStateModelGenerator.BlockTexturePool purpleHeartPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PURPLE_HEART_PLANKS);
 
-        //blueCrystalBrickPool.stairs(ModBlocks.CRYSTAL_BRICK_STAIRS_BLUE);
-        //blueCrystalBrickPool.slab(ModBlocks.CRYSTAL_BRICK_SLAB_BLUE);
+        purpleHeartPool.stairs(ModBlocks.PURPLE_HEART_STAIRS);
+        purpleHeartPool.slab(ModBlocks.PURPLE_HEART_SLAB);
+        purpleHeartPool.button(ModBlocks.PURPLE_HEART_BUTTON);
+        purpleHeartPool.pressurePlate(ModBlocks.PURPLE_HEART_PRESSURE_PLATE);
+        purpleHeartPool.fence(ModBlocks.PURPLE_HEART_FENCE);
+        purpleHeartPool.fenceGate(ModBlocks.PURPLE_HEART_FENCE_GATE);
 
-        //blockStateModelGenerator.registerDoor(ModBlocks.FRAMED_GLASS_DOOR);
-        //blockStateModelGenerator.registerDoor(ModBlocks.DARK_FRAMED_GLASS_DOOR);
+        BlockStateModelGenerator.BlockTexturePool purpleLightHeartPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LIGHT_PURPLE_HEART_PLANKS);
 
-        //blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.FRAMED_GLASS_TRAPDOOR);
-        //blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.DARK_FRAMED_GLASS_TRAPDOOR);
+        purpleLightHeartPool.stairs(ModBlocks.LIGHT_PURPLE_HEART_STAIRS);
+        purpleLightHeartPool.slab(ModBlocks.LIGHT_PURPLE_HEART_SLAB);
+        purpleLightHeartPool.button(ModBlocks.LIGHT_PURPLE_HEART_BUTTON);
+        purpleLightHeartPool.pressurePlate(ModBlocks.LIGHT_PURPLE_HEART_PRESSURE_PLATE);
+        purpleLightHeartPool.fence(ModBlocks.LIGHT_PURPLE_HEART_FENCE);
+        purpleLightHeartPool.fenceGate(ModBlocks.LIGHT_PURPLE_HEART_FENCE_GATE);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.PURPLE_HEART_DOOR);
+        blockStateModelGenerator.registerDoor(ModBlocks.LIGHT_PURPLE_HEART_DOOR);
+
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PURPLE_HEART_TRAPDOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_PURPLE_HEART_TRAPDOOR);
 
     }
 

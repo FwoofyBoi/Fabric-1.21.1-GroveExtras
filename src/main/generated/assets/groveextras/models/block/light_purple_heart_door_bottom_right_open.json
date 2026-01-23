@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "groveextras:block/light_purple_heart_door_bottom",
+    "top": "groveextras:block/light_purple_heart_door_top"
+  }
+}

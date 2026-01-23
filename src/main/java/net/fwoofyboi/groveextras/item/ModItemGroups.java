@@ -64,7 +64,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PURPLE_HEART_SAPLING);
 
                         entries.add(ModBlocks.PURPLE_HEART_PLANKS);
+                        entries.add(ModBlocks.PURPLE_HEART_SLAB);
+                        entries.add(ModBlocks.PURPLE_HEART_STAIRS);
+                        entries.add(ModBlocks.PURPLE_HEART_FENCE);
+                        entries.add(ModBlocks.PURPLE_HEART_FENCE_GATE);
+                        entries.add(ModBlocks.PURPLE_HEART_BUTTON);
+                        entries.add(ModBlocks.PURPLE_HEART_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PURPLE_HEART_DOOR);
+                        entries.add(ModBlocks.PURPLE_HEART_TRAPDOOR);
+
                         entries.add(ModBlocks.LIGHT_PURPLE_HEART_PLANKS);
+                        entries.add(ModBlocks.LIGHT_PURPLE_HEART_SLAB);
+                        entries.add(ModBlocks.LIGHT_PURPLE_HEART_STAIRS);
+                        entries.add(ModBlocks.LIGHT_PURPLE_HEART_FENCE);
+                        entries.add(ModBlocks.LIGHT_PURPLE_HEART_FENCE_GATE);
+                        entries.add(ModBlocks.LIGHT_PURPLE_HEART_BUTTON);
+                        entries.add(ModBlocks.LIGHT_PURPLE_HEART_PRESSURE_PLATE);
+                        entries.add(ModBlocks.LIGHT_PURPLE_HEART_DOOR);
+                        entries.add(ModBlocks.LIGHT_PURPLE_HEART_TRAPDOOR);
 
                     }).build());
 

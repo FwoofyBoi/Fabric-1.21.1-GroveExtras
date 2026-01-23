@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "groveextras:block/light_purple_heart_planks"
+  }
+}

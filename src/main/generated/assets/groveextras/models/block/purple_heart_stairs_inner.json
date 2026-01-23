@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "groveextras:block/purple_heart_planks",
+    "side": "groveextras:block/purple_heart_planks",
+    "top": "groveextras:block/purple_heart_planks"
+  }
+}

@@ -531,6 +531,64 @@ public class ModBlocks {
                     .burnable()
             ));
 
+    public static final Block PURPLE_HEART_STAIRS = registerBlock("purple_heart_stairs",
+            new StairsBlock(ModBlocks.PURPLE_HEART_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2.0f, 3.0f)
+                            .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.MAGENTA).burnable()));
+    public static final Block PURPLE_HEART_SLAB = registerBlock("purple_heart_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2.0f, 3.0f)
+                    .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.MAGENTA).burnable()));
+
+    public static final Block PURPLE_HEART_FENCE = registerBlock("purple_heart_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(2.0f, 3.0f)
+                    .mapColor(MapColor.MAGENTA).burnable()));
+    public static final Block PURPLE_HEART_FENCE_GATE = registerBlock("purple_heart_fence_gate",
+            new FenceGateBlock(WoodType.JUNGLE, AbstractBlock.Settings.create().strength(2.0f, 3.0f)
+                    .mapColor(MapColor.MAGENTA).burnable()));
+
+    public static final Block PURPLE_HEART_BUTTON = registerBlock("purple_heart_button",
+            new ButtonBlock(BlockSetType.JUNGLE, 30, AbstractBlock.Settings.create()
+                    .strength(0.5f).noCollision().pistonBehavior(PistonBehavior.DESTROY).burnable()));
+    public static final Block PURPLE_HEART_PRESSURE_PLATE = registerBlock("purple_heart_pressure_plate",
+            new PressurePlateBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.create().strength(0.5f).noCollision()
+                    .pistonBehavior(PistonBehavior.DESTROY).burnable()));
+
+    public static final Block LIGHT_PURPLE_HEART_STAIRS = registerBlock("light_purple_heart_stairs",
+            new StairsBlock(ModBlocks.LIGHT_PURPLE_HEART_PLANKS.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2.0f, 3.0f)
+                            .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.TERRACOTTA_MAGENTA).burnable()));
+    public static final Block LIGHT_PURPLE_HEART_SLAB = registerBlock("light_purple_heart_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2.0f, 3.0f)
+                    .sounds(BlockSoundGroup.WOOD).mapColor(MapColor.TERRACOTTA_MAGENTA).burnable()));
+
+    public static final Block LIGHT_PURPLE_HEART_FENCE = registerBlock("light_purple_heart_fence",
+            new FenceBlock(AbstractBlock.Settings.create().strength(2.0f, 3.0f)
+                    .mapColor(MapColor.TERRACOTTA_MAGENTA).burnable()));
+    public static final Block LIGHT_PURPLE_HEART_FENCE_GATE = registerBlock("light_purple_heart_fence_gate",
+            new FenceGateBlock(WoodType.JUNGLE, AbstractBlock.Settings.create().strength(2.0f, 3.0f)
+                    .mapColor(MapColor.TERRACOTTA_MAGENTA).burnable()));
+
+    public static final Block LIGHT_PURPLE_HEART_BUTTON = registerBlock("light_purple_heart_button",
+            new ButtonBlock(BlockSetType.JUNGLE, 30, AbstractBlock.Settings.create().strength(0.5f).noCollision()
+                    .pistonBehavior(PistonBehavior.DESTROY).burnable()));
+    public static final Block LIGHT_PURPLE_HEART_PRESSURE_PLATE = registerBlock("light_purple_heart_pressure_plate",
+            new PressurePlateBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.create().strength(0.5f).noCollision()
+                    .pistonBehavior(PistonBehavior.DESTROY).burnable()));
+
+    public static final Block PURPLE_HEART_DOOR = registerBlock("purple_heart_door",
+            new DoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.create().mapColor(MapColor.MAGENTA)
+                    .strength(3.0f).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).burnable()));
+    public static final Block PURPLE_HEART_TRAPDOOR = registerBlock("purple_heart_trapdoor",
+            new TrapdoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.create().mapColor(MapColor.MAGENTA)
+                    .strength(3.0f).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).burnable()));
+
+    public static final Block LIGHT_PURPLE_HEART_DOOR = registerBlock("light_purple_heart_door",
+            new DoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_MAGENTA)
+                    .strength(3.0f).requiresTool().nonOpaque().pistonBehavior(PistonBehavior.DESTROY).burnable()));
+    public static final Block LIGHT_PURPLE_HEART_TRAPDOOR = registerBlock("light_purple_heart_trapdoor",
+            new TrapdoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_MAGENTA)
+                    .strength(3.0f).requiresTool().nonOpaque().pistonBehavior(PistonBehavior.DESTROY).burnable()));
+
     public static final Block PURPLE_HEART_LOG = registerBlock("purple_heart_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LOG)));
     public static final Block PURPLE_HEART_WOOD = registerBlock("purple_heart_wood",

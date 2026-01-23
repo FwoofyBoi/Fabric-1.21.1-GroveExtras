@@ -25,6 +25,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         //getOrCreateTagBuilder(BlockTags.WALLS)
                 // .add(ModBlocks.GRANITE_BRICK_WALL);
 
+        getOrCreateTagBuilder(BlockTags.WOODEN_BUTTONS)
+                .add(ModBlocks.PURPLE_HEART_BUTTON)
+                .add(ModBlocks.LIGHT_PURPLE_HEART_BUTTON);
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_PRESSURE_PLATES)
+                .add(ModBlocks.PURPLE_HEART_PRESSURE_PLATE)
+                .add(ModBlocks.LIGHT_PURPLE_HEART_PRESSURE_PLATE);
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
+                .add(ModBlocks.PURPLE_HEART_FENCE)
+                .add(ModBlocks.LIGHT_PURPLE_HEART_FENCE);
+
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.PURPLE_HEART_FENCE_GATE)
+                .add(ModBlocks.LIGHT_PURPLE_HEART_FENCE_GATE);
+
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.PURPLE_HEART_LOG)
                 .add(ModBlocks.PURPLE_HEART_WOOD)

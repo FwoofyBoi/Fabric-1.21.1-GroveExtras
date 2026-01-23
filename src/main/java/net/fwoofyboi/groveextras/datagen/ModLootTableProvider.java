@@ -14,14 +14,27 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        //addDrop(ModBlocks.CRYSTAL_BRICK_STAIRS_BLUE);
-        //addDrop(ModBlocks.CRYSTAL_BRICK_SLAB_BLUE, slabDrops(ModBlocks.CRYSTAL_BRICK_SLAB_BLUE));
+        addDrop(ModBlocks.PURPLE_HEART_STAIRS);
+        addDrop(ModBlocks.LIGHT_PURPLE_HEART_STAIRS);
 
-        //addDrop(ModBlocks.FRAMED_GLASS_DOOR, doorDrops(ModBlocks.FRAMED_GLASS_DOOR));
-        //addDrop(ModBlocks.DARK_FRAMED_GLASS_DOOR, doorDrops(ModBlocks.DARK_FRAMED_GLASS_DOOR));
+        addDrop(ModBlocks.PURPLE_HEART_SLAB, slabDrops(ModBlocks.PURPLE_HEART_SLAB));
+        addDrop(ModBlocks.LIGHT_PURPLE_HEART_SLAB, slabDrops(ModBlocks.LIGHT_PURPLE_HEART_SLAB));
 
-        //addDrop(ModBlocks.FRAMED_GLASS_TRAPDOOR);
-        //addDrop(ModBlocks.DARK_FRAMED_GLASS_TRAPDOOR);
+        addDrop(ModBlocks.PURPLE_HEART_DOOR, doorDrops(ModBlocks.PURPLE_HEART_DOOR));
+        addDrop(ModBlocks.LIGHT_PURPLE_HEART_DOOR, doorDrops(ModBlocks.LIGHT_PURPLE_HEART_DOOR));
+
+        addDrop(ModBlocks.PURPLE_HEART_FENCE);
+        addDrop(ModBlocks.PURPLE_HEART_FENCE_GATE);
+        addDrop(ModBlocks.LIGHT_PURPLE_HEART_FENCE);
+        addDrop(ModBlocks.LIGHT_PURPLE_HEART_FENCE_GATE);
+
+        addDrop(ModBlocks.PURPLE_HEART_BUTTON);
+        addDrop(ModBlocks.PURPLE_HEART_PRESSURE_PLATE);
+        addDrop(ModBlocks.LIGHT_PURPLE_HEART_BUTTON);
+        addDrop(ModBlocks.LIGHT_PURPLE_HEART_PRESSURE_PLATE);
+
+        addDrop(ModBlocks.PURPLE_HEART_TRAPDOOR);
+        addDrop(ModBlocks.LIGHT_PURPLE_HEART_TRAPDOOR);
 
         addDrop(ModBlocks.PURPLE_HEART_PLANKS);
         addDrop(ModBlocks.LIGHT_PURPLE_HEART_PLANKS);
