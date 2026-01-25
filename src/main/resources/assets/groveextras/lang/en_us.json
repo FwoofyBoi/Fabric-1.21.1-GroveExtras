@@ -21,6 +21,47 @@
   "item.groveextras.garlic_clove": "Garlic Clove",
   "block.groveextras.wild_garlic": "Wild Garlic",
 
+  "block.groveextras.topaz_ore": "Topaz Ore",
+  "block.groveextras.deepslate_topaz_ore": "Deepslate Topaz Ore",
+  "block.groveextras.sapphire_ore": "Sapphire Ore",
+  "block.groveextras.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.groveextras.ruby_ore": "Ruby Ore",
+  "block.groveextras.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
+  "block.groveextras.netherrack_crystallized_amber_ore": "Netherrack Crystallized Amber Ore",
+
+  "block.groveextras.end_stone_comet_shard_ore": "End Stone Comet Shard Ore",
+  "block.groveextras.end_stone_star_piece_ore": "End Stone Star Piece Ore",
+
+  "block.groveextras.purple_heart_log": "Purple Heart Log",
+  "block.groveextras.purple_heart_wood": "Purple Heart Wood",
+  "block.groveextras.stripped_purple_heart_log": "Stripped Purple Heart Log",
+  "block.groveextras.stripped_purple_heart_wood": "Stripped Purple Heart Wood",
+  "block.groveextras.stripped_light_purple_heart_log": "Stripped Light Purple Heart Log",
+  "block.groveextras.stripped_light_purple_heart_wood": "Stripped Light Purple Heart Wood",
+  "block.groveextras.purple_heart_leaves": "Purple Heart Leaves",
+  "block.groveextras.purple_heart_sapling": "Purple Heart Sapling",
+
+  "block.groveextras.purple_heart_planks": "Purple Heart Planks",
+  "block.groveextras.purple_heart_slab": "Purple Heart Slab",
+  "block.groveextras.purple_heart_stairs": "Purple Heart Stairs",
+  "block.groveextras.purple_heart_fence": "Purple Heart Fence",
+  "block.groveextras.purple_heart_fence_gate": "Purple Heart Fence Gate",
+  "block.groveextras.purple_heart_button": "Purple Heart Button",
+  "block.groveextras.purple_heart_pressure_plate": "Purple Heart Pressure Plate",
+  "block.groveextras.purple_heart_door": "Purple Heart Door",
+  "block.groveextras.purple_heart_trapdoor": "Purple Heart Trapdoor",
+
+  "block.groveextras.light_purple_heart_planks": "Light Purple Heart Planks",
+  "block.groveextras.light_purple_heart_slab": "Light Purple Heart Slab",
+  "block.groveextras.light_purple_heart_stairs": "Light Purple Heart Stairs",
+  "block.groveextras.light_purple_heart_fence": "Light Purple Heart Fence",
+  "block.groveextras.light_purple_heart_fence_gate": "Light Purple Heart Fence Gate",
+  "block.groveextras.light_purple_heart_button": "Light Purple Heart Button",
+  "block.groveextras.light_purple_heart_pressure_plate": "Light Purple Heart Pressure Plate",
+  "block.groveextras.light_purple_heart_door": "Light Purple Heart Door",
+  "block.groveextras.light_purple_heart_trapdoor": "Light Purple Heart Trapdoor",
+
   "item.groveextras.snow_brick": "Snow Brick",
 
   "item.groveextras.pinecone": "Pinecone",

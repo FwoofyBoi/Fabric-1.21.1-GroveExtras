@@ -10,6 +10,16 @@
     "groveextras:star_piece_block",
     "groveextras:comet_shard_block",
 
+    "groveextras:ruby_ore",
+    "groveextras:sapphire_ore",
+    "groveextras:topaz_ore",
+    "groveextras:deepslate_ruby_ore",
+    "groveextras:deepslate_sapphire_ore",
+    "groveextras:deepslate_topaz_ore",
+    "groveextras:netherrack_crystallized_amber_ore",
+    "groveextras:end_stone_comet_shard_ore",
+    "groveextras:end_stone_star_piece_ore",
+
     "groveextras:granite_bricks",
     "groveextras:granite_brick_stairs",
     "groveextras:granite_brick_slab",

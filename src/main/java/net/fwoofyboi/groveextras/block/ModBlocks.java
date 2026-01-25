@@ -499,6 +499,39 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(1.5f).requiresTool().sounds(BlockSoundGroup.HEAVY_CORE)));
 
 
+    //Ores
+
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",
+            new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE).mapColor(MapColor.STONE_GRAY)));
+    public static final Block TOPAZ_ORE = registerBlock("topaz_ore",
+            new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE).mapColor(MapColor.STONE_GRAY)));
+    public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
+            new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE).mapColor(MapColor.STONE_GRAY)));
+
+    public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
+            new Block(AbstractBlock.Settings.create().strength(4.5f, 3.0f).requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE).mapColor(MapColor.DEEPSLATE_GRAY)));
+    public static final Block DEEPSLATE_TOPAZ_ORE = registerBlock("deepslate_topaz_ore",
+            new Block(AbstractBlock.Settings.create().strength(4.5f, 3.0f).requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE).mapColor(MapColor.DEEPSLATE_GRAY)));
+    public static final Block DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
+            new Block(AbstractBlock.Settings.create().strength(4.5f, 3.0f).requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE).mapColor(MapColor.DEEPSLATE_GRAY)));
+
+    public static final Block NETHERRACK_CRYSTALLIZED_AMBER_ORE = registerBlock("netherrack_crystallized_amber_ore",
+            new Block(AbstractBlock.Settings.create().strength(0.8f).requiresTool()
+                    .sounds(BlockSoundGroup.NETHER_ORE).mapColor(MapColor.DARK_RED)));
+
+    public static final Block END_STONE_STAR_PIECE_ORE = registerBlock("end_stone_star_piece_ore",
+            new Block(AbstractBlock.Settings.create().strength(4.5f, 9.0f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE).mapColor(MapColor.PALE_YELLOW)));
+    public static final Block END_STONE_COMET_SHARD_ORE = registerBlock("end_stone_comet_shard_ore",
+            new Block(AbstractBlock.Settings.create().strength(4.5f, 9.0f).requiresTool()
+                    .sounds(BlockSoundGroup.STONE).mapColor(MapColor.PALE_YELLOW)));
+
     //Crops/Plants
 
     public static final Block WILD_GARLIC = registerBlock("wild_garlic",

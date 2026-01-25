@@ -92,17 +92,26 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.groveextras.treasure_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.TOPAZ);
+                        entries.add(ModBlocks.TOPAZ_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TOPAZ_ORE);
                         entries.add(ModItems.CUT_DIAMOND);
                         entries.add(ModItems.SAPPHIRE);
+                        entries.add(ModBlocks.SAPPHIRE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
                         entries.add(ModItems.RUBY);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModItems.PEARL);
                         entries.add(ModItems.CRYSTALLIZED_AMBER);
+                        entries.add(ModBlocks.NETHERRACK_CRYSTALLIZED_AMBER_ORE);
                         entries.add(ModItems.CUT_AMETHYST);
                         entries.add(ModItems.NUGGET);
                         entries.add(ModItems.BIG_PEARL);
                         entries.add(ModItems.BIG_NUGGET);
                         entries.add(ModItems.COMET_SHARD);
+                        entries.add(ModBlocks.END_STONE_COMET_SHARD_ORE);
                         entries.add(ModItems.STAR_PIECE);
+                        entries.add(ModBlocks.END_STONE_STAR_PIECE_ORE);
                         entries.add(ModItems.STAR_DUST);
                         entries.add(ModItems.WITHER_SKULL_FRAGMENT);
                         entries.add(ModItems.RED_SHARD);

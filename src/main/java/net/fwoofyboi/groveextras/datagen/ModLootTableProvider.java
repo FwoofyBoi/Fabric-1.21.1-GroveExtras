@@ -3,6 +3,7 @@ package net.fwoofyboi.groveextras.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.fwoofyboi.groveextras.block.ModBlocks;
+import net.fwoofyboi.groveextras.item.ModItems;
 import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
@@ -14,6 +15,19 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+
+        addDrop(ModBlocks.TOPAZ_ORE, oreDrops(ModBlocks.TOPAZ_ORE, ModItems.TOPAZ));
+        addDrop(ModBlocks.DEEPSLATE_TOPAZ_ORE, oreDrops(ModBlocks.DEEPSLATE_TOPAZ_ORE, ModItems.TOPAZ));
+        addDrop(ModBlocks.RUBY_ORE, oreDrops(ModBlocks.RUBY_ORE, ModItems.RUBY));
+        addDrop(ModBlocks.DEEPSLATE_RUBY_ORE, oreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RUBY));
+        addDrop(ModBlocks.SAPPHIRE_ORE, oreDrops(ModBlocks.SAPPHIRE_ORE, ModItems.SAPPHIRE));
+        addDrop(ModBlocks.DEEPSLATE_SAPPHIRE_ORE, oreDrops(ModBlocks.DEEPSLATE_SAPPHIRE_ORE, ModItems.SAPPHIRE));
+
+        addDrop(ModBlocks.NETHERRACK_CRYSTALLIZED_AMBER_ORE, oreDrops(ModBlocks.NETHERRACK_CRYSTALLIZED_AMBER_ORE, ModItems.CRYSTALLIZED_AMBER));
+
+        addDrop(ModBlocks.END_STONE_COMET_SHARD_ORE, oreDrops(ModBlocks.END_STONE_COMET_SHARD_ORE, ModItems.COMET_SHARD));
+        addDrop(ModBlocks.END_STONE_STAR_PIECE_ORE, oreDrops(ModBlocks.END_STONE_STAR_PIECE_ORE, ModItems.STAR_PIECE));
+
         addDrop(ModBlocks.PURPLE_HEART_STAIRS);
         addDrop(ModBlocks.LIGHT_PURPLE_HEART_STAIRS);
 

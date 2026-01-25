@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "groveextras:purple_heart_wood",
+    "groveextras:purple_heart_log",
+    "groveextras:stripped_purple_heart_wood",
+    "groveextras:stripped_purple_heart_log",
+    "groveextras:stripped_light_purple_heart_wood",
+    "groveextras:stripped_light_purple_heart_log",
+
+    "groveextras:purple_heart_planks",
+    "groveextras:purple_heart_stairs",
+    "groveextras:purple_heart_slab",
+    "groveextras:purple_heart_fence",
+    "groveextras:purple_heart_fence_gate",
+    "groveextras:purple_heart_button",
+    "groveextras:purple_heart_pressure_plate",
+    "groveextras:purple_heart_door",
+    "groveextras:purple_heart_trapdoor",
+
+    "groveextras:light_purple_heart_planks",
+    "groveextras:light_purple_heart_stairs",
+    "groveextras:light_purple_heart_slab",
+    "groveextras:light_purple_heart_fence",
+    "groveextras:light_purple_heart_fence_gate",
+    "groveextras:light_purple_heart_button",
+    "groveextras:light_purple_heart_pressure_plate",
+    "groveextras:light_purple_heart_door",
+    "groveextras:light_purple_heart_trapdoor"
+  ]
+}
