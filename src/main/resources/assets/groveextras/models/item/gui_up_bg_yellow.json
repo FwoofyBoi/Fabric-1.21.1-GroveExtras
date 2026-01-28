@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "groveextras:item/gui_bg",
+    "layer1": "groveextras:item/gui_up_yellow"
+  }
+}

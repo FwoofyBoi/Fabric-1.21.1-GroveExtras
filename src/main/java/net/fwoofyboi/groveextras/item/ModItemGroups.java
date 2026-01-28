@@ -12,6 +12,73 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
+    public static final ItemGroup GROVE_GUI_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(GroveExtras.MOD_ID, "grove_gui"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.GUI_SETTINGS))
+                    .displayName(Text.translatable("itemgroup.groveextras.grove_gui"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.GUI_BG);
+                        entries.add(ModItems.GUI_CONFIRM);
+                        entries.add(ModItems.GUI_CONFIRM_BG);
+                        entries.add(ModItems.GUI_DENY);
+                        entries.add(ModItems.GUI_DENY_BG);
+                        entries.add(ModItems.GUI_DOWN_DARK);
+                        entries.add(ModItems.GUI_DOWN_BG_DARK);
+                        entries.add(ModItems.GUI_DOWN_LIGHT);
+                        entries.add(ModItems.GUI_DOWN_BG_LIGHT);
+                        entries.add(ModItems.GUI_DOWN_YELLOW);
+                        entries.add(ModItems.GUI_DOWN_BG_YELLOW);
+                        entries.add(ModItems.GUI_HELP);
+                        entries.add(ModItems.GUI_HELP_BG);
+                        entries.add(ModItems.GUI_HELP_COLOR);
+                        entries.add(ModItems.GUI_HELP_BG_COLOR);
+                        entries.add(ModItems.GUI_HOME);
+                        entries.add(ModItems.GUI_HOME_BG);
+                        entries.add(ModItems.GUI_INFO);
+                        entries.add(ModItems.GUI_INFO_BG);
+                        entries.add(ModItems.GUI_LEFT_DARK);
+                        entries.add(ModItems.GUI_LEFT_BG_DARK);
+                        entries.add(ModItems.GUI_LEFT_LIGHT);
+                        entries.add(ModItems.GUI_LEFT_BG_LIGHT);
+                        entries.add(ModItems.GUI_LEFT_YELLOW);
+                        entries.add(ModItems.GUI_LEFT_BG_YELLOW);
+                        entries.add(ModItems.GUI_LOCK_DARK);
+                        entries.add(ModItems.GUI_LOCK_BG_DARK);
+                        entries.add(ModItems.GUI_LOCK_LIGHT);
+                        entries.add(ModItems.GUI_LOCK_BG_LIGHT);
+                        entries.add(ModItems.GUI_LOCK_RED);
+                        entries.add(ModItems.GUI_LOCK_BG_RED);
+                        entries.add(ModItems.GUI_LOCK_YELLOW);
+                        entries.add(ModItems.GUI_LOCK_BG_YELLOW);
+                        entries.add(ModItems.GUI_MENU);
+                        entries.add(ModItems.GUI_MENU_BG);
+                        entries.add(ModItems.GUI_MINUS);
+                        entries.add(ModItems.GUI_MINUS_BG);
+                        entries.add(ModItems.GUI_MINUS_COLOR);
+                        entries.add(ModItems.GUI_MINUS_BG_COLOR);
+                        entries.add(ModItems.GUI_PLUS);
+                        entries.add(ModItems.GUI_PLUS_BG);
+                        entries.add(ModItems.GUI_PLUS_COLOR);
+                        entries.add(ModItems.GUI_PLUS_BG_COLOR);
+                        entries.add(ModItems.GUI_RIGHT_DARK);
+                        entries.add(ModItems.GUI_RIGHT_BG_DARK);
+                        entries.add(ModItems.GUI_RIGHT_LIGHT);
+                        entries.add(ModItems.GUI_RIGHT_BG_LIGHT);
+                        entries.add(ModItems.GUI_RIGHT_YELLOW);
+                        entries.add(ModItems.GUI_RIGHT_BG_YELLOW);
+                        entries.add(ModItems.GUI_SETTINGS);
+                        entries.add(ModItems.GUI_SETTINGS_BG);
+                        entries.add(ModItems.GUI_UP_DARK);
+                        entries.add(ModItems.GUI_UP_BG_DARK);
+                        entries.add(ModItems.GUI_UP_LIGHT);
+                        entries.add(ModItems.GUI_UP_BG_LIGHT);
+                        entries.add(ModItems.GUI_UP_YELLOW);
+                        entries.add(ModItems.GUI_UP_BG_YELLOW);
+                        entries.add(ModItems.GUI_USER);
+                        entries.add(ModItems.GUI_USER_BG);
+                        entries.add(ModItems.GUI_PALETTE);
+                    }).build());
+
     public static final ItemGroup CRATE_KEYS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(GroveExtras.MOD_ID, "crate_keys"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.KEY_BASE))
