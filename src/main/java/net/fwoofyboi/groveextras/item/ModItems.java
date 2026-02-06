@@ -2,6 +2,7 @@ package net.fwoofyboi.groveextras.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fwoofyboi.groveextras.GroveExtras;
+import net.fwoofyboi.groveextras.block.ModBlocks;
 import net.fwoofyboi.groveextras.item.custom.ModArmorItem;
 import net.fwoofyboi.groveextras.item.custom.PineconeItem;
 import net.fwoofyboi.groveextras.item.custom.SnowBrickItem;
@@ -518,7 +519,9 @@ public class ModItems {
     //Farmables
 
     public static final Item GARLIC = registerItem("garlic", new Item(new Item.Settings().food(ModFoodComponents.GARLIC)));
-    public static final Item GARLIC_CLOVE = registerItem("garlic_clove", new Item(new Item.Settings().food(ModFoodComponents.GARLIC_CLOVE)));
+    public static final Item GARLIC_CLOVE = registerItem("garlic_clove",
+            new AliasedBlockItem(ModBlocks.GARLIC_CROP, new Item.Settings().food(ModFoodComponents.GARLIC_CLOVE)));
+
 
 
     //Plushie Vouchers

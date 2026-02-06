@@ -3,7 +3,10 @@ package net.fwoofyboi.groveextras.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.fwoofyboi.groveextras.block.ModBlocks;
+import net.fwoofyboi.groveextras.block.custom.GarlicCropBlock;
 import net.fwoofyboi.groveextras.item.ModItems;
+import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
+import net.minecraft.predicate.StatePredicate;
 import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
@@ -61,5 +64,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PURPLE_HEART_SAPLING);
 
         addDrop(ModBlocks.PURPLE_HEART_LEAVES, leavesDrops(ModBlocks.PURPLE_HEART_LEAVES, ModBlocks.PURPLE_HEART_SAPLING, 0.0625f));
+
+        BlockStatePropertyLootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.GARLIC_CROP)
+                .properties(StatePredicate.Builder.create().exactMatch(GarlicCropBlock.AGE, 3));
+        this.addDrop(ModBlocks.GARLIC_CROP, this.cropDrops(ModBlocks.GARLIC_CROP, ModItems.GARLIC, ModItems.GARLIC, builder2));
+
     }
 }

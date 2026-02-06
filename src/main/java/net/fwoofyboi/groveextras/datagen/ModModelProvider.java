@@ -3,6 +3,7 @@ package net.fwoofyboi.groveextras.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.fwoofyboi.groveextras.block.ModBlocks;
+import net.fwoofyboi.groveextras.block.custom.GarlicCropBlock;
 import net.fwoofyboi.groveextras.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
@@ -40,6 +41,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.PURPLE_HEART_TRAPDOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.LIGHT_PURPLE_HEART_TRAPDOOR);
 
+        blockStateModelGenerator.registerCrop(ModBlocks.GARLIC_CROP, GarlicCropBlock.AGE, 0, 1, 2, 3);
     }
 
     @Override

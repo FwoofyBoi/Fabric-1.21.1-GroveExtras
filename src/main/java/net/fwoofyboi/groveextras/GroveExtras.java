@@ -2,6 +2,7 @@ package net.fwoofyboi.groveextras;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.CompostingChanceRegistry;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.fwoofyboi.groveextras.block.ModBlocks;
@@ -47,5 +48,8 @@ public class GroveExtras implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.LIGHT_PURPLE_HEART_PLANKS, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PURPLE_HEART_LEAVES, 30, 60);
 
+
+		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC, 0.5f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.GARLIC_CLOVE, 0.2f);
 	}
 }

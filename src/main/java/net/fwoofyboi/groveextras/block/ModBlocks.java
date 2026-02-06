@@ -547,6 +547,12 @@ public class ModBlocks {
             )
     );
 
+    public static final Block GARLIC_CROP =registerBlockWithoutBlockItem("garlic_crop",
+            new GarlicCropBlock(AbstractBlock.Settings.create().noCollision()
+                    .ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)
+                    .pistonBehavior(PistonBehavior.DESTROY)
+                    .mapColor(MapColor.DARK_GREEN)));
+
     //Woods/Trees
 
     public static final Block PURPLE_HEART_PLANKS = registerBlock("purple_heart_planks",
@@ -1207,6 +1213,10 @@ public class ModBlocks {
             new LeagueTrophyBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOD)));
 
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, Identifier.of(GroveExtras.MOD_ID, name), block);
+    }
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
