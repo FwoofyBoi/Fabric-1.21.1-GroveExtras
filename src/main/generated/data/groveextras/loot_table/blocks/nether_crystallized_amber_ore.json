@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "groveextras:end_stone_star_piece_ore"
+              "name": "groveextras:nether_crystallized_amber_ore"
             },
             {
               "type": "minecraft:item",
@@ -40,7 +40,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "groveextras:star_piece"
+              "name": "groveextras:crystallized_amber"
             }
           ]
         }

@@ -26,10 +26,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SAPPHIRE_ORE, oreDrops(ModBlocks.SAPPHIRE_ORE, ModItems.SAPPHIRE));
         addDrop(ModBlocks.DEEPSLATE_SAPPHIRE_ORE, oreDrops(ModBlocks.DEEPSLATE_SAPPHIRE_ORE, ModItems.SAPPHIRE));
 
-        addDrop(ModBlocks.NETHERRACK_CRYSTALLIZED_AMBER_ORE, oreDrops(ModBlocks.NETHERRACK_CRYSTALLIZED_AMBER_ORE, ModItems.CRYSTALLIZED_AMBER));
+        addDrop(ModBlocks.NETHER_CRYSTALLIZED_AMBER_ORE, oreDrops(ModBlocks.NETHER_CRYSTALLIZED_AMBER_ORE, ModItems.CRYSTALLIZED_AMBER));
 
-        addDrop(ModBlocks.END_STONE_COMET_SHARD_ORE, oreDrops(ModBlocks.END_STONE_COMET_SHARD_ORE, ModItems.COMET_SHARD));
-        addDrop(ModBlocks.END_STONE_STAR_PIECE_ORE, oreDrops(ModBlocks.END_STONE_STAR_PIECE_ORE, ModItems.STAR_PIECE));
+        addDrop(ModBlocks.END_COMET_SHARD_ORE, oreDrops(ModBlocks.END_COMET_SHARD_ORE, ModItems.COMET_SHARD));
+        addDrop(ModBlocks.END_STAR_PIECE_ORE, oreDrops(ModBlocks.END_STAR_PIECE_ORE, ModItems.STAR_PIECE));
 
         addDrop(ModBlocks.PURPLE_HEART_STAIRS);
         addDrop(ModBlocks.LIGHT_PURPLE_HEART_STAIRS);
@@ -65,9 +65,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.PURPLE_HEART_LEAVES, leavesDrops(ModBlocks.PURPLE_HEART_LEAVES, ModBlocks.PURPLE_HEART_SAPLING, 0.0625f));
 
-        BlockStatePropertyLootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.GARLIC_CROP)
-                .properties(StatePredicate.Builder.create().exactMatch(GarlicCropBlock.AGE, 3));
-        this.addDrop(ModBlocks.GARLIC_CROP, this.cropDrops(ModBlocks.GARLIC_CROP, ModItems.GARLIC, ModItems.GARLIC, builder2));
+        //BlockStatePropertyLootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.GARLIC_CROP)
+                //.properties(StatePredicate.Builder.create().exactMatch(GarlicCropBlock.AGE, 3));
+        //this.addDrop(ModBlocks.GARLIC_CROP, this.cropDrops(ModBlocks.GARLIC_CROP, ModItems.GARLIC, ModItems.GARLIC, builder2));
 
     }
 }

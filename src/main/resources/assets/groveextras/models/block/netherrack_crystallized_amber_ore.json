@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "groveextras:block/netherrack_crystallized_amber_ore"
-  }
-}

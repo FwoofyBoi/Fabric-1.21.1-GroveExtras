@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "groveextras:block/end_comet_shard_ore"
+  }
+}

@@ -12,6 +12,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
@@ -502,34 +503,43 @@ public class ModBlocks {
     //Ores
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
-            new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f).requiresTool()
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f, 3.0f).requiresTool()
                     .sounds(BlockSoundGroup.STONE).mapColor(MapColor.STONE_GRAY)));
     public static final Block TOPAZ_ORE = registerBlock("topaz_ore",
-            new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f).requiresTool()
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f, 3.0f).requiresTool()
                     .sounds(BlockSoundGroup.STONE).mapColor(MapColor.STONE_GRAY)));
     public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
-            new Block(AbstractBlock.Settings.create().strength(3.0f, 3.0f).requiresTool()
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().strength(3.0f, 3.0f).requiresTool()
                     .sounds(BlockSoundGroup.STONE).mapColor(MapColor.STONE_GRAY)));
 
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
-            new Block(AbstractBlock.Settings.create().strength(4.5f, 3.0f).requiresTool()
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
+                    AbstractBlock.Settings.create().strength(4.5f, 3.0f).requiresTool()
                     .sounds(BlockSoundGroup.DEEPSLATE).mapColor(MapColor.DEEPSLATE_GRAY)));
     public static final Block DEEPSLATE_TOPAZ_ORE = registerBlock("deepslate_topaz_ore",
-            new Block(AbstractBlock.Settings.create().strength(4.5f, 3.0f).requiresTool()
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
+                    AbstractBlock.Settings.create().strength(4.5f, 3.0f).requiresTool()
                     .sounds(BlockSoundGroup.DEEPSLATE).mapColor(MapColor.DEEPSLATE_GRAY)));
     public static final Block DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
-            new Block(AbstractBlock.Settings.create().strength(4.5f, 3.0f).requiresTool()
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
+                    AbstractBlock.Settings.create().strength(4.5f, 3.0f).requiresTool()
                     .sounds(BlockSoundGroup.DEEPSLATE).mapColor(MapColor.DEEPSLATE_GRAY)));
 
-    public static final Block NETHERRACK_CRYSTALLIZED_AMBER_ORE = registerBlock("netherrack_crystallized_amber_ore",
-            new Block(AbstractBlock.Settings.create().strength(0.8f).requiresTool()
+    public static final Block NETHER_CRYSTALLIZED_AMBER_ORE = registerBlock("nether_crystallized_amber_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 5),
+                    AbstractBlock.Settings.create().strength(0.8f).requiresTool()
                     .sounds(BlockSoundGroup.NETHER_ORE).mapColor(MapColor.DARK_RED)));
 
-    public static final Block END_STONE_STAR_PIECE_ORE = registerBlock("end_stone_star_piece_ore",
-            new Block(AbstractBlock.Settings.create().strength(4.5f, 9.0f).requiresTool()
-                    .sounds(BlockSoundGroup.STONE).mapColor(MapColor.PALE_YELLOW)));
-    public static final Block END_STONE_COMET_SHARD_ORE = registerBlock("end_stone_comet_shard_ore",
-            new Block(AbstractBlock.Settings.create().strength(4.5f, 9.0f).requiresTool()
+    public static final Block END_COMET_SHARD_ORE = registerBlock("end_comet_shard_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
+                    AbstractBlock.Settings.create().strength(4.5f, 9.0f).requiresTool()
+                            .sounds(BlockSoundGroup.STONE).mapColor(MapColor.PALE_YELLOW)));
+    public static final Block END_STAR_PIECE_ORE = registerBlock("end_star_piece_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
+                    AbstractBlock.Settings.create().strength(4.5f, 9.0f).requiresTool()
                     .sounds(BlockSoundGroup.STONE).mapColor(MapColor.PALE_YELLOW)));
 
     //Crops/Plants

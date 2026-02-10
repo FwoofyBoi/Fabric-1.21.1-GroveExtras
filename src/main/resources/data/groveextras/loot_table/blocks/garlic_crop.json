@@ -27,7 +27,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "groveextras:garlic"
+              "name": "groveextras:garlic_clove"
             }
           ]
         }
