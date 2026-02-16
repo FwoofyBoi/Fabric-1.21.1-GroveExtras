@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:gravel"
+    },
+    "l": {
+      "item": "minecraft:cyan_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#l#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "groveextras:gravel_aquarium"
+  }
+}

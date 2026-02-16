@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "groveextras:crystal_bricks_gray"
+  },
+  "result": {
+    "count": 2,
+    "id": "groveextras:crystal_brick_slab_gray"
+  }
+}

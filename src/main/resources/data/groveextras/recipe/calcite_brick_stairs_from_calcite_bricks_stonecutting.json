@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "groveextras:calcite_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "groveextras:calcite_brick_stairs"
+  }
+}

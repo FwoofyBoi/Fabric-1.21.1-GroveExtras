@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "groveextras:gravestone"
+  },
+  "result": {
+    "count": 1,
+    "id": "groveextras:gravestone_skull"
+  }
+}

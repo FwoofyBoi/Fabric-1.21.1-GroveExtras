@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "groveextras:plush_chansey"
+    },
+    "l": {
+      "item": "groveextras:crystal_shard_rainbow"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#l#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "groveextras:plush_s_chansey"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#":
+    {
+      "item": "groveextras:stripped_purple_heart_wood"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "count": 4,
+    "id": "groveextras:purple_heart_planks"
+  }
+}

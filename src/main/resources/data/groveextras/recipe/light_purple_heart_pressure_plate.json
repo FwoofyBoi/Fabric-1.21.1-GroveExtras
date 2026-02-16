@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#":
+    {
+      "item": "groveextras:light_purple_heart_planks"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "groveextras:light_purple_heart_pressure_plate"
+  }
+}

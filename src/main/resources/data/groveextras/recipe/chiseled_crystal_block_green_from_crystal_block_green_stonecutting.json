@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "groveextras:crystal_block_green"
+  },
+  "result": {
+    "count": 1,
+    "id": "groveextras:chiseled_crystal_block_green"
+  }
+}

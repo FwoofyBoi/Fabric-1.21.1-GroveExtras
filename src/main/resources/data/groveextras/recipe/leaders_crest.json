@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "l": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "##l",
+    "##l",
+    "#l "
+  ],
+  "result": {
+    "count": 1,
+    "id": "groveextras:leaders_crest"
+  }
+}

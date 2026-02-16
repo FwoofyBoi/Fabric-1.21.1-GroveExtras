@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#":
+    {
+      "item": "groveextras:purple_heart_planks"
+    },
+    "A":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#A#",
+    "#A#"
+  ],
+  "result": {
+    "count": 3,
+    "id": "groveextras:purple_heart_fence"
+  }
+}

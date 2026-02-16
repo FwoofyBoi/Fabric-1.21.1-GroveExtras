@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "l": {
+      "item": "groveextras:crystal_shard_auburn"
+    },
+    "g": {
+      "item": "groveextras:crystal_shard_yellow"
+    }
+  },
+  "pattern": [
+    "g g",
+    "###",
+    "l l"
+  ],
+  "result": {
+    "count": 4,
+    "id": "groveextras:crystal_lights_warm"
+  }
+}

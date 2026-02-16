@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "groveextras:crystal_bricks_cyan"
+  },
+  "result": {
+    "count": 1,
+    "id": "groveextras:crystal_brick_wall_cyan"
+  }
+}
