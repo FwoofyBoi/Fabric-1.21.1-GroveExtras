@@ -69,7 +69,7 @@ public class ModConfiguredFeatures {
         register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 4));
         register(context, SAPPHIRE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldSapphireOres, 4));
 
-        register(context, NETHER_CRYSTALLIZED_AMBER_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherCrystallizedAmberOres, 4));
+        register(context, NETHER_CRYSTALLIZED_AMBER_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherCrystallizedAmberOres, 3));
 
         register(context, END_COMET_SHARD_ORE_KEY, Feature.ORE, new OreFeatureConfig(endCometShardOres, 4));
         register(context, END_STAR_PIECE_ORE_KEY, Feature.ORE, new OreFeatureConfig(endStarPieceOres, 4));

@@ -633,10 +633,10 @@ public class ModBlocks {
 
     public static final Block LIGHT_PURPLE_HEART_DOOR = registerBlock("light_purple_heart_door",
             new DoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_MAGENTA)
-                    .strength(3.0f).requiresTool().nonOpaque().pistonBehavior(PistonBehavior.DESTROY).burnable()));
+                    .strength(3.0f).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).burnable()));
     public static final Block LIGHT_PURPLE_HEART_TRAPDOOR = registerBlock("light_purple_heart_trapdoor",
             new TrapdoorBlock(BlockSetType.JUNGLE, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_MAGENTA)
-                    .strength(3.0f).requiresTool().nonOpaque().pistonBehavior(PistonBehavior.DESTROY).burnable()));
+                    .strength(3.0f).nonOpaque().pistonBehavior(PistonBehavior.DESTROY).burnable()));
 
     public static final Block PURPLE_HEART_LOG = registerBlock("purple_heart_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LOG)));
