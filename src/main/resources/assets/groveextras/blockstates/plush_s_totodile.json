@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "groveextras:block/plush_s_totodile",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "groveextras:block/plush_s_totodile"
+    },
+    "facing=south": {
+      "model": "groveextras:block/plush_s_totodile",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "groveextras:block/plush_s_totodile",
+      "y": 270
+    }
+  }
+}
