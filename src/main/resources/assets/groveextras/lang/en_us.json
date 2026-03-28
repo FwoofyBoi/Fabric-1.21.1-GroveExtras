@@ -741,9 +741,13 @@
   "block.groveextras.plush_caramel_apple": "Caramel Apple Plushie",
   "block.groveextras.plush_potions": "Potion Plushies",
   "block.groveextras.plush_brain_in_jar": "Brain in a Jar Plushie",
+  "block.groveextras.plush_skid": "Skid Plushie (Spooky Month)",
+  "block.groveextras.plush_pump": "Pump Plushie (Spooky Month)",
 
   "block.groveextras.plush_halloween_bulbasaur": "Halloween Bulbasaur Plushie",
   "block.groveextras.plush_s_halloween_bulbasaur": "Shiny Halloween Bulbasaur Plushie",
+  "block.groveextras.plush_halloween_clefairy": "Halloween Clefairy Plushie",
+  "block.groveextras.plush_s_halloween_clefairy": "Shiny Halloween Clefairy Plushie",
 
 
   "block.groveextras.plush_basket": "Easter Basket Plushie",
@@ -758,6 +762,8 @@
   "block.groveextras.plush_s_easter_scorbunny": "Shiny Easter Scorbunny Plushie",
   "block.groveextras.plush_easter_togepi": "Easter Togepi Plushie",
   "block.groveextras.plush_s_easter_togepi": "Shiny Easter Togepi Plushie",
+  "block.groveextras.plush_easter_tinkatink": "Easter Tinkatink Plushie",
+  "block.groveextras.plush_s_easter_tinkatink": "Shiny Easter Tinkatink Plushie",
 
 
   "block.groveextras.plush_ball_poke": "Poké Ball Plushie",
@@ -892,6 +898,16 @@
   "block.groveextras.plush_s_swinub": "Shiny Swinub Plushie",
   "block.groveextras.plush_pikachu": "Pikachu Plushie",
   "block.groveextras.plush_s_pikachu": "Shiny Pikachu Plushie",
+  "block.groveextras.plush_ababo": "Ababo Plushie",
+  "block.groveextras.plush_s_ababo": "Shiny Ababo Plushie",
+  "block.groveextras.plush_chikorita": "Chikorita Plushie",
+  "block.groveextras.plush_s_chikorita": "Shiny Chikorita Plushie",
+  "block.groveextras.plush_dedenne": "Dedenne Plushie",
+  "block.groveextras.plush_s_dedenne": "Shiny Dedenne Plushie",
+  "block.groveextras.plush_pawmi": "Pawmi Plushie",
+  "block.groveextras.plush_s_pawmi": "Shiny Pawmi Plushie",
+  "block.groveextras.plush_totodile": "Totodile Plushie",
+  "block.groveextras.plush_s_totodile": "Shiny Totodile Plushie",
 
 
   "item.groveextras.music_disc_coral_reef": "Music Disc",
@@ -927,6 +943,15 @@
 
   "painting.groveextras.amanita_muscaria.title": "Amanita Muscaria",
   "painting.groveextras.amanita_muscaria.author": "BawngWawter",
+
+  "painting.groveextras.on_the_loose.title": "On The Loose",
+  "painting.groveextras.on_the_loose.author": "BawngWawter",
+
+  "painting.groveextras.girafarig_appears.title": "Girafarig Appears",
+  "painting.groveextras.girafarig_appears.author": "GiraffeLife",
+
+  "painting.groveextras.phantump_lurks.title": "Phantump Lurks",
+  "painting.groveextras.phantump_lurks.author": "GiraffeLife",
 
   "painting.groveextras.cinna.title": "Cinna",
   "painting.groveextras.cinna.author": "GiraffeLife",

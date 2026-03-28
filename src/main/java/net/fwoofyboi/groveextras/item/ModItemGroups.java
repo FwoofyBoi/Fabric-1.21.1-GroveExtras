@@ -663,6 +663,16 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PLUSH_S_SWINUB);
                         entries.add(ModBlocks.PLUSH_PIKACHU);
                         entries.add(ModBlocks.PLUSH_S_PIKACHU);
+                        entries.add(ModBlocks.PLUSH_ABABO);
+                        entries.add(ModBlocks.PLUSH_S_ABABO);
+                        entries.add(ModBlocks.PLUSH_CHIKORITA);
+                        entries.add(ModBlocks.PLUSH_S_CHIKORITA);
+                        entries.add(ModBlocks.PLUSH_DEDENNE);
+                        entries.add(ModBlocks.PLUSH_S_DEDENNE);
+                        entries.add(ModBlocks.PLUSH_PAWMI);
+                        entries.add(ModBlocks.PLUSH_S_PAWMI);
+                        entries.add(ModBlocks.PLUSH_TOTODILE);
+                        entries.add(ModBlocks.PLUSH_S_TOTODILE);
 
                     }).build());
 
@@ -738,6 +748,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PLUSH_S_EASTER_SCORBUNNY);
                         entries.add(ModBlocks.PLUSH_EASTER_TOGEPI);
                         entries.add(ModBlocks.PLUSH_S_EASTER_TOGEPI);
+                        entries.add(ModBlocks.PLUSH_EASTER_TINKATINK);
+                        entries.add(ModBlocks.PLUSH_S_EASTER_TINKATINK);
                     }).build());
 
     public static final ItemGroup HALLOWEEN_PLUSH_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -755,6 +767,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PLUSH_BRAIN_IN_JAR);
                         entries.add(ModBlocks.PLUSH_HALLOWEEN_BULBASAUR);
                         entries.add(ModBlocks.PLUSH_S_HALLOWEEN_BULBASAUR);
+                        entries.add(ModBlocks.PLUSH_HALLOWEEN_CLEFAIRY);
+                        entries.add(ModBlocks.PLUSH_S_HALLOWEEN_CLEFAIRY);
+                        entries.add(ModBlocks.PLUSH_SKID);
+                        entries.add(ModBlocks.PLUSH_PUMP);
                     }).build());
 
     public static final ItemGroup GROVE_DISCS_GROUP = Registry.register(Registries.ITEM_GROUP,

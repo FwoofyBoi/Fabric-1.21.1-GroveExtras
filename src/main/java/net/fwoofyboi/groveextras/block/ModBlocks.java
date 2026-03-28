@@ -789,6 +789,13 @@ public class ModBlocks {
             new EasterTogepiPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
 
+    public static final Block PLUSH_EASTER_TINKATINK = registerBlock("plush_easter_tinkatink",
+            new EasterTinkatinkPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_EASTER_TINKATINK = registerBlock("plush_s_easter_tinkatink",
+            new EasterTinkatinkPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+
     //Halloween Plushies
     public static final Block PLUSH_PUMPKIN = registerBlock("plush_pumpkin",
             new PumpkinPlushBlock(AbstractBlock.Settings.create().nonOpaque()
@@ -814,11 +821,24 @@ public class ModBlocks {
     public static final Block PLUSH_BRAIN_IN_JAR = registerBlock("plush_brain_in_jar",
             new BrainInJarPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_SKID = registerBlock("plush_skid",
+            new HalloweenSkidPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_PUMP = registerBlock("plush_pump",
+            new HalloweenPumpPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+
     public static final Block PLUSH_HALLOWEEN_BULBASAUR = registerBlock("plush_halloween_bulbasaur",
             new HalloweenBulbasaurPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
     public static final Block PLUSH_S_HALLOWEEN_BULBASAUR = registerBlock("plush_s_halloween_bulbasaur",
             new HalloweenBulbasaurPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_HALLOWEEN_CLEFAIRY = registerBlock("plush_halloween_clefairy",
+            new HalloweenClefairyPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_HALLOWEEN_CLEFAIRY = registerBlock("plush_s_halloween_clefairy",
+            new HalloweenClefairyPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
 
     //Trophies
@@ -1216,6 +1236,37 @@ public class ModBlocks {
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
     public static final Block PLUSH_S_PIKACHU = registerBlock("plush_s_pikachu",
             new PikachuPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+
+    public static final Block PLUSH_ABABO = registerBlock("plush_ababo",
+            new AbaboPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_ABABO = registerBlock("plush_s_ababo",
+            new AbaboPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_CHIKORITA = registerBlock("plush_chikorita",
+            new ChikoritaPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_CHIKORITA = registerBlock("plush_s_chikorita",
+            new ChikoritaPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_DEDENNE = registerBlock("plush_dedenne",
+            new DedennePlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_DEDENNE = registerBlock("plush_s_dedenne",
+            new DedennePlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_PAWMI = registerBlock("plush_pawmi",
+            new PawmiPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_PAWMI = registerBlock("plush_s_pawmi",
+            new PawmiPlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_TOTODILE = registerBlock("plush_totodile",
+            new TotodilePlushBlock(AbstractBlock.Settings.create().nonOpaque()
+                    .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
+    public static final Block PLUSH_S_TOTODILE = registerBlock("plush_s_totodile",
+            new TotodilePlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
 
     //Trophies
