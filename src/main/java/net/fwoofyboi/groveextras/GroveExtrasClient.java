@@ -54,6 +54,10 @@ public class GroveExtrasClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_BRAIN_IN_JAR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_HALLOWEEN_BULBASAUR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_HALLOWEEN_BULBASAUR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_HALLOWEEN_CLEFAIRY, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_HALLOWEEN_CLEFAIRY, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_HALLOWEEN_SKID, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_HALLOWEEN_PUMP, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_CHICK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_BASKET, RenderLayer.getCutout());
@@ -63,6 +67,8 @@ public class GroveExtrasClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_EASTER_SCORBUNNY, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_EASTER_TOGEPI, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_EASTER_TOGEPI, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_EASTER_TINKATINK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_EASTER_TINKATINK, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_BALL_POKE, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_BALL_GREAT, RenderLayer.getCutout());
@@ -185,6 +191,17 @@ public class GroveExtrasClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_SWINUB, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_PIKACHU, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_PIKACHU, RenderLayer.getCutout());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_ABABO, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_ABABO, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_CHIKORITA, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_CHIKORITA, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_DEDENNE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_DEDENNE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_PAWMI, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_PAWMI, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_TOTODILE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PLUSH_S_TOTODILE, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LEAGUE_TROPHY, RenderLayer.getCutout());
 

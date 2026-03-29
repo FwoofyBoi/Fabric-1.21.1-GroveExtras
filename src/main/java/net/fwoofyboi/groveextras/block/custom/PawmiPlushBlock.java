@@ -16,11 +16,11 @@ import org.jetbrains.annotations.Nullable;
 
 public class PawmiPlushBlock extends HorizontalFacingBlock {
 
-    public static final MapCodec PawmiPlushBlock> CODEC = createCodec PawmiPlushBlock::new);
+    public static final MapCodec<PawmiPlushBlock> CODEC = createCodec(PawmiPlushBlock::new);
     private static final VoxelShape X_SHAPE =
-            Block.createCuboidShape(4.0, 0.0, 4.0,12.0, 10.0, 12.0);
+            Block.createCuboidShape(3.0, 0.0, 3.0,13.0, 15.0, 13.0);
     private static final VoxelShape Z_SHAPE =
-            Block.createCuboidShape(4.0, 0.0, 4.0,12.0, 10.0, 12.0);
+            Block.createCuboidShape(3.0, 0.0, 3.0,13.0, 15.0, 13.0);
 
 
     public PawmiPlushBlock(Settings settings) {

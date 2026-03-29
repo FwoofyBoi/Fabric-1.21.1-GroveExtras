@@ -16,11 +16,11 @@ import org.jetbrains.annotations.Nullable;
 
 public class DedennePlushBlock extends HorizontalFacingBlock {
 
-    public static final MapCodec DedennePlushBlock> CODEC = createCodec DedennePlushBlock::new);
+    public static final MapCodec<DedennePlushBlock> CODEC = createCodec(DedennePlushBlock::new);
     private static final VoxelShape X_SHAPE =
-            Block.createCuboidShape(4.0, 0.0, 4.0,12.0, 10.0, 12.0);
+            Block.createCuboidShape(3.0, 0.0, 3.0,13.0, 15.0, 13.0);
     private static final VoxelShape Z_SHAPE =
-            Block.createCuboidShape(4.0, 0.0, 4.0,12.0, 10.0, 12.0);
+            Block.createCuboidShape(3.0, 0.0, 3.0,13.0, 15.0, 13.0);
 
 
     public DedennePlushBlock(Settings settings) {

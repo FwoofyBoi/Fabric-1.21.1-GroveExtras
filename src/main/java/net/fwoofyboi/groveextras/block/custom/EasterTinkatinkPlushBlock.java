@@ -18,9 +18,9 @@ public class EasterTinkatinkPlushBlock extends HorizontalFacingBlock {
 
     public static final MapCodec<EasterTinkatinkPlushBlock> CODEC = createCodec(EasterTinkatinkPlushBlock::new);
     private static final VoxelShape X_SHAPE =
-            Block.createCuboidShape(3.0, 0.0, 2.0,13.0, 9.0, 14.0);
+            Block.createCuboidShape(4.0, 0.0, 4.0,12.0, 11.0, 12.0);
     private static final VoxelShape Z_SHAPE =
-            Block.createCuboidShape(2.0, 0.0, 3.0,14.0, 9.0, 13.0);
+            Block.createCuboidShape(4.0, 0.0, 4.0,12.0, 11.0, 12.0);
 
 
     public EasterTinkatinkPlushBlock(Settings settings) {

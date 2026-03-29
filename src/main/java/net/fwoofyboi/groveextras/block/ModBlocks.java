@@ -821,10 +821,10 @@ public class ModBlocks {
     public static final Block PLUSH_BRAIN_IN_JAR = registerBlock("plush_brain_in_jar",
             new BrainInJarPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
-    public static final Block PLUSH_SKID = registerBlock("plush_skid",
+    public static final Block PLUSH_HALLOWEEN_SKID = registerBlock("plush_halloween_skid",
             new HalloweenSkidPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
-    public static final Block PLUSH_PUMP = registerBlock("plush_pump",
+    public static final Block PLUSH_HALLOWEEN_PUMP = registerBlock("plush_halloween_pump",
             new HalloweenPumpPlushBlock(AbstractBlock.Settings.create().nonOpaque()
                     .strength(0.5f).sounds(BlockSoundGroup.WOOL)));
 

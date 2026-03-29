@@ -1,0 +1,11 @@
+{
+	"parent": "groveextras:block/plush_halloween_clefairy",
+	"texture_size": [
+	  128,
+	  128
+	],
+	"textures": {
+	  "0": "groveextras:block/plush_s_halloween_clefairy",
+	  "particle": "groveextras:block/plush_s_halloween_clefairy"
+	}
+  }

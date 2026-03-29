@@ -18,9 +18,9 @@ public class HalloweenClefairyPlushBlock extends HorizontalFacingBlock {
 
     public static final MapCodec<HalloweenClefairyPlushBlock> CODEC = createCodec(HalloweenClefairyPlushBlock::new);
     private static final VoxelShape X_SHAPE =
-            Block.createCuboidShape(1.0, 0.0, 4.0,15.0, 10.0, 12.0);
+            Block.createCuboidShape(3.0, 0.0, 2.0,13.0, 14.0, 14.0);
     private static final VoxelShape Z_SHAPE =
-            Block.createCuboidShape(4.0, 0.0, 1.0,12.0, 10.0, 15.0);
+            Block.createCuboidShape(2.0, 0.0, 3.0,14.0, 14.0, 13.0);
 
 
     public HalloweenClefairyPlushBlock(Settings settings) {

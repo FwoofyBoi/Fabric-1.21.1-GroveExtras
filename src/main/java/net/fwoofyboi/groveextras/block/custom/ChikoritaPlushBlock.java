@@ -18,9 +18,9 @@ public class ChikoritaPlushBlock extends HorizontalFacingBlock {
 
     public static final MapCodec<ChikoritaPlushBlock> CODEC = createCodec(ChikoritaPlushBlock::new);
     private static final VoxelShape X_SHAPE =
-            Block.createCuboidShape(4.0, 0.0, 4.0,12.0, 10.0, 12.0);
+            Block.createCuboidShape(1.0, 0.0, 4.0,15.0, 16.0, 12.0);
     private static final VoxelShape Z_SHAPE =
-            Block.createCuboidShape(4.0, 0.0, 4.0,12.0, 10.0, 12.0);
+            Block.createCuboidShape(4.0, 0.0, 1.0,12.0, 16.0, 15.0);
 
 
     public ChikoritaPlushBlock(Settings settings) {

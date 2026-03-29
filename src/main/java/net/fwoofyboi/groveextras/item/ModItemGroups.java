@@ -769,8 +769,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PLUSH_S_HALLOWEEN_BULBASAUR);
                         entries.add(ModBlocks.PLUSH_HALLOWEEN_CLEFAIRY);
                         entries.add(ModBlocks.PLUSH_S_HALLOWEEN_CLEFAIRY);
-                        entries.add(ModBlocks.PLUSH_SKID);
-                        entries.add(ModBlocks.PLUSH_PUMP);
+                        entries.add(ModBlocks.PLUSH_HALLOWEEN_SKID);
+                        entries.add(ModBlocks.PLUSH_HALLOWEEN_PUMP);
                     }).build());
 
     public static final ItemGroup GROVE_DISCS_GROUP = Registry.register(Registries.ITEM_GROUP,
